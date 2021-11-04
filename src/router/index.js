@@ -2,9 +2,9 @@ import Vue from 'vue';
 import VueRouter from 'vue-router';
 import Home from '../views/Home.vue';
 import About from '../views/About.vue';
+import Officers from '../views/Officers.vue';
 import Events from '../views/Events.vue';
 import Photos from '../views/Photos.vue';
-import Officers from '../views/Officers.vue';
 import Contact from '../views/Contact.vue';
 
 Vue.use(VueRouter);
@@ -21,6 +21,11 @@ const routes = [
     component: About,
   },
   {
+    path: '/officers',
+    name: 'officers',
+    component: Officers,
+  },
+  {
     path: '/events',
     name: 'events',
     component: Events,
@@ -29,11 +34,6 @@ const routes = [
     path: '/photos',
     name: 'photos',
     component: Photos,
-  },
-  {
-    path: '/officers',
-    name: 'officers',
-    component: Officers,
   },
   {
     path: '/contact',
