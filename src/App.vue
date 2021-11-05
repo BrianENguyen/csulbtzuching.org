@@ -34,6 +34,14 @@
     </v-app-bar>
 
     <v-main>
+      <div id="nav">
+        <router-link to="/">Home</router-link> |
+        <router-link to="/about">About</router-link> |
+        <router-link to="/officers">Officers</router-link> |
+        <router-link to="/events">Events</router-link> |
+        <router-link to="/photos">Photos</router-link> |
+        <router-link to="/contact">Contact</router-link>
+      </div>
       <router-view />
     </v-main>
   </v-app>
@@ -41,7 +49,7 @@
 
 <script>
 export default {
-  name: "App",
+  name: 'App',
 
   data: () => ({
     //
