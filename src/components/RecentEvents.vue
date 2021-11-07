@@ -1,10 +1,10 @@
 <template>
   <v-container id="recent_events_section">
-    <h1>Recent Events</h1>
-    <h2>{{ month }}</h2>
+    <h1 id="recent_events_header">Recent Events</h1>
+    <h2 class="recent_events_month">{{ month }}</h2>
     <div v-for="event in events" :key="event.id" class="recent_event">
-      <h3>{{ event.name }}</h3>
-      <h4>{{ event.date }}</h4>
+      <h3 class="recent_event_name">{{ event.name }}</h3>
+      <h4 class="recent_event_date">{{ event.date }}</h4>
       <p>{{ event.description }}</p>
       <v-btn>Sign Up</v-btn>
     </div>
@@ -42,9 +42,21 @@ export default {
 #recent_events_section {
   width: 100%;
 }
+#recent_events_header {
+  color: #2f86a6;
+}
+.recent_events_month {
+  color: #3babd4;
+}
 .recent_event {
   padding: 1rem 6rem 1rem 1rem;
   margin-bottom: 1rem;
-  border-left: 2px solid rgb(0, 153, 255);
+  border-left: 2px solid #2f86a6;
+}
+.recent_event_name {
+  color: #34be82;
+}
+.recent_event_date {
+  color: #34be82;
 }
 </style>
