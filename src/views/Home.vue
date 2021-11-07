@@ -1,20 +1,20 @@
 <template>
   <div>
     <Carousel />
-    <hello-world />
+    <Introduction />
   </div>
 </template>
 
 <script>
-import HelloWorld from '../components/HelloWorld';
 import Carousel from '../components/Carousel';
+import Introduction from '../components/Introduction.vue';
 
 export default {
   name: 'Home',
 
   components: {
-    HelloWorld,
     Carousel,
+    Introduction,
   },
 };
 Carousel;
