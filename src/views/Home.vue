@@ -1,10 +1,12 @@
 <template>
-  <v-container>
+  <div>
     <Carousel />
-    <Introduction />
-    <RecentEvents />
-    <Quote />
-  </v-container>
+    <v-container>
+      <Introduction />
+      <RecentEvents />
+      <Quote />
+    </v-container>
+  </div>
 </template>
 
 <script>
