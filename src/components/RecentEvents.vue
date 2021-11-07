@@ -2,6 +2,11 @@
   <v-container class="text-left">
     <h1>Recent Events</h1>
     <h2>{{ month }}</h2>
+    <div v-for="event in events" :key="event.id">
+      <h3>{{ event.name }}</h3>
+      <h4>{{ event.date }}</h4>
+      <p>{{ event.description }}</p>
+    </div>
   </v-container>
 </template>
 
