@@ -33,9 +33,9 @@ export default {
         id: 2,
         header: 'Events',
         description: 'View our current / most recent events!',
-        button: 'Click',
+        button: 'View',
         link: '/events',
-        src: 'https://cdn.vuetifyjs.com/images/carousel/squirrel.jpg',
+        src: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_2407/v1636247406/CSULB_TC_Website/DSC_0400_nmkrtt.jpg',
       },
     ],
   }),
@@ -47,7 +47,10 @@ export default {
   padding-top: 10%;
   /* filter: brightness(50%); */
 }
-.carousel_header,
+.carousel_header {
+  color: #ffffff;
+  font-size: 3.5rem;
+}
 .carousel_description {
   color: #ffffff;
 }
