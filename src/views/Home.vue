@@ -1,11 +1,13 @@
 <template>
   <div>
     <Carousel />
-    <v-container>
-      <Introduction />
-      <RecentEvents />
-      <Quote />
-    </v-container>
+    <v-card class="home_card" outlined elevation="15">
+      <v-container>
+        <Introduction />
+        <RecentEvents />
+        <Quote />
+      </v-container>
+    </v-card>
   </div>
 </template>
 
@@ -27,3 +29,9 @@ export default {
 };
 Carousel;
 </script>
+
+<style scoped>
+.home_card {
+  margin: 1%;
+}
+</style>
