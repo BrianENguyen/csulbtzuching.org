@@ -5,7 +5,7 @@
       <h2 class="quote_2">Look forward to the future</h2>
       <h2 class="quote_3">Take advantage of the present</h2>
     </div>
-    <p><em>- Dharma Master Cheng Yen</em></p>
+    <footer id="author">— <cite>Dharma Master Cheng Yen</cite></footer>
   </div>
 </template>
 
@@ -14,6 +14,9 @@ export default {};
 </script>
 
 <style>
+#author {
+  font-size: 1.5rem;
+}
 div.quote_content {
   font-size: 1.5rem;
 }
