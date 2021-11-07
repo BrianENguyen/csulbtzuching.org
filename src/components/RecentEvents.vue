@@ -1,12 +1,13 @@
 <template>
-  <v-container class="text-left">
+  <v-container id="recent_events_section">
     <h1>Recent Events</h1>
     <h2>{{ month }}</h2>
-    <div v-for="event in events" :key="event.id">
+    <div v-for="event in events" :key="event.id" class="recent_event">
       <h3>{{ event.name }}</h3>
       <h4>{{ event.date }}</h4>
       <p>{{ event.description }}</p>
     </div>
+    <hr />
   </v-container>
 </template>
 
@@ -35,3 +36,14 @@ export default {
 </script>
 
 <style></style>
+
+<style scoped>
+#recent_events_section {
+  width: 75%;
+}
+.recent_event {
+  padding: 1rem 6rem 1rem 1rem;
+  margin-bottom: 1rem;
+  border-left: 2px solid rgb(0, 153, 255);
+}
+</style>
