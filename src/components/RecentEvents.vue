@@ -40,7 +40,7 @@ export default {
 
 <style scoped>
 #recent_events_section {
-  width: 75%;
+  width: 100%;
 }
 .recent_event {
   padding: 1rem 6rem 1rem 1rem;
