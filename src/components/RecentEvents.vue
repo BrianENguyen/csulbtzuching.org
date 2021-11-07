@@ -6,6 +6,7 @@
       <h3>{{ event.name }}</h3>
       <h4>{{ event.date }}</h4>
       <p>{{ event.description }}</p>
+      <v-btn>Sign Up</v-btn>
     </div>
     <hr />
   </v-container>
