@@ -1,14 +1,18 @@
 <template>
-  <v-carousel cycle v-model="model">
+  <v-carousel cycle>
     <v-carousel-item
       v-for="section in contents"
       :key="section.id"
       :src="section.src"
     >
-      <v-container class="carousel-item">
-        <h1 class="header">{{ section.header }}</h1>
-        <p class="description">{{ section.description }}</p>
-        <v-btn v-show="section.button">{{ section.button }}</v-btn>
+      <v-container class="carousel_item">
+        <h1 class="carousel_header">{{ section.header }}</h1>
+        <p class="carousel_description">{{ section.description }}</p>
+        <div v-if="section.link">
+          <router-link :to="section.link" class="carousel_btn"
+            ><v-btn>{{ section.button }}</v-btn>
+          </router-link>
+        </div>
       </v-container>
     </v-carousel-item>
   </v-carousel>
@@ -30,6 +34,7 @@ export default {
         header: 'Events',
         description: 'View our current / most recent events!',
         button: 'Click',
+        link: '/events',
         src: 'https://cdn.vuetifyjs.com/images/carousel/squirrel.jpg',
       },
     ],
@@ -38,12 +43,15 @@ export default {
 </script>
 
 <style scoped>
-.carousel-item {
-  padding-top: 20%;
+.carousel_item {
+  padding-top: 10%;
   /* filter: brightness(50%); */
 }
-.header,
-.description {
+.carousel_header,
+.carousel_description {
   color: #ffffff;
+}
+.carousel_btn {
+  text-decoration: none;
 }
 </style>
