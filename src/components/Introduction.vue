@@ -13,7 +13,9 @@
         </h1>
         <p>
           We are a volunteering organization of diverse students that focuses on
-          medicine, education, charity, and humanistic culture
+          medicine, education, charity, and humanistic culture. We serve as the
+          CSULB collegiate chapter for our mother organization: the Tzu Chi
+          Foundation.
         </p>
       </v-col>
     </v-row>
