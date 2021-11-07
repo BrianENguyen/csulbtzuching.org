@@ -8,11 +8,14 @@
           contain
           height="200"
         />
+        <h1 class="display-2 font-weight-bold mb-3">
+          Welcome to CSULB Tzu Ching!
+        </h1>
+        <p>
+          We are a volunteering organization of diverse students that focuses on
+          medicine, education, charity, and humanistic culture
+        </p>
       </v-col>
-
-      <h1 class="display-2 font-weight-bold mb-3">
-        Welcome to CSULB Tzu Ching
-      </h1>
     </v-row>
   </v-container>
 </template>
