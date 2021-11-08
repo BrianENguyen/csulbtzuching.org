@@ -1,10 +1,17 @@
 <template>
   <div>
     <v-container>
-      <h1>Officers</h1>
+      <h1 id="team_header">2021-2022 Team</h1>
       <v-row>
-        <v-col cols="6" v-for="(officer, i) in officers" :key="i">
-          <OfficerCard :officer="officer" />
+        <v-col
+          cols="6"
+          lg="4"
+          md="6"
+          sm="12"
+          v-for="(officer, i) in officers"
+          :key="i"
+        >
+          <TeamMemberCard :officer="officer" />
         </v-col>
       </v-row>
     </v-container>
@@ -12,10 +19,10 @@
 </template>
 
 <script>
-import OfficerCard from '../components/OfficerCard';
+import TeamMemberCard from '../components/TeamMemberCard';
 export default {
   components: {
-    OfficerCard,
+    TeamMemberCard,
   },
   data: () => ({
     officers: [
@@ -35,6 +42,8 @@ export default {
         email: '',
         linkedin: '',
       },
+    ],
+    advisors: [
       {
         name: 'Brian N.',
         role: 'Webmaster / Advisor',
