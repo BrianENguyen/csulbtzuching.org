@@ -56,15 +56,52 @@ export default {
         email: '',
         linkedin: '',
       },
+      {
+        name: 'Thu N.',
+        role: 'VP of Administration',
+        description:
+          "Takes notes during officer meetings, tracks members' volunteering hours",
+        email: '',
+        linkedin: '',
+      },
+      {
+        name: 'Jose A.',
+        role: 'Treasurer',
+        description: 'Handles all financial and budgeting of the organization',
+        email: '',
+        linkedin: '',
+      },
+      {
+        name: 'Mahya J.',
+        role: 'VP of Communications',
+        description:
+          'Sends monthly emails that advertise general meetings and volunteering events',
+        email: '',
+        linkedin: '',
+      },
     ],
     advisors: [
       {
         name: 'Brian N.',
-        role: 'Webmaster / Advisor',
+        role: 'Webmaster / Photographer / Advisor',
         description:
           'Maintains CSULB TC website and advises current officer board',
         email: '',
         linkedin: 'https://www.linkedin.com/in/brian-edison-nguyen/',
+      },
+      {
+        name: 'Lily K.',
+        role: 'Advisor',
+        description: '',
+        email: '',
+        linkedin: '',
+      },
+      {
+        name: 'Weili K.',
+        role: 'Advisor',
+        description: '',
+        email: '',
+        linkedin: '',
       },
     ],
   }),
