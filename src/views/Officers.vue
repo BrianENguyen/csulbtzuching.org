@@ -20,10 +20,25 @@ export default {
   data: () => ({
     officers: [
       {
-        name: 'Brian',
+        name: 'Samanta C.',
+        role: 'President',
+        description:
+          'Plans monthly events, leads general meetings, delegates tasks to other officers',
+        linkedin: '',
+      },
+      {
+        name: 'Vivienne A.',
+        role: 'Executive Vice President',
+        description:
+          'Helps lead general meetings with president, finds a common meeting time with officers',
+        linkedin: '',
+      },
+      {
+        name: 'Brian N.',
         role: 'Webmaster / Advisor',
         description:
           'Maintains CSULB TC website and advises current officer board',
+        linkedin: 'https://www.linkedin.com/in/brian-edison-nguyen/',
       },
     ],
   }),
