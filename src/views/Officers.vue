@@ -24,6 +24,7 @@ export default {
         role: 'President',
         description:
           'Plans monthly events, leads general meetings, delegates tasks to other officers',
+        email: '',
         linkedin: '',
       },
       {
@@ -31,6 +32,7 @@ export default {
         role: 'Executive Vice President',
         description:
           'Helps lead general meetings with president, finds a common meeting time with officers',
+        email: '',
         linkedin: '',
       },
       {
@@ -38,6 +40,7 @@ export default {
         role: 'Webmaster / Advisor',
         description:
           'Maintains CSULB TC website and advises current officer board',
+        email: '',
         linkedin: 'https://www.linkedin.com/in/brian-edison-nguyen/',
       },
     ],
