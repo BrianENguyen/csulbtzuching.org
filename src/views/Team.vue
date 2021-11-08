@@ -4,7 +4,7 @@
       <h1 id="team_header">2021-2022 Team</h1>
       <v-row>
         <v-col
-          cols="6"
+          cols="12"
           lg="4"
           md="6"
           sm="12"
