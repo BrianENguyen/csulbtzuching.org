@@ -2,32 +2,36 @@
   <div>
     <v-container>
       <h1 id="team_header">2021-2022 Team</h1>
-      <h2>Officers</h2>
-      <v-row>
-        <v-col
-          cols="12"
-          lg="4"
-          md="6"
-          sm="12"
-          v-for="(officer, i) in officers"
-          :key="i"
-        >
-          <TeamMemberCard :member="officer" />
-        </v-col>
-      </v-row>
-      <h2>Advisors</h2>
-      <v-row>
-        <v-col
-          cols="12"
-          lg="4"
-          md="6"
-          sm="12"
-          v-for="(advisor, i) in advisors"
-          :key="i"
-        >
-          <TeamMemberCard :member="advisor" />
-        </v-col>
-      </v-row>
+      <div class="section_spacer">
+        <h2 class="team_subheader">Officers</h2>
+        <v-row>
+          <v-col
+            cols="12"
+            lg="4"
+            md="6"
+            sm="12"
+            v-for="(officer, i) in officers"
+            :key="i"
+          >
+            <TeamMemberCard :member="officer" />
+          </v-col>
+        </v-row>
+      </div>
+      <div>
+        <h2 class="team_subheader">Advisors</h2>
+        <v-row>
+          <v-col
+            cols="12"
+            lg="4"
+            md="6"
+            sm="12"
+            v-for="(advisor, i) in advisors"
+            :key="i"
+          >
+            <TeamMemberCard :member="advisor" />
+          </v-col>
+        </v-row>
+      </div>
     </v-container>
   </div>
 </template>
@@ -113,5 +117,15 @@ export default {
   text-align: center;
   font-size: 3rem;
   color: #2f86a6;
+}
+.team_subheader {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #3babd4;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.section_spacer {
+  margin-bottom: 4rem;
 }
 </style>
