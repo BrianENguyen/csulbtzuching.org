@@ -4,7 +4,7 @@
       <v-timeline-item v-for="(event, i) in events" :key="i">
         <v-row>
           <v-col cols="7">
-            <EventCard />
+            <EventCard :event="event" />
           </v-col>
           <v-col cols="5">
             <h2 class="text-center">{{ event.date }} @ {{ event.time }}</h2>
