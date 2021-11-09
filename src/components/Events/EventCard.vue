@@ -7,7 +7,9 @@
     </v-card-subtitle>
     <v-card-text>{{ event.description }}</v-card-text>
     <v-card-actions>
-      <v-btn color="blue" text><a :href="event.link">Sign Up</a></v-btn>
+      <v-btn color="blue" text
+        ><a :href="event.link" class="signup_link">Sign Up</a></v-btn
+      >
     </v-card-actions>
   </v-card>
 </template>
@@ -19,3 +21,9 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+.signup_link {
+  text-decoration: none;
+}
+</style>
