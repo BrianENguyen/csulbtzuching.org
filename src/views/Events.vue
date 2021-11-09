@@ -1,8 +1,8 @@
 <template>
   <div>
     <v-container
-      ><h1>Events</h1>
-      <p>* Last updated 11/13/21</p>
+      ><h1 id="events_header">Events</h1>
+      <h2 class="month">November 2021</h2>
       <EventTimeline
     /></v-container>
   </div>
@@ -17,3 +17,16 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+#events_header {
+  text-align: center;
+  font-size: 3rem;
+  color: #2f86a6;
+}
+.month {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #3babd4;
+}
+</style>
