@@ -4,7 +4,7 @@
       <h2 class="member_name">{{ member.name }}</h2>
       <p>{{ member.role }}</p>
       <p class="member_description">{{ member.description }}</p>
-      <i class="fas fa-envelope fa-2x mx-2"></i>
+      <a href=""><i class="fas fa-envelope fa-2x mr-2"></i></a>
       <a :href="member.linkedin"> <i class="fab fa-linkedin fa-2x mx-2"></i></a>
     </div>
   </v-card>
