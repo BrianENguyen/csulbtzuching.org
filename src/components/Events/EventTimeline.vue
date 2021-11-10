@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h2>{{ month }}</h2>
+    <h2 class="month">{{ month }}</h2>
     <v-timeline dense>
       <div v-for="(event, i) in events" :key="i">
         <EventTimelineItem :event="event" />
@@ -22,3 +22,11 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+.month {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #3babd4;
+}
+</style>

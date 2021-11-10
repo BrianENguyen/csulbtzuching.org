@@ -54,9 +54,4 @@ export default {
   font-size: 3rem;
   color: #2f86a6;
 }
-.month {
-  text-align: center;
-  font-size: 2.5rem;
-  color: #3babd4;
-}
 </style>
