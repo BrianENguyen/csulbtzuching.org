@@ -2,19 +2,27 @@
   <div>
     <v-container
       ><h1 id="events_header">Events</h1>
-      <EventTimeline month="November 2021" :events="november" />
+      <div v-if="isCondensed">
+        <EventTimeline month="November 2021" :events="november" />
+      </div>
+      <div v-else>
+        <EventTimelineCondensed month="November 2021" :events="november" />
+      </div>
     </v-container>
   </div>
 </template>
 
 <script>
 import EventTimeline from '../components/Events/EventTimeline';
+import EventTimelineCondensed from '../components/Events/EventTimelineCondensed';
 
 export default {
   components: {
     EventTimeline,
+    EventTimelineCondensed,
   },
   data: () => ({
+    isCondensed: false,
     november: [
       {
         name: 'Medical Outreach',
