@@ -1,6 +1,10 @@
 <template>
-  <v-timeline-item>
-    <h1>{{ event.name }}</h1>
+  <v-timeline-item small>
+    <h3>{{ event.name }}</h3>
+    <h4>{{ event.date }} | {{ event.time }}</h4>
+    <h4>{{ event.location }}</h4>
+    <p>{{ event.description }}</p>
+    <a :href="event.link" class="signup_link"><v-btn> Sign Up</v-btn></a>
   </v-timeline-item>
 </template>
 
@@ -11,5 +15,3 @@ export default {
   },
 };
 </script>
-
-<style></style>
