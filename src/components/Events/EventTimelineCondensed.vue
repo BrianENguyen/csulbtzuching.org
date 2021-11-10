@@ -23,4 +23,8 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+.month {
+  color: #3babd4;
+}
+</style>
