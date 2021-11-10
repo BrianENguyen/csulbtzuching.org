@@ -26,7 +26,7 @@ export default {
     EventTimelineCondensed,
   },
   data: () => ({
-    isCondensed: true,
+    isCondensed: false,
     november: [
       {
         name: 'Medical Outreach',
