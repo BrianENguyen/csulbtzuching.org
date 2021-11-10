@@ -2,11 +2,15 @@
   <div>
     <v-container
       ><h1 id="events_header">Events</h1>
+      <v-checkbox
+        v-model="isCondensed"
+        :label="`Condensed view: ${isCondensed.toString()}`"
+      ></v-checkbox>
       <div v-if="isCondensed">
-        <EventTimeline month="November 2021" :events="november" />
+        <EventTimelineCondensed month="November 2021" :events="november" />
       </div>
       <div v-else>
-        <EventTimelineCondensed month="November 2021" :events="november" />
+        <EventTimeline month="November 2021" :events="november" />
       </div>
     </v-container>
   </div>
@@ -22,7 +26,7 @@ export default {
     EventTimelineCondensed,
   },
   data: () => ({
-    isCondensed: false,
+    isCondensed: true,
     november: [
       {
         name: 'Medical Outreach',
