@@ -7,9 +7,9 @@
     </v-card-subtitle>
     <v-card-text>{{ event.description }}</v-card-text>
     <v-card-actions>
-      <v-btn color="blue" text
-        ><a :href="event.link" class="signup_link">Sign Up</a></v-btn
-      >
+      <a :href="event.link" class="signup_link">
+        <v-btn color="blue" text>Sign Up</v-btn>
+      </a>
     </v-card-actions>
   </v-card>
 </template>
