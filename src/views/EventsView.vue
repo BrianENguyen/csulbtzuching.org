@@ -18,7 +18,7 @@
 
 <script>
 import EventTimeline from '../components/Events/EventTimeline';
-import EventTimelineCondensed from '../components/Events/EventTimelineCondensed';
+import EventTimelineCondensed from '../components/Events/Condensed/EventTimelineCondensed';
 
 export default {
   components: {

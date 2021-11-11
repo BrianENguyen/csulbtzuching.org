@@ -1,7 +1,7 @@
 <template>
   <div>
     <h2 class="month">{{ month }}</h2>
-    <v-timeline dense>
+    <v-timeline class="timeline_spacing" dense>
       <div v-for="(event, i) in events" :key="i">
         <EventTimelineItemCondensed :event="event" />
       </div>
@@ -26,5 +26,23 @@ export default {
 <style>
 .month {
   color: #3babd4;
+}
+
+@media (min-width: 768px) {
+  .timeline_spacing {
+    margin-left: 50%;
+  }
+  .month {
+    margin-left: 20%;
+  }
+}
+
+@media (min-width: 576px) {
+  .month {
+    margin-left: 15%;
+  }
+  .timeline_spacing {
+    margin-left: 15%;
+  }
 }
 </style>
