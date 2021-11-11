@@ -18,3 +18,9 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+#nav {
+  margin-bottom: 4rem;
+}
+</style>
