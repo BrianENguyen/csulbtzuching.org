@@ -1,9 +1,12 @@
 <template>
   <div id="nav">
     <b-navbar toggleable="md" type="light" variant="light" fixed="top">
-      <router-link class="navbar-brand-align" :to="{ name: 'Home' }"
-        ><b-navbar-brand>CSULB Tzu Ching</b-navbar-brand></router-link
-      >
+      <router-link class="navbar-brand-align" :to="{ name: 'Home' }">
+        <b-navbar-brand>
+          <img src="../../assets/logo.png" alt="" width="50px" />
+          CSULB Tzu Ching
+        </b-navbar-brand>
+      </router-link>
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
       <b-collapse id="nav-collapse" is-nav>
         <b-navbar-nav>
