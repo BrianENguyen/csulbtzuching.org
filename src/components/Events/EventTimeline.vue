@@ -25,7 +25,6 @@ export default {
 
 <style scoped>
 .month {
-  text-align: left;
   font-size: 2.5rem;
   color: #3babd4;
 }

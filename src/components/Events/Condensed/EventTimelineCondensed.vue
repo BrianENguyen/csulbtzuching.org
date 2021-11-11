@@ -26,11 +26,23 @@ export default {
 <style>
 .month {
   color: #3babd4;
-  text-align: center;
 }
+
 @media (min-width: 768px) {
   .timeline_spacing {
+    margin-left: 50%;
+  }
+  .month {
     margin-left: 20%;
+  }
+}
+
+@media (min-width: 576px) {
+  .month {
+    margin-left: 15%;
+  }
+  .timeline_spacing {
+    margin-left: 15%;
   }
 }
 </style>
