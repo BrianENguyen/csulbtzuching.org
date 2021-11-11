@@ -3,6 +3,8 @@
     <v-img height="200px" :src="event.img"></v-img>
     <v-card-title>{{ event.name }}</v-card-title>
     <v-card-subtitle>
+      {{ event.date }} @ {{ event.time }}
+      <br />
       {{ event.location }}
     </v-card-subtitle>
     <v-card-text>{{ event.description }}</v-card-text>

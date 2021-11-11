@@ -25,14 +25,26 @@ export default {
 
 <style scoped>
 .month {
-  text-align: center;
+  text-align: left;
   font-size: 2.5rem;
   color: #3babd4;
 }
 
 @media (min-width: 768px) {
   .timeline_spacing {
-    margin-left: 20%;
+    margin-left: 50%;
+  }
+  .month {
+    margin-left: 15%;
+  }
+}
+
+@media (min-width: 576px) {
+  .month {
+    margin-left: 10%;
+  }
+  .timeline_spacing {
+    margin-left: 15%;
   }
 }
 </style>
