@@ -1,44 +1,15 @@
 <template>
-  <div>
-    <b-navbar toggleable="lg" type="dark" variant="info">
-      <b-navbar-brand href="#">NavBar</b-navbar-brand>
-
+  <div id="nav">
+    <b-navbar toggleable="md" type="light" variant="light" fixed="top">
+      <router-link class="navbar-brand-align" :to="{ name: 'Home' }"
+        ><b-navbar-brand>CSULB Tzu Ching</b-navbar-brand></router-link
+      >
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
-
       <b-collapse id="nav-collapse" is-nav>
         <b-navbar-nav>
-          <b-nav-item href="#">Link</b-nav-item>
-          <b-nav-item href="#" disabled>Disabled</b-nav-item>
-        </b-navbar-nav>
-
-        <!-- Right aligned nav items -->
-        <b-navbar-nav class="ml-auto">
-          <b-nav-form>
-            <b-form-input
-              size="sm"
-              class="mr-sm-2"
-              placeholder="Search"
-            ></b-form-input>
-            <b-button size="sm" class="my-2 my-sm-0" type="submit"
-              >Search</b-button
-            >
-          </b-nav-form>
-
-          <b-nav-item-dropdown text="Lang" right>
-            <b-dropdown-item href="#">EN</b-dropdown-item>
-            <b-dropdown-item href="#">ES</b-dropdown-item>
-            <b-dropdown-item href="#">RU</b-dropdown-item>
-            <b-dropdown-item href="#">FA</b-dropdown-item>
-          </b-nav-item-dropdown>
-
-          <b-nav-item-dropdown right>
-            <!-- Using 'button-content' slot -->
-            <template #button-content>
-              <em>User</em>
-            </template>
-            <b-dropdown-item href="#">Profile</b-dropdown-item>
-            <b-dropdown-item href="#">Sign Out</b-dropdown-item>
-          </b-nav-item-dropdown>
+          <b-nav-item v-for="link in links" :key="link">
+            <router-link :to="{ name: link }">{{ link }}</router-link>
+          </b-nav-item>
         </b-navbar-nav>
       </b-collapse>
     </b-navbar>
@@ -46,7 +17,51 @@
 </template>
 
 <script>
-export default {};
+export default {
+  data() {
+    return {
+      links: ['Home', 'About', 'Team', 'Events', 'Photos', 'Contact'],
+    };
+  },
+};
 </script>
 
-<style></style>
+<style scoped>
+#nav a {
+  font-weight: bold;
+  color: #2c3e50;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+#nav a.router-link-exact-active {
+  color: #42b983;
+}
+@media (min-width: 0px) {
+  .navbar-nav {
+    text-align: center;
+  }
+}
+@media (min-width: 767px) {
+  .navbar-nav {
+    margin-left: auto;
+    margin-right: 10%;
+    float: right;
+  }
+}
+.navbar-brand {
+  font-weight: bold;
+  margin-right: auto;
+  font-size: 1.5rem;
+  text-transform: none;
+  transition: 0.5s;
+  color: #2c3e50 !important;
+}
+.navbar-brand:hover {
+  color: #42b983 !important;
+  transition: 0.5s;
+}
+.navbar-brand-align {
+  margin-left: 10%;
+}
+</style>
