@@ -1,5 +1,5 @@
 <template>
-  <v-card max-width="500">
+  <v-card max-width="500" elevation="5">
     <v-img height="200px" :src="event.img"></v-img>
     <v-card-title>{{ event.name }}</v-card-title>
     <v-card-subtitle>
