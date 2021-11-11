@@ -1,44 +1,44 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
-import Home from '../views/Home.vue';
-import About from '../views/About.vue';
-import Team from '../views/Team.vue';
-import Events from '../views/Events.vue';
-import Photos from '../views/Photos.vue';
-import Contact from '../views/Contact.vue';
+import HomeView from '../views/HomeView.vue';
+import AboutView from '../views/AboutView.vue';
+import TeamView from '../views/TeamView.vue';
+import EventsView from '../views/EventsView.vue';
+import PhotosView from '../views/PhotosView.vue';
+import ContactView from '../views/ContactView.vue';
 
 Vue.use(VueRouter);
 
 const routes = [
   {
     path: '/',
-    name: 'Home',
-    component: Home,
+    name: 'HomeView',
+    component: HomeView,
   },
   {
     path: '/about',
-    name: 'About',
-    component: About,
+    name: 'AboutView',
+    component: AboutView,
   },
   {
     path: '/team',
-    name: 'Team',
-    component: Team,
+    name: 'TeamView',
+    component: TeamView,
   },
   {
     path: '/events',
-    name: 'events',
-    component: Events,
+    name: 'EventsView',
+    component: EventsView,
   },
   {
     path: '/photos',
-    name: 'photos',
-    component: Photos,
+    name: 'PhotosView',
+    component: PhotosView,
   },
   {
     path: '/contact',
-    name: 'contact',
-    component: Contact,
+    name: 'ContactView',
+    component: ContactView,
   },
 ];
 
