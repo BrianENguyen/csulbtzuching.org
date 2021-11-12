@@ -1,0 +1,30 @@
+<template>
+  <router-link class="navbar-brand-align" :to="{ name: 'Home' }">
+    <b-navbar-brand>
+      <img src="../../assets/logo.png" alt="" width="50px" />
+      CSULB Tzu Ching
+    </b-navbar-brand>
+  </router-link>
+</template>
+
+<script>
+export default {};
+</script>
+
+<style>
+.navbar-brand {
+  font-weight: bold;
+  margin-right: auto;
+  font-size: 1.5rem;
+  text-transform: none;
+  transition: 0.5s;
+  color: #2c3e50 !important;
+}
+.navbar-brand:hover {
+  color: #42b983 !important;
+  transition: 0.5s;
+}
+.navbar-brand-align {
+  margin-left: 10%;
+}
+</style>

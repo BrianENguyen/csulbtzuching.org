@@ -12,32 +12,32 @@ Vue.use(VueRouter);
 const routes = [
   {
     path: '/',
-    name: 'HomeView',
+    name: 'Home',
     component: HomeView,
   },
   {
     path: '/about',
-    name: 'AboutView',
+    name: 'About',
     component: AboutView,
   },
   {
     path: '/team',
-    name: 'TeamView',
+    name: 'Team',
     component: TeamView,
   },
   {
     path: '/events',
-    name: 'EventsView',
+    name: 'Events',
     component: EventsView,
   },
   {
     path: '/photos',
-    name: 'PhotosView',
+    name: 'Photos',
     component: PhotosView,
   },
   {
     path: '/contact',
-    name: 'ContactView',
+    name: 'Contact',
     component: ContactView,
   },
 ];
