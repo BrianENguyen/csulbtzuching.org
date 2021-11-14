@@ -39,6 +39,13 @@ export default {
         link: '/photos',
         src: 'https://res.cloudinary.com/buraiyen/image/upload/v1636245907/CSULB_TC_Website/17546836_656892331149578_6206756973583337194_o_pboqz1.jpg',
       },
+      {
+        header: 'Board Members',
+        description: 'Get to know our 2021-2022 officers and advisors!',
+        src: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1531/v1636919257/CSULB_TC_Website/BEN_1689_01_hobk1j.jpg',
+        button: 'View',
+        link: '/team',
+      },
     ],
   }),
 };
