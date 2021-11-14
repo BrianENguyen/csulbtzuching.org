@@ -1,5 +1,5 @@
 <template>
-  <v-container class="carousel_item">
+  <v-container class="carousel_content">
     <h1 class="carousel_header">{{ content.header }}</h1>
     <p class="carousel_description">{{ content.description }}</p>
     <div v-if="content.link">
@@ -19,7 +19,7 @@ export default {
 </script>
 
 <style>
-.carousel_item {
+.carousel_content {
   margin-top: 10%;
   text-align: center;
 }
@@ -39,7 +39,7 @@ export default {
   text-decoration: none;
 }
 @media (min-width: 0px) {
-  .carousel_item {
+  .carousel_content {
     margin-top: 25%;
     text-align: center;
   }
@@ -54,7 +54,7 @@ export default {
 }
 
 @media (min-width: 576px) {
-  .carousel_item {
+  .carousel_content {
     margin-top: 20%;
     text-align: center;
   }
@@ -69,7 +69,7 @@ export default {
 }
 
 @media (min-width: 768px) {
-  .carousel_item {
+  .carousel_content {
     margin-top: 13%;
     text-align: center;
   }
