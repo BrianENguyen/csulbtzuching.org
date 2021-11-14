@@ -12,7 +12,7 @@
 </template>
 
 <script>
-import Carousel from '../components/Carousel';
+import Carousel from '../components/Carousel/Carousel.vue';
 import Introduction from '../components/Introduction';
 import RecentEvents from '../components/RecentEvents';
 import Quote from '../components/Quote';
