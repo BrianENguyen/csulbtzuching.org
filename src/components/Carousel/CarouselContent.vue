@@ -20,7 +20,7 @@ export default {
 
 <style>
 .carousel_item {
-  margin-top: 13%;
+  margin-top: 10%;
   text-align: center;
 }
 .carousel_header {
@@ -30,7 +30,10 @@ export default {
   -webkit-text-fill-color: #ffffff;
 }
 .carousel_description {
-  color: #ffffff;
+  font-size: 2rem;
+  color: #000000;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-fill-color: #ffffff;
 }
 .carousel_btn {
   text-decoration: none;
