@@ -1,8 +1,8 @@
 <template>
   <v-carousel cycle height="600">
     <v-carousel-item
-      v-for="section in contents"
-      :key="section.id"
+      v-for="(section, i) in contents"
+      :key="i"
       :src="section.src"
     >
       <v-container class="carousel_item">
@@ -24,18 +24,19 @@ export default {
   data: () => ({
     contents: [
       {
-        id: 1,
         header: 'Welcome to CSULB Tzu Ching!',
-        description: 'Enjoy your stay or whatever',
-        src: 'https://res.cloudinary.com/buraiyen/image/upload/v1636245907/CSULB_TC_Website/17546836_656892331149578_6206756973583337194_o_pboqz1.jpg',
+        description: '',
+        src: 'https://res.cloudinary.com/buraiyen/image/upload/v1636914034/CSULB_TC_Website/17097614_645084968996981_6289676080599741977_o_j7ylph.jpg',
       },
       {
-        id: 2,
         header: 'Events',
         description: 'View our current / most recent events!',
         button: 'View',
         link: '/events',
         src: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_2407/v1636247406/CSULB_TC_Website/DSC_0400_nmkrtt.jpg',
+      },
+      {
+        src: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1242/v1636913788/CSULB_TC_Website/17546836_656892331149578_6206756973583337194_o_f82awv.jpg',
       },
     ],
   }),
