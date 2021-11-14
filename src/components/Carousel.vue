@@ -1,5 +1,5 @@
 <template>
-  <v-carousel cycle height="600">
+  <v-carousel cycle height="600" interval="10000">
     <v-carousel-item
       v-for="(section, i) in contents"
       :key="i"
