@@ -45,12 +45,14 @@ export default {
 
 <style scoped>
 .carousel_item {
-  padding-top: 10%;
-  /* filter: brightness(50%); */
+  margin-top: 13%;
+  text-align: center;
 }
 .carousel_header {
-  color: #ffffff;
-  font-size: 3.5rem;
+  color: #000000;
+  font-size: 4rem;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-fill-color: #ffffff;
 }
 .carousel_description {
   color: #ffffff;
