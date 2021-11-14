@@ -1,26 +1,22 @@
 <template>
   <v-carousel cycle height="600" interval="10000">
     <v-carousel-item
-      v-for="(section, i) in contents"
+      v-for="(content, i) in contents"
       :key="i"
-      :src="section.src"
+      :src="content.src"
     >
-      <v-container class="carousel_item">
-        <h1 class="carousel_header">{{ section.header }}</h1>
-        <p class="carousel_description">{{ section.description }}</p>
-        <div v-if="section.link">
-          <router-link :to="section.link" class="carousel_btn"
-            ><v-btn>{{ section.button }}</v-btn>
-          </router-link>
-        </div>
-      </v-container>
+      <CarouselContent :content="content" />
     </v-carousel-item>
   </v-carousel>
 </template>
 
 <script>
+import CarouselContent from './CarouselContent.vue';
 export default {
   name: 'Carousel',
+  components: {
+    CarouselContent,
+  },
   data: () => ({
     contents: [
       {
@@ -47,22 +43,3 @@ export default {
   }),
 };
 </script>
-
-<style scoped>
-.carousel_item {
-  margin-top: 13%;
-  text-align: center;
-}
-.carousel_header {
-  color: #000000;
-  font-size: 4rem;
-  -webkit-text-stroke-width: 3px;
-  -webkit-text-fill-color: #ffffff;
-}
-.carousel_description {
-  color: #ffffff;
-}
-.carousel_btn {
-  text-decoration: none;
-}
-</style>
