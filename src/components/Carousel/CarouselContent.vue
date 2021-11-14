@@ -35,7 +35,7 @@ export default {
   -webkit-text-stroke-width: 1px;
   -webkit-text-fill-color: #ffffff;
 }
-.carousel_btn {
+.carousel_btn:hover {
   text-decoration: none;
 }
 @media (min-width: 0px) {
