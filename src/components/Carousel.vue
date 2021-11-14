@@ -25,7 +25,8 @@ export default {
     contents: [
       {
         header: 'Welcome to CSULB Tzu Ching!',
-        description: '',
+        button: 'About Us',
+        link: '/about',
         src: 'https://res.cloudinary.com/buraiyen/image/upload/v1636914034/CSULB_TC_Website/17097614_645084968996981_6289676080599741977_o_j7ylph.jpg',
       },
       {
@@ -36,7 +37,11 @@ export default {
         src: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_2407/v1636247406/CSULB_TC_Website/DSC_0400_nmkrtt.jpg',
       },
       {
-        src: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1242/v1636913788/CSULB_TC_Website/17546836_656892331149578_6206756973583337194_o_f82awv.jpg',
+        header: 'Photos',
+        description: 'Check out our photos from our events!',
+        button: 'View',
+        link: '/photos',
+        src: 'https://res.cloudinary.com/buraiyen/image/upload/v1636245907/CSULB_TC_Website/17546836_656892331149578_6206756973583337194_o_pboqz1.jpg',
       },
     ],
   }),
