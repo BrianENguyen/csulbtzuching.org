@@ -24,7 +24,9 @@ export default {};
   color: #42b983 !important;
   transition: 0.5s;
 }
-.navbar-brand-align {
-  margin-left: 10%;
+@media (min-width: 576px) {
+  .navbar-brand {
+    margin-left: 20%;
+  }
 }
 </style>
