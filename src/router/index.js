@@ -6,6 +6,7 @@ import TeamView from '../views/TeamView.vue';
 import EventsView from '../views/EventsView.vue';
 import PhotosView from '../views/PhotosView.vue';
 import ContactView from '../views/ContactView.vue';
+import ErrorView from '../views/ErrorView.vue';
 
 Vue.use(VueRouter);
 
@@ -45,6 +46,11 @@ const routes = [
     name: 'Contact',
     component: ContactView,
     meta: { title: 'Contact | CSULB TC' },
+  },
+  {
+    path: '*',
+    component: ErrorView,
+    meta: { title: '404' },
   },
 ];
 
