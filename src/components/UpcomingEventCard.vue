@@ -15,4 +15,15 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+.recent_events_month {
+  color: #3babd4;
+}
+
+.recent_event_name {
+  color: #34be82;
+}
+.recent_event_date {
+  color: #34be82;
+}
+</style>

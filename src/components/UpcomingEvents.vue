@@ -46,18 +46,4 @@ export default {
 #recent_events_header {
   color: #2f86a6;
 }
-.recent_events_month {
-  color: #3babd4;
-}
-.recent_event {
-  padding: 1rem 6rem 1rem 1rem;
-  margin-bottom: 1rem;
-  border-left: 2px solid #2f86a6;
-}
-.recent_event_name {
-  color: #34be82;
-}
-.recent_event_date {
-  color: #34be82;
-}
 </style>
