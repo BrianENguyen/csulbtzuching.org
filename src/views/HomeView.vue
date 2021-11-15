@@ -4,7 +4,7 @@
     <v-card class="home_card" outlined elevation="15">
       <v-container>
         <Introduction />
-        <RecentEvents />
+        <UpcomingEvents />
         <Quote />
       </v-container>
     </v-card>
@@ -14,7 +14,7 @@
 <script>
 import Carousel from '../components/Carousel/Carousel.vue';
 import Introduction from '../components/Introduction';
-import RecentEvents from '../components/RecentEvents';
+import UpcomingEvents from '../components/UpcomingEvents';
 import Quote from '../components/Quote';
 
 export default {
@@ -23,7 +23,7 @@ export default {
   components: {
     Carousel,
     Introduction,
-    RecentEvents,
+    UpcomingEvents,
     Quote,
   },
 };
