@@ -14,5 +14,13 @@ export default {
   components: {
     Navbar,
   },
+  watch: {
+    $route: {
+      immediate: true,
+      handler(to) {
+        document.title = to.meta.title || 'CSULB Tzu Ching';
+      },
+    },
+  },
 };
 </script>
