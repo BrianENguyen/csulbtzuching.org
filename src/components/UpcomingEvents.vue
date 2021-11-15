@@ -1,6 +1,6 @@
 <template>
   <v-container id="recent_events_section">
-    <h1 id="recent_events_header">Recent Events</h1>
+    <h1 id="recent_events_header">Upcoming Events</h1>
     <h2 class="recent_events_month">{{ month }}</h2>
     <div v-for="event in events" :key="event.id" class="recent_event">
       <h3 class="recent_event_name">{{ event.name }}</h3>
