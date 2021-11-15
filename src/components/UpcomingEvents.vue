@@ -3,17 +3,18 @@
     <h1 id="recent_events_header">Upcoming Events</h1>
     <h2 class="recent_events_month">{{ month }}</h2>
     <div v-for="event in events" :key="event.id" class="recent_event">
-      <h3 class="recent_event_name">{{ event.name }}</h3>
-      <h4 class="recent_event_date">{{ event.date }}</h4>
-      <p>{{ event.description }}</p>
-      <v-btn>Sign Up</v-btn>
+      <UpcomingEventCard :event="event" />
     </div>
     <hr />
   </v-container>
 </template>
 
 <script>
+import UpcomingEventCard from './UpcomingEventCard.vue';
 export default {
+  components: {
+    UpcomingEventCard,
+  },
   data: () => ({
     month: 'November 2021',
     events: [
