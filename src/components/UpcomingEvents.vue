@@ -3,7 +3,7 @@
     <h1 id="recent_events_header">Upcoming Events</h1>
     <h2 class="recent_events_month">{{ month }}</h2>
     <v-row>
-      <v-col v-for="(event, i) in events" :key="i" cols="12" md="6">
+      <v-col v-for="(event, i) in events" :key="i" cols="12" md="6" lg="4">
         <UpcomingEventCard :event="event" />
       </v-col>
     </v-row>
@@ -27,6 +27,14 @@ export default {
         location: '1355 Broad Ave, Wilmington, CA 90744',
         description:
           'Help medical professionals provide services to those in need',
+      },
+      {
+        name: "Weili's Warm Gathering",
+        date: 'Wednesday, 11/3/21',
+        time: '9:00 AM',
+        location: 'Zoom',
+        description:
+          'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, officia atque a unde aspernatur officiis facilis ipsam vero quisquam neque. Sapiente, ipsa nostrum! Inventore, assumenda! Nulla eligendi eum debitis asperiores?',
       },
       {
         name: "Weili's Warm Gathering",
