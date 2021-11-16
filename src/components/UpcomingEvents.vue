@@ -22,13 +22,17 @@ export default {
     events: [
       {
         name: 'Medical Outreach',
-        date: 'Saturday 11/6/21',
+        date: 'Saturday, 11/6/21',
+        time: '9:00 AM',
+        location: '1355 Broad Ave, Wilmington, CA 90744',
         description:
           'Help medical professionals provide services to those in need',
       },
       {
         name: "Weili's Warm Gathering",
-        date: 'Wednesday 11/3/21',
+        date: 'Wednesday, 11/3/21',
+        time: '9:00 AM',
+        location: 'Zoom',
         description:
           'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, officia atque a unde aspernatur officiis facilis ipsam vero quisquam neque. Sapiente, ipsa nostrum! Inventore, assumenda! Nulla eligendi eum debitis asperiores?',
       },
@@ -45,5 +49,8 @@ export default {
 }
 #recent_events_header {
   color: #2f86a6;
+}
+.recent_events_month {
+  color: #3babd4;
 }
 </style>

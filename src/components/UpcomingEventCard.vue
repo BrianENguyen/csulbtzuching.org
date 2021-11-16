@@ -6,7 +6,12 @@
       </h1>
     </v-card-title>
     <v-card-subtitle>
-      <h4 class="upcoming_event_date">{{ event.date }}</h4>
+      <h4 class="upcoming_event_datetime">
+        {{ event.date }} @ {{ event.time }}
+      </h4>
+      <h4 class="upcoming_event_location">
+        {{ event.location }}
+      </h4>
     </v-card-subtitle>
     <v-card-text>
       <p class="upcoming_event_description">
@@ -32,8 +37,11 @@ export default {
   font-size: 1.5rem;
   color: #34be82;
 }
-.upcoming_event_date {
+.upcoming_event_datetime {
   font-size: 1rem;
+}
+.upcoming_event_location {
+  font-size: 0.9rem;
 }
 .upcoming_event_description {
   font-weight: 300;
