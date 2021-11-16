@@ -7,6 +7,11 @@
         <UpcomingEventCard :event="event" />
       </v-col>
     </v-row>
+    <center>
+      <router-link to="/events" class="events_btn_hover">
+        <v-btn x-large class="events_btn">View More Events</v-btn>
+      </router-link>
+    </center>
     <hr />
   </v-container>
 </template>
@@ -60,5 +65,11 @@ export default {
 }
 .recent_events_month {
   color: #3babd4;
+}
+.events_btn {
+  margin: 3rem 0px;
+}
+.events_btn_hover:hover {
+  text-decoration: none;
 }
 </style>
