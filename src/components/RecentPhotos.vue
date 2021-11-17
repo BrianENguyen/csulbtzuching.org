@@ -1,7 +1,7 @@
 <template>
   <v-row class="fill-height">
     <v-col v-for="(photo, i) in photos" :key="i" cols="12" md="6" lg="4">
-      <PhotoCard /> </v-col
+      <PhotoCard :photo="photo" /> </v-col
   ></v-row>
 </template>
 
@@ -16,7 +16,7 @@ export default {
   data: () => ({
     photos: [
       'https://res.cloudinary.com/buraiyen/image/upload/v1636913788/CSULB_TC_Website/17546836_656892331149578_6206756973583337194_o_f82awv.jpg',
-      'https://res.cloudinary.com/buraiyen/image/upload/v1636913788/CSULB_TC_Website/17546836_656892331149578_6206756973583337194_o_f82awv.jpg',
+      'https://res.cloudinary.com/buraiyen/image/upload/v1636487294/CSULB_TC_Website/DSC_0118_c3fvq6.jpg',
       'https://res.cloudinary.com/buraiyen/image/upload/v1636913788/CSULB_TC_Website/17546836_656892331149578_6206756973583337194_o_f82awv.jpg',
       'https://res.cloudinary.com/buraiyen/image/upload/v1636913788/CSULB_TC_Website/17546836_656892331149578_6206756973583337194_o_f82awv.jpg',
     ],

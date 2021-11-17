@@ -2,19 +2,18 @@
   <v-dialog v-model="dialog" width="1000">
     <template v-slot:activator="{ on, attrs }">
       <v-img
-        src="https://res.cloudinary.com/buraiyen/image/upload/v1636913788/CSULB_TC_Website/17546836_656892331149578_6206756973583337194_o_f82awv.jpg"
-        aspect-ratio="1"
-        width="300px"
+        :src="photo"
         class="photo_card"
         v-bind="attrs"
         v-on="on"
+        aspect-ratio="1"
       >
       </v-img>
     </template>
     <center>
       <v-img
         @click="dialog = false"
-        src="https://res.cloudinary.com/buraiyen/image/upload/v1636913788/CSULB_TC_Website/17546836_656892331149578_6206756973583337194_o_f82awv.jpg"
+        :src="photo"
         width="1000px"
         v-bind="attrs"
         v-on="on"
@@ -31,6 +30,9 @@ export default {
   data: () => ({
     dialog: false,
   }),
+  props: {
+    photo: String,
+  },
 };
 </script>
 
