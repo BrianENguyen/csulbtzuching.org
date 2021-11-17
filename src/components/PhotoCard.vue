@@ -27,6 +27,7 @@
 
 <script>
 export default {
+  name: 'PhotoCard',
   data: () => ({
     dialog: false,
   }),

@@ -1,7 +1,20 @@
-<template></template>
+<template>
+  <div>
+    <v-row>
+      <v-col> <PhotoCard /></v-col
+    ></v-row>
+  </div>
+</template>
 
 <script>
-export default {};
+import PhotoCard from './PhotoCard';
+
+export default {
+  name: 'RecentPhotos',
+  components: {
+    PhotoCard,
+  },
+};
 </script>
 
 <style></style>
