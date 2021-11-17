@@ -15,13 +15,12 @@ export default {};
 <style>
 .image-card {
   transition: 0.5s ease;
-  opacity: 0.6;
   border-radius: 3%;
   border-style: solid;
-  border-color: #2f86a6;
+  border-color: #e2e2e2;
 }
 .image-card:hover {
   transition: 0.5s ease;
-  opacity: 1;
+  box-shadow: rgba(0, 0, 0, 0.55) 0px 5px 15px;
 }
 </style>
