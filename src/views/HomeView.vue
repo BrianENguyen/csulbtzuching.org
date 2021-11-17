@@ -6,7 +6,7 @@
         <Introduction />
         <UpcomingEvents />
         <Quote />
-        <ImageCard />
+        <PhotoCard />
       </v-container>
     </v-card>
   </div>
@@ -17,7 +17,7 @@ import Carousel from '../components/Carousel/Carousel.vue';
 import Introduction from '../components/Introduction';
 import UpcomingEvents from '../components/UpcomingEvents';
 import Quote from '../components/Quote';
-import ImageCard from '../components/ImageCard.vue';
+import PhotoCard from '../components/PhotoCard.vue';
 
 export default {
   name: 'Home',
@@ -27,7 +27,7 @@ export default {
     Introduction,
     UpcomingEvents,
     Quote,
-    ImageCard,
+    PhotoCard,
   },
 };
 Carousel;
