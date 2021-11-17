@@ -1,15 +1,43 @@
 <template>
-  <v-img
-    src="https://res.cloudinary.com/buraiyen/image/upload/v1636913788/CSULB_TC_Website/17546836_656892331149578_6206756973583337194_o_f82awv.jpg"
-    aspect-ratio="1"
-    width="300px"
-    class="image-card"
-  >
-  </v-img>
+  <v-dialog v-model="dialog" width="1000">
+    <!-- <v-img
+      src="https://res.cloudinary.com/buraiyen/image/upload/v1636913788/CSULB_TC_Website/17546836_656892331149578_6206756973583337194_o_f82awv.jpg"
+      aspect-ratio="1"
+      width="300px"
+      class="image-card"
+    >
+    </v-img> -->
+    <template v-slot:activator="{ on, attrs }">
+      <v-img
+        src="https://res.cloudinary.com/buraiyen/image/upload/v1636913788/CSULB_TC_Website/17546836_656892331149578_6206756973583337194_o_f82awv.jpg"
+        aspect-ratio="1"
+        width="300px"
+        class="image-card"
+        v-bind="attrs"
+        v-on="on"
+      >
+      </v-img>
+    </template>
+    <center>
+      <v-img
+        @click="dialog = false"
+        src="https://res.cloudinary.com/buraiyen/image/upload/v1636913788/CSULB_TC_Website/17546836_656892331149578_6206756973583337194_o_f82awv.jpg"
+        width="1000px"
+        v-bind="attrs"
+        v-on="on"
+      >
+      </v-img>
+    </center>
+  </v-dialog>
 </template>
 
 <script>
-export default {};
+export default {
+  data: () => ({
+    dialog: false,
+  }),
+  components: {},
+};
 </script>
 
 <style>
