@@ -1,5 +1,5 @@
 <template>
-  <v-dialog v-model="dialog" width="1000">
+  <v-dialog v-model="dialog" width="750">
     <template v-slot:activator="{ on, attrs }">
       <v-img
         :src="photo"
@@ -8,13 +8,21 @@
         v-on="on"
         aspect-ratio="1"
       >
+        <template v-slot:placeholder>
+          <v-row class="fill-height ma-0" align="center" justify="center">
+            <v-progress-circular
+              indeterminate
+              color="grey lighten-5"
+            ></v-progress-circular>
+          </v-row>
+        </template>
       </v-img>
     </template>
     <center>
       <v-img
         @click="dialog = false"
         :src="photo"
-        width="1000px"
+        width="750px"
         v-bind="attrs"
         v-on="on"
         class="photo_card_popup"
