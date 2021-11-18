@@ -5,9 +5,8 @@
       <v-container>
         <Introduction />
         <UpcomingEvents />
-        <Quote />
         <RecentPhotos />
-        <!-- <PhotoCard /> -->
+        <Quote />
       </v-container>
     </v-card>
   </div>
