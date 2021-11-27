@@ -1,7 +1,9 @@
 <template>
   <v-container>
-    <h1>Photos</h1>
-    <h3>Get a glimpse at what we do in our organization!</h3>
+    <h1 id="photos_header">Photos</h1>
+    <h3 id="photos_subheader">
+      Get a glimpse at what we do in our organization!
+    </h3>
     <div v-for="(event, i) in events" :key="i">
       <PhotoGallery :event="event" />
     </div>
@@ -41,4 +43,15 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+#photos_header {
+  text-align: center;
+  font-size: 3rem;
+  color: #2f86a6;
+}
+#photos_subheader {
+  text-align: center;
+  font-size: 2rem;
+  color: #3babd4;
+}
+</style>
