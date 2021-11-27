@@ -1,29 +1,29 @@
 <template>
-  <div>
-    <v-container
-      ><h1 id="events_header">Events</h1>
-      <v-checkbox
-        v-model="isCondensed"
-        :label="`Condensed view: ${isCondensed.toString()}`"
-      ></v-checkbox>
-      <div v-if="isCondensed">
-        <EventTimelineCondensed month="November 2021" :events="november" />
-      </div>
-      <div v-else>
-        <EventTimeline month="November 2021" :events="november" />
-      </div>
-    </v-container>
-  </div>
+  <CardWrapper>
+    <h1 id="events_header">Events</h1>
+    <v-checkbox
+      v-model="isCondensed"
+      :label="`Condensed view: ${isCondensed.toString()}`"
+    ></v-checkbox>
+    <div v-if="isCondensed">
+      <EventTimelineCondensed month="November 2021" :events="november" />
+    </div>
+    <div v-else>
+      <EventTimeline month="November 2021" :events="november" />
+    </div>
+  </CardWrapper>
 </template>
 
 <script>
 import EventTimeline from '../components/Events/EventTimeline';
 import EventTimelineCondensed from '../components/Events/Condensed/EventTimelineCondensed';
+import CardWrapper from '../components/UI/CardWrapper';
 
 export default {
   components: {
     EventTimeline,
     EventTimelineCondensed,
+    CardWrapper,
   },
   data: () => ({
     isCondensed: false,
