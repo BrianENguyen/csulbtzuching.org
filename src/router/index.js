@@ -5,7 +5,6 @@ import AboutView from '../views/AboutView.vue';
 import TeamView from '../views/TeamView.vue';
 import EventsView from '../views/EventsView.vue';
 import PhotosView from '../views/PhotosView.vue';
-import ContactView from '../views/ContactView.vue';
 import ErrorView from '../views/ErrorView.vue';
 
 Vue.use(VueRouter);
@@ -40,12 +39,6 @@ const routes = [
     name: 'Photos',
     component: PhotosView,
     meta: { title: 'Photos | CSULB TC' },
-  },
-  {
-    path: '/contact',
-    name: 'Contact',
-    component: ContactView,
-    meta: { title: 'Contact | CSULB TC' },
   },
   {
     path: '*',

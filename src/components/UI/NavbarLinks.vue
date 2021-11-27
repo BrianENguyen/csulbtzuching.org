@@ -12,7 +12,7 @@
 export default {
   data() {
     return {
-      links: ['Home', 'About', 'Team', 'Events', 'Photos', 'Contact'],
+      links: ['Home', 'About', 'Team', 'Events', 'Photos'],
     };
   },
 };
