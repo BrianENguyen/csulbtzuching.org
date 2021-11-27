@@ -12,9 +12,7 @@
             <i :class="externalLink.icon" class="mx-3 icon-link"></i> </a
         ></v-card>
         <v-col class="py-4" cols="12">
-          <p>
-            {{ new Date().getFullYear() }} — <strong>CSULB Tzu Ching</strong>
-          </p>
+          <p>{{ new Date().getFullYear() }} — CSULB Tzu Ching</p>
           <p>
             Designed by
             <a href="https://www.brianenguyen.com/" target="_blank"
@@ -62,13 +60,15 @@ export default {
 #footer_content {
   margin: 100px 100px;
   text-align: center;
+  font-weight: 300;
 }
 .icon-link {
-  color: black;
+  color: rgb(116, 116, 116);
   transition: 0.5s;
   margin-bottom: 1rem;
 }
 .icon-link:hover {
+  color: rgb(24, 24, 24);
   transition: 0.5s;
 }
 .footer-link {
