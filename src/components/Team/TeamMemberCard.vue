@@ -5,8 +5,12 @@
       <h3 class="member_name">{{ member.name }}</h3>
       <p>{{ member.role }}</p>
       <p class="member_description">{{ member.description }}</p>
-      <a href=""><i class="fas fa-envelope fa-2x mr-2"></i></a>
-      <a :href="member.linkedin"> <i class="fab fa-linkedin fa-2x mx-2"></i></a>
+      <a v-if="member.email" :href="member.email"
+        ><i class="fas fa-envelope fa-2x mr-2 member_card_icon"></i
+      ></a>
+      <a v-if="member.facebook" :href="member.facebook">
+        <i class="fab fa-facebook fa-2x mx-2 member_card_icon"></i
+      ></a>
     </div>
   </v-card>
 </template>
@@ -33,5 +37,13 @@ export default {
 }
 .card_content {
   margin: 5px 10px;
+}
+.member_card_icon {
+  color: rgb(116, 116, 116);
+  transition: 0.5s;
+}
+.member_card_icon:hover {
+  color: rgb(24, 24, 24);
+  transition: 0.5s;
 }
 </style>
