@@ -1,18 +1,16 @@
 <template>
   <CardWrapper>
-    <v-container
-      ><h1 id="events_header">Events</h1>
-      <v-checkbox
-        v-model="isCondensed"
-        :label="`Condensed view: ${isCondensed.toString()}`"
-      ></v-checkbox>
-      <div v-if="isCondensed">
-        <EventTimelineCondensed month="November 2021" :events="november" />
-      </div>
-      <div v-else>
-        <EventTimeline month="November 2021" :events="november" />
-      </div>
-    </v-container>
+    <h1 id="events_header">Events</h1>
+    <v-checkbox
+      v-model="isCondensed"
+      :label="`Condensed view: ${isCondensed.toString()}`"
+    ></v-checkbox>
+    <div v-if="isCondensed">
+      <EventTimelineCondensed month="November 2021" :events="november" />
+    </div>
+    <div v-else>
+      <EventTimeline month="November 2021" :events="november" />
+    </div>
   </CardWrapper>
 </template>
 

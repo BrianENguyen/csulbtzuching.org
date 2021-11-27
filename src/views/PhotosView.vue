@@ -1,14 +1,12 @@
 <template>
   <CardWrapper>
-    <v-container>
-      <h1 id="photos_header">Photos</h1>
-      <h3 id="photos_subheader">
-        Get a glimpse at what we do in our organization!
-      </h3>
-      <div v-for="(event, i) in events" :key="i">
-        <PhotoGallery :event="event" />
-      </div>
-    </v-container>
+    <h1 id="photos_header">Photos</h1>
+    <h3 id="photos_subheader">
+      Get a glimpse at what we do in our organization!
+    </h3>
+    <div v-for="(event, i) in events" :key="i">
+      <PhotoGallery :event="event" />
+    </div>
   </CardWrapper>
 </template>
 

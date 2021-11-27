@@ -1,38 +1,36 @@
 <template>
   <CardWrapper>
-    <v-container>
-      <h1 id="team_header">2021-2022 Team</h1>
-      <div class="section_spacer">
-        <h2 class="team_subheader">Officers</h2>
-        <v-row>
-          <v-col
-            cols="12"
-            lg="4"
-            md="6"
-            sm="12"
-            v-for="(officer, i) in officers"
-            :key="i"
-          >
-            <TeamMemberCard :member="officer" />
-          </v-col>
-        </v-row>
-      </div>
-      <div>
-        <h2 class="team_subheader">Advisors</h2>
-        <v-row>
-          <v-col
-            cols="12"
-            lg="4"
-            md="6"
-            sm="12"
-            v-for="(advisor, i) in advisors"
-            :key="i"
-          >
-            <TeamMemberCard :member="advisor" />
-          </v-col>
-        </v-row>
-      </div>
-    </v-container>
+    <h1 id="team_header">2021-2022 Team</h1>
+    <div class="section_spacer">
+      <h2 class="team_subheader">Officers</h2>
+      <v-row>
+        <v-col
+          cols="12"
+          lg="4"
+          md="6"
+          sm="12"
+          v-for="(officer, i) in officers"
+          :key="i"
+        >
+          <TeamMemberCard :member="officer" />
+        </v-col>
+      </v-row>
+    </div>
+    <div>
+      <h2 class="team_subheader">Advisors</h2>
+      <v-row>
+        <v-col
+          cols="12"
+          lg="4"
+          md="6"
+          sm="12"
+          v-for="(advisor, i) in advisors"
+          :key="i"
+        >
+          <TeamMemberCard :member="advisor" />
+        </v-col>
+      </v-row>
+    </div>
   </CardWrapper>
 </template>
 

@@ -1,6 +1,8 @@
 <template>
   <v-card outlined elevation="3" class="card_wrapper">
-    <slot></slot>
+    <v-container class="card_wrapper_content">
+      <slot></slot>
+    </v-container>
   </v-card>
 </template>
 
@@ -11,5 +13,8 @@ export default {};
 <style>
 .card_wrapper {
   margin: 2% 5%;
+}
+.card_wrapper_content {
+  margin: 100px;
 }
 </style>

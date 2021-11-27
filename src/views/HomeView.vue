@@ -2,12 +2,10 @@
   <div>
     <Carousel />
     <CardWrapper>
-      <v-container>
-        <Introduction />
-        <UpcomingEvents />
-        <RecentPhotos />
-        <Quote />
-      </v-container>
+      <Introduction />
+      <UpcomingEvents />
+      <RecentPhotos />
+      <Quote />
     </CardWrapper>
   </div>
 </template>
