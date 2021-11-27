@@ -1,20 +1,9 @@
 <template>
-  <v-footer id="footer" color="success lighten-1" padless>
+  <v-footer id="footer" padless>
     <v-row justify="center" no-gutters>
-      <v-card flat tile class="success">
-        <v-btn
-          v-for="link in links"
-          :key="link"
-          color="white"
-          text
-          rounded
-          class="my-2"
-          ><router-link class="site-link" :to="{ name: link }">{{
-            link
-          }}</router-link></v-btn
-        >
+      <v-card flat tile>
         <hr />
-        <div class="white--text description">
+        <div class="description">
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
             cumque non corporis aliquam doloremque! Autem placeat dolorem
@@ -23,20 +12,10 @@
             ratione minima! Quasi, amet quia praesentium cumque commodi laborum
             reiciendis laudantium iusto distinctio. Et eaque eius quae tempora!
           </p>
-          <p>
-            This website is made by
-            <a
-              href="https://www.brianenguyen.com/"
-              target="_blank"
-              class="footer-link"
-              >Brian E. Nguyen</a
-            >
-            using the Vue.js framework
-          </p>
         </div>
       </v-card>
-      <v-card flat tile class="success"
-        ><a
+      <v-card flat tile>
+        <a
           v-for="externalLink in externalLinks"
           :key="externalLink.icon"
           :href="externalLink.hyperlink"
@@ -44,8 +23,14 @@
         >
           <i :class="externalLink.icon" class="mx-3 icon-link"></i> </a
       ></v-card>
-      <v-col class="success lighten-1 py-4 text-center white--text" cols="12">
-        {{ new Date().getFullYear() }} — <strong>CSULB Tzu Ching</strong>
+      <v-col class="py-4 text-center" cols="12">
+        <p>{{ new Date().getFullYear() }} — <strong>CSULB Tzu Ching</strong></p>
+        <p>
+          Designed by
+          <a href="https://www.brianenguyen.com/" target="_blank"
+            >Brian Nguyen</a
+          >
+        </p>
       </v-col>
     </v-row>
   </v-footer>
@@ -55,7 +40,6 @@
 export default {
   data() {
     return {
-      links: ['Home', 'About', 'Team', 'Events', 'Photos', 'Contact'],
       externalLinks: [],
     };
   },
@@ -70,10 +54,10 @@ hr {
 }
 #footer {
   text-align: center;
+  margin-top: 100px;
 }
 .site-link {
   font-weight: bold;
-  color: white;
   text-decoration: none;
 }
 .description {
@@ -82,20 +66,18 @@ hr {
   padding-right: 40px;
 }
 .icon-link {
-  color: white;
+  color: black;
   transition: 0.5s;
   margin-bottom: 1rem;
 }
 .icon-link:hover {
-  color: rgb(197, 197, 197);
+  /* color: rgb(197, 197, 197); */
   transition: 0.5s;
 }
 .footer-link {
-  color: white;
   transition: 0.5s;
 }
 .footer-link:hover {
-  color: rgb(197, 197, 197);
   transition: 0.5s;
 }
 </style>
