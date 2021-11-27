@@ -1,36 +1,27 @@
 <template>
-  <v-footer id="footer" padless>
-    <v-row justify="center" no-gutters>
-      <v-card flat tile>
-        <hr />
-        <div class="description">
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
-            cumque non corporis aliquam doloremque! Autem placeat dolorem
-            architecto ea quos. Voluptatibus, alias, consectetur aspernatur
-            dignissimos esse fuga cupiditate vel, voluptatum molestiae enim
-            ratione minima! Quasi, amet quia praesentium cumque commodi laborum
-            reiciendis laudantium iusto distinctio. Et eaque eius quae tempora!
-          </p>
-        </div>
-      </v-card>
-      <v-card flat tile>
-        <a
-          v-for="externalLink in externalLinks"
-          :key="externalLink.icon"
-          :href="externalLink.hyperlink"
-          target="_blank"
-        >
-          <i :class="externalLink.icon" class="mx-3 icon-link"></i> </a
-      ></v-card>
-      <v-col class="py-4 text-center" cols="12">
-        <p>{{ new Date().getFullYear() }} — <strong>CSULB Tzu Ching</strong></p>
-        <p>
-          Designed by
-          <a href="https://www.brianenguyen.com/" target="_blank"
-            >Brian Nguyen</a
+  <v-footer color="white" id="footer" padless>
+    <v-row id="footer_content" no-gutters>
+      <v-col cols="12">
+        <v-card flat tile
+          ><a
+            v-for="externalLink in externalLinks"
+            :key="externalLink.icon"
+            :href="externalLink.hyperlink"
+            target="_blank"
           >
-        </p>
+            <i :class="externalLink.icon" class="mx-3 icon-link"></i> </a
+        ></v-card>
+        <v-col class="py-4" cols="12">
+          <p>
+            {{ new Date().getFullYear() }} — <strong>CSULB Tzu Ching</strong>
+          </p>
+          <p>
+            Designed by
+            <a href="https://www.brianenguyen.com/" target="_blank"
+              >Brian Nguyen</a
+            >
+          </p>
+        </v-col>
       </v-col>
     </v-row>
   </v-footer>
@@ -40,30 +31,37 @@
 export default {
   data() {
     return {
-      externalLinks: [],
+      externalLinks: [
+        {
+          icon: 'fas fa-envelope fa-2x',
+          hyperlink: 'mailto:tcca.csulb@gmail.com',
+        },
+        {
+          icon: 'fab fa-facebook fa-2x',
+          hyperlink: 'https://www.facebook.com/CSULBTzuChing',
+        },
+        {
+          icon: 'fab fa-instagram fa-2x',
+          hyperlink: 'https://www.instagram.com/tccaofcsulb/',
+        },
+        {
+          icon: 'fab fa-discord fa-2x',
+          hyperlink: 'https://discord.gg/fmf3JtTNCc',
+        },
+      ],
     };
   },
 };
 </script>
 
-<style scoped>
-hr {
-  color: white;
-  margin-left: 4vw;
-  margin-right: 4vw;
-}
+<style>
 #footer {
   text-align: center;
   margin-top: 100px;
 }
-.site-link {
-  font-weight: bold;
-  text-decoration: none;
-}
-.description {
-  margin-left: auto;
-  padding-left: 40px;
-  padding-right: 40px;
+#footer_content {
+  margin: 100px 100px;
+  text-align: center;
 }
 .icon-link {
   color: black;
@@ -71,7 +69,6 @@ hr {
   margin-bottom: 1rem;
 }
 .icon-link:hover {
-  /* color: rgb(197, 197, 197); */
   transition: 0.5s;
 }
 .footer-link {
