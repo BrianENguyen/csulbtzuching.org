@@ -1,7 +1,8 @@
 <template>
   <v-card outlined elevation="5">
     <div class="card_content">
-      <h2 class="member_name">{{ member.name }}</h2>
+      <v-img :src="member.image" aspect-ratio="1" width="100px"></v-img>
+      <h3 class="member_name">{{ member.name }}</h3>
       <p>{{ member.role }}</p>
       <p class="member_description">{{ member.description }}</p>
       <a href=""><i class="fas fa-envelope fa-2x mr-2"></i></a>
@@ -21,6 +22,7 @@ export default {
 <style>
 .member_name {
   color: #34be82;
+  font-size: 1.5rem;
 }
 .member_description {
   font-weight: 300;
