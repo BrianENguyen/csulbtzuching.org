@@ -55,8 +55,7 @@ export default {
       {
         name: 'Vivienne A.',
         role: 'Executive Vice President',
-        image:
-          'https://res.cloudinary.com/buraiyen/image/upload/v1638053292/CSULB_TC_Website/team_pic/vivienne.jpg',
+        src: 'https://res.cloudinary.com/buraiyen/image/upload/v1638053292/CSULB_TC_Website/team_pic/vivienne.jpg',
         description:
           'Helps lead general meetings with president, finds a common meeting time with officers',
         email: '',

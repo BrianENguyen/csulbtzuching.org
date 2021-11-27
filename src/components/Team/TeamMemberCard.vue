@@ -1,7 +1,7 @@
 <template>
   <v-card outlined elevation="5">
     <div class="card_content">
-      <v-img :src="member.image" aspect-ratio="1" width="100px"></v-img>
+      <TeamMemberImage :src="member.src" />
       <h3 class="member_name">{{ member.name }}</h3>
       <p>{{ member.role }}</p>
       <p class="member_description">{{ member.description }}</p>
@@ -12,9 +12,13 @@
 </template>
 
 <script>
+import TeamMemberImage from './TeamMemberImage.vue';
 export default {
   props: {
     member: Object,
+  },
+  components: {
+    TeamMemberImage,
   },
 };
 </script>
