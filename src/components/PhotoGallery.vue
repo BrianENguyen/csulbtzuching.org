@@ -1,6 +1,6 @@
 <template>
   <div class="gallery_section">
-    <h2>{{ event.name }}, {{ event.date }}</h2>
+    <h2 class="event_namedate_header">{{ event.name }}, {{ event.date }}</h2>
     <v-row>
       <v-col v-for="photo in event.photos" :key="photo" cols="6" lg="4">
         <PhotoCard :photo="photo" />
@@ -22,6 +22,9 @@ export default {
 </script>
 
 <style>
+.event_namedate_header {
+  color: #34be82;
+}
 .gallery_section {
   margin: 3rem 0px;
 }
