@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <CardWrapper>
     <v-container>
       <h1 id="team_header">2021-2022 Team</h1>
       <div class="section_spacer">
@@ -33,14 +33,16 @@
         </v-row>
       </div>
     </v-container>
-  </div>
+  </CardWrapper>
 </template>
 
 <script>
 import TeamMemberCard from '../components/TeamMemberCard';
+import CardWrapper from '../components/UI/CardWrapper';
 export default {
   components: {
     TeamMemberCard,
+    CardWrapper,
   },
   data: () => ({
     officers: [

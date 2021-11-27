@@ -1,14 +1,14 @@
 <template>
   <div>
     <Carousel />
-    <v-card class="home_card" outlined elevation="15">
+    <CardWrapper>
       <v-container>
         <Introduction />
         <UpcomingEvents />
         <RecentPhotos />
         <Quote />
       </v-container>
-    </v-card>
+    </CardWrapper>
   </div>
 </template>
 
@@ -19,6 +19,7 @@ import UpcomingEvents from '../components/UpcomingEvents';
 import Quote from '../components/Quote';
 import RecentPhotos from '../components/RecentPhotos';
 // import PhotoCard from '../components/PhotoCard.vue';
+import CardWrapper from '../components/UI/CardWrapper.vue';
 
 export default {
   name: 'Home',
@@ -29,6 +30,7 @@ export default {
     UpcomingEvents,
     Quote,
     RecentPhotos,
+    CardWrapper,
   },
 };
 Carousel;

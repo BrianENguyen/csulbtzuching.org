@@ -1,20 +1,25 @@
 <template>
-  <v-container>
-    <h1 id="photos_header">Photos</h1>
-    <h3 id="photos_subheader">
-      Get a glimpse at what we do in our organization!
-    </h3>
-    <div v-for="(event, i) in events" :key="i">
-      <PhotoGallery :event="event" />
-    </div>
-  </v-container>
+  <CardWrapper>
+    <v-container>
+      <h1 id="photos_header">Photos</h1>
+      <h3 id="photos_subheader">
+        Get a glimpse at what we do in our organization!
+      </h3>
+      <div v-for="(event, i) in events" :key="i">
+        <PhotoGallery :event="event" />
+      </div>
+    </v-container>
+  </CardWrapper>
 </template>
 
 <script>
 import PhotoGallery from '../components/PhotoGallery.vue';
+import CardWrapper from '../components/UI/CardWrapper';
+
 export default {
   components: {
     PhotoGallery,
+    CardWrapper,
   },
   data: () => ({
     events: [

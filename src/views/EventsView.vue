@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <CardWrapper>
     <v-container
       ><h1 id="events_header">Events</h1>
       <v-checkbox
@@ -13,17 +13,19 @@
         <EventTimeline month="November 2021" :events="november" />
       </div>
     </v-container>
-  </div>
+  </CardWrapper>
 </template>
 
 <script>
 import EventTimeline from '../components/Events/EventTimeline';
 import EventTimelineCondensed from '../components/Events/Condensed/EventTimelineCondensed';
+import CardWrapper from '../components/UI/CardWrapper';
 
 export default {
   components: {
     EventTimeline,
     EventTimelineCondensed,
+    CardWrapper,
   },
   data: () => ({
     isCondensed: false,

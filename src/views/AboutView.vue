@@ -1,6 +1,6 @@
 <template>
   <div id="about">
-    <v-card class="about_card" outlined elevation="5">
+    <CardWrapper>
       <v-container>
         <h1 id="about_header">About Us</h1>
         <h2 class="about_subheader">The Tzu Chi Foundation</h2>
@@ -34,9 +34,18 @@
           outreaches, senior center visits, and socials. Go Beach! Go Tzu Ching!
         </p>
       </v-container>
-    </v-card>
+    </CardWrapper>
   </div>
 </template>
+
+<script>
+import CardWrapper from '../components/UI/CardWrapper';
+export default {
+  components: {
+    CardWrapper,
+  },
+};
+</script>
 
 <style scoped>
 #about_header {
@@ -46,8 +55,5 @@
 }
 .about_subheader {
   color: #3babd4;
-}
-.about_card {
-  margin: 5% 15%;
 }
 </style>
