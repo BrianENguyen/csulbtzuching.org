@@ -1,12 +1,5 @@
 <template>
-  <v-card
-    outlined
-    elevation="5"
-    data-aos="fade-zoom-in"
-    data-aos-easing="ease-in-back"
-    data-aos-delay="300"
-    data-aos-offset="0"
-  >
+  <v-card outlined elevation="5" data-aos="fade-zoom-in">
     <div class="card_content">
       <h2 class="member_name">{{ member.name }}</h2>
       <p>{{ member.role }}</p>
