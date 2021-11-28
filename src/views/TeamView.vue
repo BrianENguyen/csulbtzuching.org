@@ -65,8 +65,15 @@ export default {
       {
         name: 'Thu N.',
         role: 'VP of Administration',
+        src: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1236/v1638065296/CSULB_TC_Website/team_pic/thu.jpg',
         description:
-          "Takes notes during officer meetings, tracks members' volunteering hours",
+          "Manages files on organization's online drive, tracks members' volunteering hours",
+        links: {
+          email: 'mailto:nhanhthu920@gmail.com',
+          linkedin: 'https://www.linkedin.com/in/thu-h-nguyen2/',
+          facebook: 'https://www.facebook.com/profile.php?id=100045753340354',
+          instagram: 'https://www.instagram.com/thu.n02/',
+        },
       },
       {
         name: 'Jose A.',
@@ -105,6 +112,11 @@ export default {
         name: 'Lily K.',
         role: 'Advisor',
         description: '',
+        src: 'https://res.cloudinary.com/buraiyen/image/upload/v1638064513/CSULB_TC_Website/team_pic/lily.jpg',
+        links: {
+          site: 'https://www.lilykang.com/',
+          instagram: 'https://www.instagram.com/lilykang.design/',
+        },
       },
       {
         name: 'Weili K.',
