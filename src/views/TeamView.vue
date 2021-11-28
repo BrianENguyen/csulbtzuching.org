@@ -89,10 +89,12 @@ export default {
       {
         name: 'Brian N.',
         role: 'Webmaster / Photographer / Advisor',
+        src: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,e_brightness:33,w_1084/v1638060412/CSULB_TC_Website/team_pic/Brian.jpg',
         description:
           'Maintains CSULB TC website and advises current officer board',
-        email: '',
+        email: 'mailto:brian.edison.nguyen@gmail.com',
         linkedin: 'https://www.linkedin.com/in/brian-edison-nguyen/',
+        site: 'https://www.brianenguyen.com',
       },
       {
         name: 'Lily K.',
