@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@fortawesome/vue-fontawesome": "^2.0.6",
+    "animate.css": "^4.1.1",
     "bootstrap-vue": "^2.21.2",
     "core-js": "^3.6.5",
     "express": "^4.17.1",
