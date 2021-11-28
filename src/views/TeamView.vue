@@ -78,7 +78,7 @@ export default {
         name: 'Jose A.',
         role: 'Treasurer',
         description: 'Handles all financial and budgeting of the organization',
-        src: 'https://res.cloudinary.com/buraiyen/image/upload/v1638062335/CSULB_TC_Website/team_pic/jose.jpg',
+        src: 'https://res.cloudinary.com/buraiyen/image/upload/v1638071353/CSULB_TC_Website/team_pic/jose.jpg',
         links: {
           email: 'mailto:josecarlos.alcantara2016@gmail.com',
           linkedin: 'https://www.linkedin.com/in/jose-alcantara-321378188',
