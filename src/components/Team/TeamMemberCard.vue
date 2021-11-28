@@ -5,7 +5,7 @@
       <h3 class="member_name">{{ member.name }}</h3>
       <p>{{ member.role }}</p>
       <p class="member_description">{{ member.description }}</p>
-      <TeamMemberLinks :member="member" />
+      <TeamMemberLinks :links="member.links" />
     </div>
   </v-card>
 </template>

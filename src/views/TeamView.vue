@@ -49,8 +49,10 @@ export default {
         role: 'President',
         description:
           'Plans monthly events, leads general meetings, delegates tasks to other officers',
-        email: '',
-        linkedin: '',
+        links: {
+          email: '',
+          linkedin: '',
+        },
       },
       {
         name: 'Vivienne A.',
@@ -58,31 +60,35 @@ export default {
         src: 'https://res.cloudinary.com/buraiyen/image/upload/v1638054519/CSULB_TC_Website/team_pic/vivienne.jpg',
         description:
           'Helps lead general meetings with president, finds a common meeting time with officers',
-        email: 'mailto:Vivienne.An@student.csulb.edu',
-        facebook: 'https://www.facebook.com/profile.php?id=100006438256523',
+        links: {
+          email: 'mailto:Vivienne.An@student.csulb.edu',
+          facebook: 'https://www.facebook.com/profile.php?id=100006438256523',
+        },
       },
       {
         name: 'Thu N.',
         role: 'VP of Administration',
         description:
           "Takes notes during officer meetings, tracks members' volunteering hours",
-        email: '',
-        linkedin: '',
       },
       {
         name: 'Jose A.',
         role: 'Treasurer',
         description: 'Handles all financial and budgeting of the organization',
-        email: '',
-        linkedin: '',
+        links: {
+          email: '',
+          linkedin: '',
+        },
       },
       {
         name: 'Mahya J.',
         role: 'VP of Communications',
         description:
           'Sends monthly emails that advertise general meetings and volunteering events',
-        email: '',
-        linkedin: '',
+        links: {
+          email: '',
+          linkedin: '',
+        },
       },
     ],
     advisors: [
@@ -92,9 +98,11 @@ export default {
         src: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,e_brightness:33,w_1084/v1638060412/CSULB_TC_Website/team_pic/Brian.jpg',
         description:
           'Maintains CSULB TC website and advises current officer board',
-        email: 'mailto:brian.edison.nguyen@gmail.com',
-        linkedin: 'https://www.linkedin.com/in/brian-edison-nguyen/',
-        site: 'https://www.brianenguyen.com',
+        links: {
+          email: 'mailto:brian.edison.nguyen@gmail.com',
+          linkedin: 'https://www.linkedin.com/in/brian-edison-nguyen/',
+          site: 'https://www.brianenguyen.com',
+        },
       },
       {
         name: 'Lily K.',
