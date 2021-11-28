@@ -7,6 +7,8 @@
           class="my-3"
           contain
           height="300"
+          data-aos="zoom-in-down"
+          data-aos-duration="500"
         />
         <h1 class="intro_title">Welcome to CSULB Tzu Ching!</h1>
         <p class="intro_description">

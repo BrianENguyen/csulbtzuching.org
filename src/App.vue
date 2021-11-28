@@ -2,7 +2,13 @@
   <v-app>
     <Navbar />
     <v-main>
-      <router-view />
+      <transition
+        mode="out-in"
+        enter-active-class="animate__animated animate__fadeIn"
+        leave-active-class="animate__animated animate__fadeOutUp"
+      >
+        <router-view />
+      </transition>
     </v-main>
     <Footer />
   </v-app>

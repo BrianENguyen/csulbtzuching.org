@@ -2,7 +2,15 @@
   <div>
     <h1 id="recent_photos_header">Recent Photos</h1>
     <v-row class="fill-height">
-      <v-col v-for="(photo, i) in photos" :key="i" cols="12" md="6" lg="4">
+      <v-col
+        v-for="(photo, i) in photos"
+        :key="i"
+        cols="12"
+        md="6"
+        lg="4"
+        data-aos="fade-up"
+        data-aos-duration="1000"
+      >
         <PhotoCard :photo="photo" /> </v-col
     ></v-row>
     <center>
