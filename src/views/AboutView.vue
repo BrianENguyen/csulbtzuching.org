@@ -1,5 +1,5 @@
 <template>
-  <v-container id="about">
+  <CardWrapper>
     <h1 id="about_header">About Us</h1>
     <h2 class="about_subheader">The Tzu Chi Foundation</h2>
     <p>
@@ -30,12 +30,15 @@
       as food-packing events, medical outreaches, senior center visits, and
       socials. Go Beach! Go Tzu Ching!
     </p>
-  </v-container>
+  </CardWrapper>
 </template>
 
 <script>
+import CardWrapper from '../components/UI/CardWrapper';
 export default {
-  components: {},
+  components: {
+    CardWrapper,
+  },
 };
 </script>
 
