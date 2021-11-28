@@ -18,6 +18,9 @@
     <a v-if="links.art" :href="links.art" target="_blank">
       <i class="fas fa-palette fa-2x mx-2 member_card_icon"></i
     ></a>
+    <a v-if="links.tiktok" :href="links.tiktok" target="_blank">
+      <i class="fab fa-tiktok fa-2x mx-2 member_card_icon"></i
+    ></a>
   </div>
 </template>
 
