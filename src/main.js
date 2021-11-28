@@ -3,6 +3,7 @@ import App from './App.vue';
 import router from './router';
 import vuetify from './plugins/vuetify';
 import { BootstrapVue, IconsPlugin } from 'bootstrap-vue';
+import 'animate.css';
 
 Vue.config.productionTip = false;
 
