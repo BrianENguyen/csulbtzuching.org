@@ -16,7 +16,6 @@ import Introduction from '../components/Introduction';
 import UpcomingEvents from '../components/UpcomingEvents';
 import Quote from '../components/Quote';
 import RecentPhotos from '../components/RecentPhotos';
-// import PhotoCard from '../components/PhotoCard.vue';
 import CardWrapper from '../components/UI/CardWrapper.vue';
 
 export default {
