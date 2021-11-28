@@ -12,6 +12,12 @@
     <a v-if="links.site" :href="links.site" target="_blank">
       <i class="fas fa-link fa-2x mx-2 member_card_icon"></i
     ></a>
+    <a v-if="links.instagram" :href="links.instagram" target="_blank">
+      <i class="fab fa-instagram fa-2x mx-2 member_card_icon"></i
+    ></a>
+    <a v-if="links.art" :href="links.art" target="_blank">
+      <i class="fas fa-palette fa-2x mx-2 member_card_icon"></i
+    ></a>
   </div>
 </template>
 
