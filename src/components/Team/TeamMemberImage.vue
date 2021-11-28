@@ -32,7 +32,7 @@ export default {
 <style>
 .member_profile_picture {
   border-radius: 15%;
-  width: 70px;
+  width: 100px;
   margin-bottom: 10px;
   transition: 0.5s;
 }
