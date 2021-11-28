@@ -5,24 +5,22 @@
       <h3 class="member_name">{{ member.name }}</h3>
       <p>{{ member.role }}</p>
       <p class="member_description">{{ member.description }}</p>
-      <a v-if="member.email" :href="member.email"
-        ><i class="fas fa-envelope fa-2x mr-2 member_card_icon"></i
-      ></a>
-      <a v-if="member.facebook" :href="member.facebook">
-        <i class="fab fa-facebook fa-2x mx-2 member_card_icon"></i
-      ></a>
+      <TeamMemberLinks :member="member" />
     </div>
   </v-card>
 </template>
 
 <script>
 import TeamMemberImage from './TeamMemberImage.vue';
+import TeamMemberLinks from './TeamMemberLinks.vue';
+
 export default {
   props: {
     member: Object,
   },
   components: {
     TeamMemberImage,
+    TeamMemberLinks,
   },
 };
 </script>
@@ -37,13 +35,5 @@ export default {
 }
 .card_content {
   margin: 5px 10px;
-}
-.member_card_icon {
-  color: rgb(116, 116, 116);
-  transition: 0.5s;
-}
-.member_card_icon:hover {
-  color: rgb(24, 24, 24);
-  transition: 0.5s;
 }
 </style>
