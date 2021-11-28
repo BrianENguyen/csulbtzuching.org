@@ -91,7 +91,7 @@
             Feel free to send us an email at
             <a href="mailto:tcca.csulb@gmail.com" target="_blank"
               >tcca.csulb@gmail.com</a
-            >! You can also join
+            >! You can also join our
             <a href="https://discord.gg/fmf3JtTNCc" target="_blank"
               >Discord server</a
             >
