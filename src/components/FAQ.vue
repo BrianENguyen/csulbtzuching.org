@@ -4,7 +4,7 @@
     <v-expansion-panels>
       <v-expansion-panel>
         <v-expansion-panel-header>
-          <h4>1. Do I have to pay dues to become a member?</h4>
+          <h4 class="question">1. Do I have to pay dues to become a member?</h4>
         </v-expansion-panel-header>
         <v-expansion-panel-content>
           <p>
@@ -15,7 +15,7 @@
       </v-expansion-panel>
       <v-expansion-panel>
         <v-expansion-panel-header>
-          <h4>2. Do I have to be Buddhist or Asian?</h4>
+          <h4 class="question">2. Do I have to be Buddhist or Asian?</h4>
         </v-expansion-panel-header>
         <v-expansion-panel-content>
           No! The Tzu Chi Foundation is an international organization that has
@@ -24,7 +24,7 @@
       </v-expansion-panel>
       <v-expansion-panel>
         <v-expansion-panel-header>
-          <h4>3. Do I have to be vegetarian / vegan?</h4>
+          <h4 class="question">3. Do I have to be vegetarian / vegan?</h4>
         </v-expansion-panel-header>
         <v-expansion-panel-content>
           <p>
@@ -38,7 +38,9 @@
       </v-expansion-panel>
       <v-expansion-panel>
         <v-expansion-panel-header>
-          <h4>4. What's the difference between "Tzu Chi" and "Tzu Ching"?</h4>
+          <h4 class="question">
+            4. What's the difference between "Tzu Chi" and "Tzu Ching"?
+          </h4>
         </v-expansion-panel-header>
         <v-expansion-panel-content>
           <p>
@@ -57,7 +59,9 @@
       </v-expansion-panel>
       <v-expansion-panel>
         <v-expansion-panel-header>
-          <h4>5. What is the uniform that you wear? How can I get one?</h4>
+          <h4 class="question">
+            5. What is the uniform that you wear? How can I get one?
+          </h4>
         </v-expansion-panel-header>
         <v-expansion-panel-content>
           <p>
@@ -80,7 +84,7 @@
       </v-expansion-panel>
       <v-expansion-panel>
         <v-expansion-panel-header>
-          <h4>6. My question wasn't answered in here!</h4>
+          <h4 class="question">6. My question wasn't answered in here!</h4>
         </v-expansion-panel-header>
         <v-expansion-panel-content>
           <p>
@@ -101,6 +105,9 @@
 </template>
 
 <style scoped>
+.question {
+  color: #34be82;
+}
 .answer {
   margin: 0px 20px;
 }
