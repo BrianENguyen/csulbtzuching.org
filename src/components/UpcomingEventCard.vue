@@ -1,5 +1,5 @@
 <template>
-  <v-card elevation="3">
+  <v-card elevation="3" data-aos="fade-up" data-aos-duration="1000">
     <v-card-title>
       <h1 class="upcoming_event_name">
         {{ event.name }}
