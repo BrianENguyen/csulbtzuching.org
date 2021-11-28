@@ -18,8 +18,10 @@
         households, and benefitted 17,335 students from their tutoring program
       </p>
       <p>
-        For more information about the Tzu Chi Foundation:
-        <a href="">click here to visit Tzu Chi USA's website</a>
+        For more information about the Tzu Chi Foundation,
+        <a href="https://tzuchi.us/" target="_blank"
+          >click here to visit Tzu Chi USA's website</a
+        >
       </p>
       <h2 class="about_subheader">CSULB Tzu Ching</h2>
       <p>
@@ -31,20 +33,24 @@
         attend, such as food-packing events, medical outreaches, senior center
         visits, and socials. Go Beach! Go Tzu Ching!
       </p>
+      <FAQ />
     </CardWrapper>
   </div>
 </template>
 
 <script>
 import CardWrapper from '../components/UI/CardWrapper';
+import FAQ from '../components/FAQ';
+
 export default {
   components: {
     CardWrapper,
+    FAQ,
   },
 };
 </script>
 
-<style scoped>
+<style>
 #about_header {
   text-align: center;
   font-size: 3rem;
