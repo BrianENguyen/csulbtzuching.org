@@ -15,6 +15,7 @@ export default {};
   margin: 2% 5%;
 }
 .card_wrapper_content {
-  margin: 100px;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 </style>
