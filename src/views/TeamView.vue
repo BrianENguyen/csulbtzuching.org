@@ -55,8 +55,7 @@ export default {
         name: 'Vivienne A.',
         role: 'Executive Vice President',
         src: 'https://res.cloudinary.com/buraiyen/image/upload/v1638054519/CSULB_TC_Website/team_pic/vivienne.jpg',
-        description:
-          'Helps lead general meetings with president, finds a common meeting time with officers',
+        description: 'Helps lead organization with president',
         links: {
           email: 'mailto:Vivienne.An@student.csulb.edu',
           facebook: 'https://www.facebook.com/profile.php?id=100006438256523',
@@ -90,9 +89,15 @@ export default {
       {
         name: 'Mahya J.',
         role: 'VP of Communications',
+        src: 'https://res.cloudinary.com/buraiyen/image/upload/v1638067243/CSULB_TC_Website/team_pic/mahya.jpg',
         description:
           'Sends monthly emails that advertise general meetings and volunteering events',
-        links: {},
+        links: {
+          email: 'mailto:Habibimasar99@gmail.com',
+          linkedin: 'https://www.linkedin.com/in/mahya-jalali-42425561/',
+          instagram: 'https://www.instagram.com/missshadesofcool/',
+          tiktok: 'https://www.tiktok.com/@fragileseams',
+        },
       },
     ],
     advisors: [
