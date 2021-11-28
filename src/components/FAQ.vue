@@ -80,24 +80,19 @@
       </v-expansion-panel>
       <v-expansion-panel>
         <v-expansion-panel-header>
-          <h4>5. What is the uniform that you wear? How can I get one?</h4>
+          <h4>6. My question wasn't answered in here!</h4>
         </v-expansion-panel-header>
         <v-expansion-panel-content>
           <p>
-            Tzu Chi members wear a blue Tzu Chi shirt, white pants, and white
-            socks for their uniform. It signifies blue skies and white clouds.
-            By wearing our uniforms, we are building a presence for those who
-            are receiving our help
-          </p>
-          <p>
-            To obtain a uniform, you must reach 20 hours of volunteering across
-            <u>4 unique events</u>. This includes food distributions, medical
-            outreaches, etc. We also have virtual volunteering for you at
-            beanbeanbean.com and freerice.com, as well as sharing us your veggie
-            foods. General meetings, book club gatherings, and Dharma studies
-            also count towards your hours. Social events
-            <strong> DO NOT</strong> count. Hours carry over between semesters /
-            years
+            Feel free to send us an email at
+            <a href="mailto:tcca.csulb@gmail.com" target="_blank"
+              >tcca.csulb@gmail.com</a
+            >! You can also join
+            <a href="https://discord.gg/fmf3JtTNCc" target="_blank"
+              >Discord server</a
+            >
+            to ask us any questions, or to socialize with us and other general
+            members!
           </p>
         </v-expansion-panel-content>
       </v-expansion-panel>
