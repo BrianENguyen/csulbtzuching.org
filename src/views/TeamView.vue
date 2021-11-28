@@ -49,10 +49,7 @@ export default {
         role: 'President',
         description:
           'Plans monthly events, leads general meetings, delegates tasks to other officers',
-        links: {
-          email: '',
-          linkedin: '',
-        },
+        links: {},
       },
       {
         name: 'Vivienne A.',
@@ -75,9 +72,12 @@ export default {
         name: 'Jose A.',
         role: 'Treasurer',
         description: 'Handles all financial and budgeting of the organization',
+        src: 'https://res.cloudinary.com/buraiyen/image/upload/v1638062335/CSULB_TC_Website/team_pic/jose.jpg',
         links: {
-          email: '',
-          linkedin: '',
+          email: 'mailto:josecarlos.alcantara2016@gmail.com',
+          linkedin: 'https://www.linkedin.com/in/jose-alcantara-321378188',
+          instagram: 'https://www.instagram.com/jose.alcantara22/',
+          art: 'https://www.instagram.com/art.jose22/',
         },
       },
       {
@@ -85,10 +85,7 @@ export default {
         role: 'VP of Communications',
         description:
           'Sends monthly emails that advertise general meetings and volunteering events',
-        links: {
-          email: '',
-          linkedin: '',
-        },
+        links: {},
       },
     ],
     advisors: [
@@ -108,15 +105,11 @@ export default {
         name: 'Lily K.',
         role: 'Advisor',
         description: '',
-        email: '',
-        linkedin: '',
       },
       {
         name: 'Weili K.',
         role: 'Advisor',
         description: '',
-        email: '',
-        linkedin: '',
       },
     ],
   }),
