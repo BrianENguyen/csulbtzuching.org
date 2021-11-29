@@ -2,7 +2,7 @@
   <CardWrapper>
     <PageTitle>2021-2022 Team</PageTitle>
     <div class="section_spacer">
-      <h2 class="team_subheader">Officers</h2>
+      <PageHeader class="text-center">Officers</PageHeader>
       <v-row>
         <v-col
           cols="12"
@@ -38,12 +38,14 @@
 import TeamMemberCard from '../components/TeamMemberCard';
 import CardWrapper from '../components/UI/CardWrapper';
 import PageTitle from '../components/UI/Header/PageTitle';
+import PageHeader from '../components/UI/Header/PageHeader';
 
 export default {
   components: {
     TeamMemberCard,
     CardWrapper,
     PageTitle,
+    PageHeader,
   },
   data: () => ({
     officers: [

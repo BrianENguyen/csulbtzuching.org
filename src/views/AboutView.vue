@@ -2,7 +2,7 @@
   <div id="about">
     <CardWrapper>
       <PageTitle>About Us</PageTitle>
-      <h2 class="about_subheader">The Tzu Chi Foundation</h2>
+      <PageHeader>The Tzu Chi Foundation</PageHeader>
       <p>
         The Tzu Chi Foundation (<em>tzu</em> - "compassionate", <em>chi</em> -
         "relief") is a global relief organization whose main missions are
@@ -23,7 +23,7 @@
           >click here to visit Tzu Chi USA's website</a
         >
       </p>
-      <h2 class="about_subheader">CSULB Tzu Ching</h2>
+      <PageHeader>CSULB Tzu Ching</PageHeader>
       <p>
         The Tzu Chi Foundation consists of collegiate chapters throughout the
         world. CSULB Tzu Ching (<em>tzu</em> - "compassionate", <em>ching</em> -
@@ -42,23 +42,16 @@
 import CardWrapper from '../components/UI/CardWrapper';
 import FAQ from '../components/FAQ';
 import PageTitle from '../components/UI/Header/PageTitle';
+import PageHeader from '../components/UI/Header/PageHeader';
 
 export default {
   components: {
     CardWrapper,
     FAQ,
     PageTitle,
+    PageHeader,
   },
 };
 </script>
 
-<style>
-#about_header {
-  text-align: center;
-  font-size: 3rem;
-  color: #2f86a6;
-}
-.about_subheader {
-  color: #3babd4;
-}
-</style>
+<style></style>
