@@ -10,7 +10,7 @@
 }
 @media (min-width: 0px) {
   .page_header {
-    font-size: 4.5vw;
+    font-size: 6vw;
   }
 }
 

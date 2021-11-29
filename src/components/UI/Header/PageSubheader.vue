@@ -14,7 +14,7 @@ export default {};
 }
 @media (min-width: 0px) {
   .page_subheader {
-    font-size: 4.5vw;
+    font-size: 5vw;
   }
 }
 
