@@ -21,14 +21,15 @@
     </v-card-text>
     <v-card-actions>
       <v-btn
+        v-if="event.link"
+        class="upcoming_event_btn"
         color="blue"
         text
         :href="event.link"
         target="_blank"
-        v-if="event.link"
         >Sign Up</v-btn
       >
-      <v-btn color="blue" text target="_blank" v-else disabled
+      <v-btn v-else color="blue" text target="_blank" disabled
         >Sign Up Link Coming soon</v-btn
       >
     </v-card-actions>
@@ -56,5 +57,8 @@ export default {
 }
 .upcoming_event_description {
   font-weight: 300;
+}
+.upcoming_event_btn:hover {
+  text-decoration: none;
 }
 </style>
