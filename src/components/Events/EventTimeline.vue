@@ -41,7 +41,7 @@ export default {
 @media (min-width: 576px) {
   .month {
     margin-left: 10%;
-    font-size: 3vw;
+    font-size: 2.5vw;
   }
   .timeline_spacing {
     margin-left: 15%;
