@@ -1,32 +1,32 @@
 <template>
-  <h1 class="header">
+  <h1 class="page_header">
     <slot></slot>
   </h1>
 </template>
 
 <style>
-.header {
+.page_header {
   color: #2f86a6;
 }
 @media (min-width: 0px) {
-  .header {
+  .page_header {
     font-size: 7vw;
   }
 }
 
 @media (min-width: 576px) {
-  .header {
+  .page_header {
     font-size: 6vw;
   }
 }
 @media (min-width: 992px) {
-  .header {
+  .page_header {
     font-size: 3.5vw;
   }
 }
 
 @media (min-width: 1200px) {
-  .header {
+  .page_header {
     font-size: 2.5vw;
   }
 }
