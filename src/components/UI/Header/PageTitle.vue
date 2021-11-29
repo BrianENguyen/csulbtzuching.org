@@ -12,6 +12,7 @@ export default {};
 .page_title {
   font-size: 3vw;
   color: #2f86a6;
+  text-align: center;
 }
 @media (min-width: 0px) {
   .page_title {
