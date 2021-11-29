@@ -16,13 +16,13 @@ export default {};
 }
 @media (min-width: 0px) {
   .page_title {
-    font-size: 5.25vw;
+    font-size: 8vw;
   }
 }
 
 @media (min-width: 576px) {
   .page_title {
-    font-size: 4.5vw;
+    font-size: 6vw;
   }
 }
 @media (min-width: 992px) {
