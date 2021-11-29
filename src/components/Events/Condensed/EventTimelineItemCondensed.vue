@@ -4,7 +4,12 @@
     <h4 class="event_datetime">{{ event.date }} @ {{ event.time }}</h4>
     <p>{{ event.location }}</p>
     <p class="event_description">{{ event.description }}</p>
-    <a :href="event.link" class="signup_link"><v-btn small> Sign Up</v-btn></a>
+    <a v-if="event.link" :href="event.link" class="signup_link">
+      <v-btn color="blue">Sign Up</v-btn>
+    </a>
+    <a v-else class="btn_disabled">
+      <v-btn disabled>Event Ended</v-btn>
+    </a>
   </v-timeline-item>
 </template>
 
@@ -29,5 +34,9 @@ export default {
 }
 .event_description {
   font-weight: 300;
+}
+.btn_disabled:hover {
+  cursor: default;
+  text-decoration: none;
 }
 </style>
