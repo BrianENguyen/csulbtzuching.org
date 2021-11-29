@@ -28,31 +28,15 @@ export default {
     PageSubheader,
   },
   data: () => ({
-    month: 'November 2021',
+    month: 'December 2021',
     events: [
       {
-        name: 'Medical Outreach',
-        date: 'Saturday, 11/6/21',
-        time: '9:00 AM',
-        location: '1355 Broad Ave, Wilmington, CA 90744',
-        description:
-          'Help medical professionals provide services to those in need',
-      },
-      {
-        name: "Weili's Warm Gathering",
-        date: 'Wednesday, 11/3/21',
-        time: '9:00 AM',
+        name: 'December General Meeting',
+        date: '',
+        time: '',
         location: 'Zoom',
-        description:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, officia atque a unde aspernatur officiis facilis ipsam vero quisquam neque. Sapiente, ipsa nostrum! Inventore, assumenda! Nulla eligendi eum debitis asperiores?',
-      },
-      {
-        name: "Weili's Warm Gathering",
-        date: 'Wednesday, 11/3/21',
-        time: '9:00 AM',
-        location: 'Zoom',
-        description:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, officia atque a unde aspernatur officiis facilis ipsam vero quisquam neque. Sapiente, ipsa nostrum! Inventore, assumenda! Nulla eligendi eum debitis asperiores?',
+        description: '',
+        link: '',
       },
     ],
   }),
