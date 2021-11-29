@@ -6,9 +6,11 @@
       :label="`Condensed view: ${isCondensed.toString()}`"
     ></v-checkbox>
     <div v-if="isCondensed">
+      <EventTimelineCondensed month="December 2021" :events="december" />
       <EventTimelineCondensed month="November 2021" :events="november" />
     </div>
     <div v-else>
+      <EventTimeline month="December 2021" :events="december" />
       <EventTimeline month="November 2021" :events="november" />
     </div>
   </CardWrapper>
@@ -29,7 +31,23 @@ export default {
   },
   data: () => ({
     isCondensed: false,
+    december: [
+      {
+        name: 'December General Meeting',
+        date: 'Date and time TBA',
+        time: '',
+        location: 'Zoom',
+        description: '',
+      },
+    ],
     november: [
+      {
+        name: 'Bowling Social',
+        date: 'Sunday, 11/21/21',
+        time: '12:00 PM - 2:00PM',
+        location: '1355 Broad Ave, Wilmington, CA 90744',
+        description: '',
+      },
       {
         name: 'Medical Outreach',
         date: 'Saturday, 11/13/21',
