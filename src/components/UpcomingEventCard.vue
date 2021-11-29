@@ -6,9 +6,10 @@
       </h1>
     </v-card-title>
     <v-card-subtitle>
-      <h4 class="upcoming_event_datetime">
+      <h4 class="upcoming_event_datetime" v-if="event.date && event.time">
         {{ event.date }} @ {{ event.time }}
       </h4>
+      <h4 class="upcoming_event_datetime" v-else>Date and time TBA</h4>
       <h4 class="upcoming_event_location">
         {{ event.location }}
       </h4>
@@ -19,7 +20,17 @@
       </p>
     </v-card-text>
     <v-card-actions>
-      <v-btn color="blue" text>Sign Up</v-btn>
+      <v-btn
+        color="blue"
+        text
+        :href="event.link"
+        target="_blank"
+        v-if="event.link"
+        >Sign Up</v-btn
+      >
+      <v-btn color="blue" text target="_blank" v-else disabled
+        >Sign Up Link Coming soon</v-btn
+      >
     </v-card-actions>
   </v-card>
 </template>
