@@ -1,7 +1,10 @@
 <template>
   <v-timeline-item small>
     <h3 class="event_name">{{ event.name }}</h3>
-    <h4 class="event_datetime">{{ event.date }} @ {{ event.time }}</h4>
+    <h4 v-if="event.date && event.time" class="event_datetime">
+      {{ event.date }} @ {{ event.time }}
+    </h4>
+    <h4 v-else>Date and time TBA</h4>
     <p>{{ event.location }}</p>
     <p class="event_description">{{ event.description }}</p>
     <v-btn v-if="event.link == 'TBA'" class="btn_disabled" text disabled
