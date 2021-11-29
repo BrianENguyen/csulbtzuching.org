@@ -10,7 +10,7 @@
           data-aos="zoom-in-down"
           data-aos-duration="500"
         />
-        <h1 class="intro_title">Welcome to CSULB Tzu Ching!</h1>
+        <PageTitle>Welcome to CSULB Tzu Ching!</PageTitle>
         <p class="intro_description">
           CSULB Tzu Ching (also known as the Tzu Chi Collegiate Association of
           CSULB) are a volunteering organization of diverse students that
@@ -24,16 +24,16 @@
 </template>
 
 <script>
+import PageTitle from './UI/Header/PageTitle.vue';
 export default {
   name: 'Introduction',
+  components: {
+    PageTitle,
+  },
 };
 </script>
 
 <style scoped>
-.intro_title {
-  font-size: 3rem;
-  color: #2f86a6;
-}
 .intro_description {
   font-size: 1.2rem;
 }

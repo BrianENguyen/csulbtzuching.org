@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h2 class="about_subheader">Frequently Asked Questions</h2>
+    <PageHeader>Frequently Asked Questions</PageHeader>
     <v-expansion-panels>
       <v-expansion-panel>
         <v-expansion-panel-header>
@@ -103,6 +103,16 @@
     </v-expansion-panels>
   </div>
 </template>
+
+<script>
+import PageHeader from '../components/UI/Header/PageHeader';
+
+export default {
+  components: {
+    PageHeader,
+  },
+};
+</script>
 
 <style scoped>
 .question {

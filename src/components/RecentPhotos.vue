@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1 id="recent_photos_header">Recent Photos</h1>
+    <PageHeader>Recent Photos</PageHeader>
     <v-row class="fill-height">
       <v-col
         v-for="(photo, i) in photos"
@@ -23,11 +23,13 @@
 
 <script>
 import PhotoCard from './PhotoCard';
+import PageHeader from './UI/Header/PageHeader';
 
 export default {
   name: 'RecentPhotos',
   components: {
     PhotoCard,
+    PageHeader,
   },
   data: () => ({
     photos: [
@@ -40,9 +42,6 @@ export default {
 </script>
 
 <style>
-#recent_photos_header {
-  color: #2f86a6;
-}
 .photos_btn {
   margin: 4rem 0px;
 }

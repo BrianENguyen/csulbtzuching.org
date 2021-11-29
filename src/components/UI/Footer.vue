@@ -58,10 +58,20 @@ export default {
   margin-top: 100px;
 }
 #footer_content {
-  margin: 100px 100px;
   text-align: center;
   font-weight: 300;
 }
+@media (min-width: 0px) {
+  #footer_content {
+    margin: 0px;
+  }
+}
+@media (min-width: 576px) {
+  #footer_content {
+    margin: 10px;
+  }
+}
+
 .icon-link {
   color: rgb(116, 116, 116);
   transition: 0.5s;

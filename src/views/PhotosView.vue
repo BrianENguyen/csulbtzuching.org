@@ -1,9 +1,9 @@
 <template>
   <CardWrapper>
-    <h1 id="photos_header">Photos</h1>
-    <h3 id="photos_subheader">
+    <PageTitle>Photos</PageTitle>
+    <PageHeader class="text-center">
       Get a glimpse at what we do in our organization!
-    </h3>
+    </PageHeader>
     <div v-for="(event, i) in events" :key="i">
       <PhotoGallery :event="event" />
     </div>
@@ -13,11 +13,15 @@
 <script>
 import PhotoGallery from '../components/PhotoGallery.vue';
 import CardWrapper from '../components/UI/CardWrapper';
+import PageTitle from '../components/UI/Header/PageTitle';
+import PageHeader from '../components/UI/Header/PageHeader';
 
 export default {
   components: {
     PhotoGallery,
     CardWrapper,
+    PageTitle,
+    PageHeader,
   },
   data: () => ({
     events: [
@@ -47,11 +51,6 @@ export default {
 </script>
 
 <style>
-#photos_header {
-  text-align: center;
-  font-size: 3rem;
-  color: #2f86a6;
-}
 #photos_subheader {
   text-align: center;
   font-size: 2rem;
