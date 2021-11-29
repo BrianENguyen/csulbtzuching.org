@@ -1,6 +1,6 @@
 <template>
   <v-container id="recent_events_section">
-    <h1 id="recent_events_header">Upcoming Events</h1>
+    <PageHeader>Upcoming Events</PageHeader>
     <h2 class="recent_events_month">{{ month }}</h2>
     <v-row>
       <v-col v-for="(event, i) in events" :key="i" cols="12" md="6" lg="4">
@@ -18,9 +18,11 @@
 
 <script>
 import UpcomingEventCard from './UpcomingEventCard.vue';
+import PageHeader from './PageHeader.vue';
 export default {
   components: {
     UpcomingEventCard,
+    PageHeader,
   },
   data: () => ({
     month: 'November 2021',
@@ -59,9 +61,6 @@ export default {
 <style scoped>
 #recent_events_section {
   width: 100%;
-}
-#recent_events_header {
-  color: #2f86a6;
 }
 .recent_events_month {
   color: #3babd4;
