@@ -6,17 +6,17 @@
 
 <style>
 .page_header {
-  color: #2f86a6;
+  color: #3babd4;
 }
 @media (min-width: 0px) {
   .page_header {
-    font-size: 7vw;
+    font-size: 4.5vw;
   }
 }
 
 @media (min-width: 576px) {
   .page_header {
-    font-size: 6vw;
+    font-size: 4vw;
   }
 }
 @media (min-width: 992px) {
@@ -27,7 +27,7 @@
 
 @media (min-width: 1200px) {
   .page_header {
-    font-size: 2.5vw;
+    font-size: 2vw;
   }
 }
 </style>
