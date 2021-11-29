@@ -1,6 +1,6 @@
 <template>
   <v-card max-width="500" elevation="5">
-    <v-img height="150px" :src="event.img" />
+    <v-img height="200px" :src="event.img" />
     <v-card-title class="event_name">{{ event.name }}</v-card-title>
     <v-card-subtitle>
       <h4 class="event_datetime">{{ event.date }} @ {{ event.time }}</h4>
@@ -8,9 +8,10 @@
     </v-card-subtitle>
     <v-card-text class="event_description">{{ event.description }}</v-card-text>
     <v-card-actions>
-      <a :href="event.link" class="signup_link">
+      <a v-if="event.link" :href="event.link" class="signup_link">
         <v-btn color="blue" text>Sign Up</v-btn>
       </a>
+      <v-btn v-else class="btn_disabled" text disabled>Event Ended</v-btn>
     </v-card-actions>
   </v-card>
 </template>
@@ -38,5 +39,9 @@ export default {
   font-weight: 300;
   color: black;
   margin-top: -10px;
+}
+.btn_disabled:hover {
+  cursor: default;
+  text-decoration: none;
 }
 </style>
