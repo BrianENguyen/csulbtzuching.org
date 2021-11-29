@@ -23,7 +23,7 @@
 
 <script>
 import PhotoCard from './PhotoCard';
-import PageHeader from './PageHeader.vue';
+import PageHeader from './UI/Header/PageHeader';
 
 export default {
   name: 'RecentPhotos',

@@ -18,7 +18,8 @@
 
 <script>
 import UpcomingEventCard from './UpcomingEventCard.vue';
-import PageHeader from './PageHeader.vue';
+import PageHeader from './UI/Header/PageHeader';
+
 export default {
   components: {
     UpcomingEventCard,
