@@ -4,12 +4,13 @@
     <h4 class="event_datetime">{{ event.date }} @ {{ event.time }}</h4>
     <p>{{ event.location }}</p>
     <p class="event_description">{{ event.description }}</p>
-    <a v-if="event.link" :href="event.link" class="signup_link">
+    <v-btn v-if="event.link == 'TBA'" class="btn_disabled" text disabled
+      >Sign Up Link Coming Soon</v-btn
+    >
+    <a v-else-if="event.link" :href="event.link" class="signup_link">
       <v-btn color="blue">Sign Up</v-btn>
     </a>
-    <a v-else class="btn_disabled">
-      <v-btn disabled>Event Ended</v-btn>
-    </a>
+    <v-btn v-else class="btn_disabled" disabled>Event Ended</v-btn>
   </v-timeline-item>
 </template>
 

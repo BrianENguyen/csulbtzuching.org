@@ -8,7 +8,10 @@
     </v-card-subtitle>
     <v-card-text class="event_description">{{ event.description }}</v-card-text>
     <v-card-actions>
-      <a v-if="event.link" :href="event.link" class="signup_link">
+      <v-btn v-if="event.link == 'TBA'" class="btn_disabled" text disabled
+        >Sign Up Link Coming Soon</v-btn
+      >
+      <a v-else-if="event.link" :href="event.link" class="signup_link">
         <v-btn color="blue" text>Sign Up</v-btn>
       </a>
       <v-btn v-else class="btn_disabled" text disabled>Event Ended</v-btn>

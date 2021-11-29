@@ -38,7 +38,7 @@ export default {
         description:
           'Assist medical professionals in providing medical services to those in need!',
         img: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_678/v1636487294/CSULB_TC_Website/DSC_0118_c3fvq6.jpg',
-        link: '',
+        link: 'TBA',
       },
     ],
   }),
