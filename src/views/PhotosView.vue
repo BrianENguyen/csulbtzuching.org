@@ -1,6 +1,6 @@
 <template>
   <CardWrapper>
-    <h1 id="photos_header">Photos</h1>
+    <PageTitle>Photos</PageTitle>
     <h3 id="photos_subheader">
       Get a glimpse at what we do in our organization!
     </h3>
@@ -13,11 +13,13 @@
 <script>
 import PhotoGallery from '../components/PhotoGallery.vue';
 import CardWrapper from '../components/UI/CardWrapper';
+import PageTitle from '../components/UI/Header/PageTitle';
 
 export default {
   components: {
     PhotoGallery,
     CardWrapper,
+    PageTitle,
   },
   data: () => ({
     events: [
@@ -47,11 +49,6 @@ export default {
 </script>
 
 <style>
-#photos_header {
-  text-align: center;
-  font-size: 3rem;
-  color: #2f86a6;
-}
 #photos_subheader {
   text-align: center;
   font-size: 2rem;

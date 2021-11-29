@@ -1,6 +1,6 @@
 <template>
   <CardWrapper>
-    <h1 id="events_header">Events</h1>
+    <PageTitle>Events</PageTitle>
     <v-checkbox
       v-model="isCondensed"
       :label="`Condensed view: ${isCondensed.toString()}`"
@@ -18,12 +18,14 @@
 import EventTimeline from '../components/Events/EventTimeline';
 import EventTimelineCondensed from '../components/Events/Condensed/EventTimelineCondensed';
 import CardWrapper from '../components/UI/CardWrapper';
+import PageTitle from '../components/UI/Header/PageTitle';
 
 export default {
   components: {
     EventTimeline,
     EventTimelineCondensed,
     CardWrapper,
+    PageTitle,
   },
   data: () => ({
     isCondensed: false,
@@ -59,11 +61,3 @@ export default {
   }),
 };
 </script>
-
-<style scoped>
-#events_header {
-  text-align: center;
-  font-size: 3rem;
-  color: #2f86a6;
-}
-</style>

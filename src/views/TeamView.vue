@@ -1,6 +1,6 @@
 <template>
   <CardWrapper>
-    <h1 id="team_header">2021-2022 Team</h1>
+    <PageTitle>2021-2022 Team</PageTitle>
     <div class="section_spacer">
       <h2 class="team_subheader">Officers</h2>
       <v-row>
@@ -37,10 +37,13 @@
 <script>
 import TeamMemberCard from '../components/TeamMemberCard';
 import CardWrapper from '../components/UI/CardWrapper';
+import PageTitle from '../components/UI/Header/PageTitle';
+
 export default {
   components: {
     TeamMemberCard,
     CardWrapper,
+    PageTitle,
   },
   data: () => ({
     officers: [
@@ -113,11 +116,6 @@ export default {
 </script>
 
 <style scoped>
-#team_header {
-  text-align: center;
-  font-size: 3rem;
-  color: #2f86a6;
-}
 .team_subheader {
   text-align: center;
   font-size: 2.5rem;

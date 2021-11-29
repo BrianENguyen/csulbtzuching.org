@@ -1,7 +1,7 @@
 <template>
   <div id="about">
     <CardWrapper>
-      <h1 id="about_header">About Us</h1>
+      <PageTitle>About Us</PageTitle>
       <h2 class="about_subheader">The Tzu Chi Foundation</h2>
       <p>
         The Tzu Chi Foundation (<em>tzu</em> - "compassionate", <em>chi</em> -
@@ -41,11 +41,13 @@
 <script>
 import CardWrapper from '../components/UI/CardWrapper';
 import FAQ from '../components/FAQ';
+import PageTitle from '../components/UI/Header/PageTitle';
 
 export default {
   components: {
     CardWrapper,
     FAQ,
+    PageTitle,
   },
 };
 </script>
