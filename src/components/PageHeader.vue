@@ -5,26 +5,29 @@
 </template>
 
 <style>
+.header {
+  color: #2f86a6;
+}
 @media (min-width: 0px) {
   .header {
-    font-size: 5.25vw;
+    font-size: 7vw;
   }
 }
 
 @media (min-width: 576px) {
   .header {
-    font-size: 4.5vw;
+    font-size: 6vw;
   }
 }
 @media (min-width: 992px) {
   .header {
-    font-size: 4vw;
+    font-size: 3.5vw;
   }
 }
 
 @media (min-width: 1200px) {
   .header {
-    font-size: 3vw;
+    font-size: 2.5vw;
   }
 }
 </style>
