@@ -1,6 +1,6 @@
 <template>
   <v-card max-width="500" elevation="5">
-    <v-img height="200px" :src="event.img" />
+    <v-img v-if="event.img" height="200px" :src="event.img" />
     <v-card-title class="event_name">{{ event.name }}</v-card-title>
     <v-card-subtitle>
       <h4 class="event_datetime">{{ event.date }} @ {{ event.time }}</h4>
