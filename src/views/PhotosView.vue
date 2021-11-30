@@ -31,7 +31,7 @@ export default {
         photos: [
           'https://res.cloudinary.com/buraiyen/image/upload/v1637183817/CSULB_TC_Website/6F3E6219-7561-4D01-AA4A-B13A735CCE80_kjncp4.jpg',
           'https://res.cloudinary.com/buraiyen/image/upload/v1637183822/CSULB_TC_Website/IMG_9996_bdgkjf.jpg',
-          'https://res.cloudinary.com/buraiyen/image/upload/v1637183820/CSULB_TC_Website/IMG_0040_txeaj1.jpg',
+          'https://res.cloudinary.com/buraiyen/image/upload/v1638232325/CSULB_TC_Website/outreach_totlvn.jpg',
         ],
       },
       {
