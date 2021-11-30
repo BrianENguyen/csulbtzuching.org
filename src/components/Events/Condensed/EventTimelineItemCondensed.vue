@@ -5,7 +5,7 @@
       {{ event.date }} @ {{ event.time }}
     </h4>
     <h4 v-else>Date and time TBA</h4>
-    <p>{{ event.location }}</p>
+    <p class="event_location">{{ event.location }}</p>
     <p class="event_description">{{ event.description }}</p>
     <v-btn v-if="event.link == 'TBA'" class="btn_disabled" text disabled
       >Sign Up Link Coming Soon</v-btn
@@ -35,6 +35,9 @@ export default {
 }
 .event_datetime {
   font-size: 1.25rem;
+}
+.event_location {
+  font-weight: 700;
 }
 .event_description {
   font-weight: 300;
