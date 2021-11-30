@@ -7,7 +7,7 @@
         {{ event.date }} @ {{ event.time }}
       </h4>
       <h4 v-else>Date and time TBA</h4>
-      <p>{{ event.location }}</p>
+      <p class="event_location">{{ event.location }}</p>
     </v-card-subtitle>
     <v-card-text class="event_description">{{ event.description }}</v-card-text>
     <v-card-actions>
@@ -46,6 +46,9 @@ export default {
   font-weight: 300;
   color: black;
   margin-top: -10px;
+}
+.event_location {
+  font-weight: 700;
 }
 .btn_disabled:hover {
   cursor: default;

@@ -38,6 +38,25 @@ export default {
         time: '',
         location: 'Zoom',
         description: '',
+        link: 'TBA',
+      },
+      {
+        name: 'Food Distribution',
+        date: 'Saturday, 12/18/21',
+        time: '8:00 AM - 12:00 PM',
+        location:
+          'Tzu Chi Health Center - 1355 Broad Ave, Wilmington, CA 90744',
+        description: '',
+        img: 'https://res.cloudinary.com/buraiyen/image/upload/v1638307033/CSULB_TC_Website/fooddistribution.jpg',
+        link: 'TBA',
+      },
+      {
+        name: 'Online Dharma Study',
+        date: 'Sunday, 12/05/21',
+        time: '5:00 PM - 6:00 PM',
+        location: 'Zoom',
+        description: '',
+        link: 'TBA',
       },
     ],
     november: [
@@ -45,14 +64,16 @@ export default {
         name: 'Bowling Social',
         date: 'Sunday, 11/21/21',
         time: '12:00 PM - 2:00PM',
-        location: '1355 Broad Ave, Wilmington, CA 90744',
+        location: '',
         description: '',
+        link: '',
       },
       {
         name: 'Medical Outreach',
         date: 'Saturday, 11/13/21',
         time: '9:00 AM',
-        location: '1355 Broad Ave, Wilmington, CA 90744',
+        location:
+          'Tzu Chi Health Center - 1355 Broad Ave, Wilmington, CA 90744',
         description:
           'Assist medical professionals in providing medical services to those in need!',
         img: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_678/v1636487294/CSULB_TC_Website/DSC_0118_c3fvq6.jpg',
