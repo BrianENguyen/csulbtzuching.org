@@ -104,7 +104,7 @@ export default {
       {
         name: 'Brian N.',
         role: 'Webmaster / Photographer / Advisor',
-        src: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,e_brightness:33,w_1084/v1638060412/CSULB_TC_Website/team_pic/Brian.jpg',
+        src: 'https://res.cloudinary.com/buraiyen/image/upload/e_brightness:27/v1638230670/CSULB_TC_Website/team_pic/brian2.jpg',
         description:
           'Maintains CSULB TC website and advises current officer board',
         links: {
