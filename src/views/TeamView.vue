@@ -17,17 +17,17 @@
       </v-row>
     </div>
     <div>
-      <h2 class="team_subheader">Advisors</h2>
+      <PageHeader class="text-center">Alumni</PageHeader>
       <v-row>
         <v-col
           cols="12"
           lg="4"
           md="6"
           sm="12"
-          v-for="(advisor, i) in advisors"
+          v-for="(alumni, i) in alumnis"
           :key="i"
         >
-          <TeamMemberCard :member="advisor" />
+          <TeamMemberCard :member="alumni" />
         </v-col>
       </v-row>
     </div>
@@ -89,7 +89,7 @@ export default {
         linkedin: '',
       },
     ],
-    advisors: [
+    alumnis: [
       {
         name: 'Brian N.',
         role: 'Webmaster / Photographer / Advisor',
