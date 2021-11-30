@@ -48,6 +48,7 @@ export default {
 .upcoming_event_name {
   font-size: 1.5rem;
   color: #34be82;
+  word-break: break-word;
 }
 .upcoming_event_datetime {
   font-size: 1rem;

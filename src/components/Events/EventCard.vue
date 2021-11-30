@@ -37,6 +37,7 @@ export default {
 .event_name {
   color: #34be82;
   font-size: 1.75rem;
+  word-break: break-word;
 }
 .event_datetime {
   font-size: 1.25rem;
