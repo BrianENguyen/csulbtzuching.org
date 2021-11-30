@@ -103,10 +103,10 @@ export default {
     advisors: [
       {
         name: 'Brian N.',
-        role: 'Webmaster / Photographer / Advisor',
+        role: 'Webmaster / Photography',
         src: 'https://res.cloudinary.com/buraiyen/image/upload/e_brightness:27/v1638230670/CSULB_TC_Website/team_pic/brian2.jpg',
         description:
-          'Maintains CSULB TC website and advises current officer board',
+          'Manages CSULB TC website and provides photography at events',
         links: {
           email: 'mailto:brian.edison.nguyen@gmail.com',
           linkedin: 'https://www.linkedin.com/in/brian-edison-nguyen/',
@@ -115,8 +115,9 @@ export default {
       },
       {
         name: 'Lily K.',
-        role: 'Advisor',
-        description: '',
+        role: 'Graphic Designer',
+        description:
+          "Designed our organization's logo and provides art/designs for social media posts",
         src: 'https://res.cloudinary.com/buraiyen/image/upload/v1638064513/CSULB_TC_Website/team_pic/lily.jpg',
         links: {
           site: 'https://www.lilykang.com/',
