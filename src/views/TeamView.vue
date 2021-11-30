@@ -117,7 +117,7 @@ export default {
         name: 'Lily K.',
         role: 'Graphic Designer',
         description:
-          "Designed our organization's logo and provides art/designs for social media posts",
+          "Designed our organization's logo, provides art/designs for social media posts",
         src: 'https://res.cloudinary.com/buraiyen/image/upload/v1638064513/CSULB_TC_Website/team_pic/lily.jpg',
         links: {
           site: 'https://www.lilykang.com/',
@@ -127,7 +127,9 @@ export default {
       {
         name: 'Weili K.',
         role: 'Advisor',
-        description: '',
+        description:
+          'Advises officer board, reports activities to the Tzu Chi Foundation, provides local Tzu Chi event opportunities, hosts monthly book club event',
+        src: 'https://res.cloudinary.com/buraiyen/image/upload/v1638304013/CSULB_TC_Website/team_pic/weili.jpg',
       },
     ],
   }),
