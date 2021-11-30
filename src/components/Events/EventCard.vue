@@ -1,5 +1,5 @@
 <template>
-  <v-card max-width="500" elevation="5">
+  <v-card max-width="400" elevation="5">
     <v-img v-if="event.img" height="200px" :src="event.img" />
     <v-card-title class="event_name">{{ event.name }}</v-card-title>
     <v-card-subtitle>
@@ -12,7 +12,7 @@
     <v-card-text class="event_description">{{ event.description }}</v-card-text>
     <v-card-actions>
       <v-btn v-if="event.link == 'TBA'" class="btn_disabled" text disabled
-        >Sign Up Link Coming Soon</v-btn
+        >Link Coming Soon</v-btn
       >
       <a v-else-if="event.link" :href="event.link" class="signup_link">
         <v-btn color="blue" text>Sign Up</v-btn>

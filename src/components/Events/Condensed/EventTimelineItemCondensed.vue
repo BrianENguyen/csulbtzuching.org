@@ -8,7 +8,7 @@
     <p class="event_location">{{ event.location }}</p>
     <p class="event_description">{{ event.description }}</p>
     <v-btn v-if="event.link == 'TBA'" class="btn_disabled" text disabled
-      >Sign Up Link Coming Soon</v-btn
+      >Link Coming Soon</v-btn
     >
     <a v-else-if="event.link" :href="event.link" class="signup_link">
       <v-btn color="blue">Sign Up</v-btn>
