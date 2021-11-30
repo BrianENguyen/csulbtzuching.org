@@ -38,6 +38,23 @@ export default {
         description: '',
         link: '',
       },
+      {
+        name: 'Food Distribution',
+        date: 'Saturday, 12/18/21',
+        time: '8:00 AM - 12:00 PM',
+        location:
+          'Tzu Chi Health Center - 1355 Broad Ave, Wilmington, CA 90744',
+        description: 'Help distribute food for families!',
+        link: '',
+      },
+      {
+        name: 'Online Dharma Study',
+        date: 'Sunday, 12/05/21',
+        time: '5:00 PM - 6:00 PM',
+        location: 'Zoom',
+        description: '',
+        link: '',
+      },
     ],
   }),
 };
