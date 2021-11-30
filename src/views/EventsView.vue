@@ -46,7 +46,7 @@ export default {
         time: '8:00 AM - 12:00 PM',
         location:
           'Tzu Chi Health Center - 1355 Broad Ave, Wilmington, CA 90744',
-        description: '',
+        description: 'Help distribute food for families!',
         img: 'https://res.cloudinary.com/buraiyen/image/upload/v1638307033/CSULB_TC_Website/fooddistribution.jpg',
         link: 'TBA',
       },
