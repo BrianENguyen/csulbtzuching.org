@@ -5,3 +5,12 @@ CSULB Tzu Ching (tzu - "compassionate", ching - "youth") is a charity and volunt
 This website is for showcasing information about us, upcoming and past events, board members, and photos
 
 [Click here to visit the site (csulbtzuching.org)](https://www.csulbtzuching.org)
+
+## Tech Stack
+
+Made with the Vue.js framework along with the Vuetify material design framework
+
+## Future Plans
+
+- contact page
+- donation link for the website, CSULB TC, and Tzu Chi Foundation
