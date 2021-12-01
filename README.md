@@ -14,3 +14,10 @@ Made with the Vue.js framework along with the Vuetify material design framework
 
 - contact page
 - donation link for the website, CSULB TC, and Tzu Chi Foundation
+
+## Images
+
+![img1](./readme-img/img1.png)
+![img2](./readme-img/img2.png)
+![img3](./readme-img/img3.png)
+![img4](./readme-img/img4.png)
