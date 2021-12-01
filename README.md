@@ -1,24 +1,26 @@
-# csulb-tc-website
+# CSULB Tzu Ching
 
-## Project setup
-```
-npm install
-```
+CSULB Tzu Ching (tzu - "compassionate", ching - "youth") is a charity and volunteering organization at California State University, Long Beach. It is the CSULB collegiate chapter of the global relief organization, the Tzu Chi Foundation; it was founded in 2014 and consists of many students from diverse backgrounds, majors, ethnicities, and more. Our general meetings are once a month and we provide diverse range of events for members to attend, such as food-packing events, medical outreaches, senior center visits, and socials.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+This website is for showcasing information about us, upcoming and past events, board members, and photos
 
-### Compiles and minifies for production
-```
-npm run build
-```
+[Click here to visit the site (csulbtzuching.org)](https://www.csulbtzuching.org)
 
-### Lints and fixes files
-```
-npm run lint
-```
+## Tech Stack
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- [Vue.js](https://vuejs.org/) - open-source front end JS framework
+- [Vuetify](https://vuetifyjs.com/en/) - material design framework for Vue.js
+- [Animate.css](https://animate.style/) - library of animations
+- [Animate on Scroll (AOS)](https://michalsnik.github.io/aos/) - library of animations when scrolling
+
+## Future Plans
+
+- contact page
+- donation link for the website, CSULB TC, and Tzu Chi Foundation
+
+## Images
+
+![img1](./readme-img/img1.png)
+![img2](./readme-img/img2.png)
+![img3](./readme-img/img3.png)
+![img4](./readme-img/img4.png)
