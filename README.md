@@ -16,7 +16,13 @@ This website is for showcasing information about us, upcoming and past events, b
 ## Future Plans
 
 - contact page
-- donation link for the website, CSULB TC, and Tzu Chi Foundation
+- donation page for the website and the Tzu Chi Foundation
+
+## Donations
+
+Donations are greatly appreciated because they help keep the website online! If you want to support our organization, then consider donating!
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/M4M55WZLN)
 
 ## Images
 
