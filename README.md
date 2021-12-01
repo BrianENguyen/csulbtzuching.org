@@ -8,7 +8,10 @@ This website is for showcasing information about us, upcoming and past events, b
 
 ## Tech Stack
 
-Made with the Vue.js framework along with the Vuetify material design framework
+- [Vue.js](https://vuejs.org/) - open-source front end JS framework
+- [Vuetify](https://vuetifyjs.com/en/) - material design framework for Vue.js
+- [Animate.css](https://animate.style/) - library of animations
+- [Animate on Scroll (AOS)](https://michalsnik.github.io/aos/) - library of animations when scrolling
 
 ## Future Plans
 
