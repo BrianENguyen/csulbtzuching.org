@@ -7,10 +7,9 @@
     </p>
     <DonateButton :info="csulbtc" />
     <p class="my-3">
-      If you wish to donate to the Tzu Chi Foundation, please
-      <a href="https://donate.tzuchi.us/cause/gift/">click here.</a> Your
-      donation will help Tzu Chi with their efforts in providing relief, like
-      food, clothing, and medical care!
+      You can also donate to our mother organization, the Tzu Chi Foundation.
+      Your contribution will help Tzu Chi with their efforts in providing
+      relief, like food, clothing, and medical care!
     </p>
     <DonateButton :info="tzuchi" />
   </CardWrapper>
@@ -35,7 +34,7 @@ export default {
     },
     tzuchi: {
       logo: 'https://res.cloudinary.com/buraiyen/image/upload/v1638403135/CSULB_TC_Website/tclogo.png',
-      link: 'https://ko-fi.com/brianenguyen',
+      link: 'https://donate.tzuchi.us/cause/gift/',
       color: 'blue lighten-3',
     },
   }),
