@@ -13,7 +13,7 @@
 <script>
 import Carousel from '../components/Carousel/Carousel.vue';
 import Introduction from '../components/Introduction';
-import UpcomingEvents from '../components/UpcomingEvents';
+import UpcomingEvents from '../components/Events/Upcoming/UpcomingEvents';
 import Quote from '../components/Quote';
 import RecentPhotos from '../components/Photos/RecentPhotos';
 import CardWrapper from '../components/UI/CardWrapper.vue';
