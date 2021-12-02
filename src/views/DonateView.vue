@@ -4,12 +4,16 @@
     <p class="my-3">
       Donations are greatly appreciated because they help keep the website
       online! If you want to support our organization, then consider donating!
+      <em
+        >Note: the link will take you to our web developer's donation page,
+        where you can make your donation</em
+      >
     </p>
     <DonateButton :info="csulbtc" />
     <p class="my-3">
-      You can also donate to our mother organization, the Tzu Chi Foundation.
-      Your contribution will help Tzu Chi with their efforts in providing
-      relief, like food, clothing, and medical care!
+      You can also donate to our mother organization, the Tzu Chi Foundation, on
+      their website. Your contribution will help Tzu Chi with their efforts in
+      providing relief, like food, clothing, and medical care!
     </p>
     <DonateButton :info="tzuchi" />
   </CardWrapper>
