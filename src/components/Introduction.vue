@@ -4,6 +4,7 @@
       <v-col cols="12">
         <v-img
           :src="require('../assets/logo.png')"
+          :lazy-src="require('../assets/logo.png')"
           class="my-3"
           contain
           height="300"

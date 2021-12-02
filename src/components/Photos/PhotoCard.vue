@@ -3,6 +3,7 @@
     <template v-slot:activator="{ on, attrs }">
       <v-img
         :src="photo"
+        :lazy-src="photo"
         class="photo_card"
         v-bind="attrs"
         v-on="on"
