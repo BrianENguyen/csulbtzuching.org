@@ -5,6 +5,7 @@ import AboutView from '../views/AboutView.vue';
 import TeamView from '../views/TeamView.vue';
 import EventsView from '../views/EventsView.vue';
 import PhotosView from '../views/PhotosView.vue';
+import DonateView from '../views/DonateView.vue';
 import ErrorView from '../views/ErrorView.vue';
 
 Vue.use(VueRouter);
@@ -39,6 +40,12 @@ const routes = [
     name: 'Photos',
     component: PhotosView,
     meta: { title: 'Photos | CSULB TC' },
+  },
+  {
+    path: '/donate',
+    name: 'Donate',
+    component: DonateView,
+    meta: { title: 'Donate| CSULB TC' },
   },
   {
     path: '*',
