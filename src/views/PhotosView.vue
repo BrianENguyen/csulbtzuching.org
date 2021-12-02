@@ -11,7 +11,7 @@
 </template>
 
 <script>
-import PhotoGallery from '../components/PhotoGallery.vue';
+import PhotoGallery from '../components/Photos/PhotoGallery.vue';
 import CardWrapper from '../components/UI/CardWrapper';
 import PageTitle from '../components/UI/Header/PageTitle';
 import PageHeader from '../components/UI/Header/PageHeader';

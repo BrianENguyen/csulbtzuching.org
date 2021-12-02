@@ -17,9 +17,9 @@
 </template>
 
 <script>
-import UpcomingEventCard from './UpcomingEventCard.vue';
-import PageHeader from './UI/Header/PageHeader';
-import PageSubheader from './UI/Header/PageSubheader';
+import UpcomingEventCard from './UpcomingEventCard';
+import PageHeader from '../../UI/Header/PageHeader';
+import PageSubheader from '../../UI/Header/PageSubheader';
 
 export default {
   components: {
