@@ -16,7 +16,6 @@ This website is for showcasing information about us, upcoming and past events, b
 ## Future Plans
 
 - contact page
-- donation page for the website and the Tzu Chi Foundation
 
 ## Donations
 
