@@ -1,20 +1,27 @@
 <template>
-  <v-container>
-    <h1 id="photos_header">Photos</h1>
-    <h3 id="photos_subheader">
+  <CardWrapper>
+    <PageTitle>Photos</PageTitle>
+    <PageHeader class="text-center">
       Get a glimpse at what we do in our organization!
-    </h3>
+    </PageHeader>
     <div v-for="(event, i) in events" :key="i">
       <PhotoGallery :event="event" />
     </div>
-  </v-container>
+  </CardWrapper>
 </template>
 
 <script>
-import PhotoGallery from '../components/PhotoGallery.vue';
+import PhotoGallery from '../components/Photos/PhotoGallery.vue';
+import CardWrapper from '../components/UI/CardWrapper';
+import PageTitle from '../components/UI/Header/PageTitle';
+import PageHeader from '../components/UI/Header/PageHeader';
+
 export default {
   components: {
     PhotoGallery,
+    CardWrapper,
+    PageTitle,
+    PageHeader,
   },
   data: () => ({
     events: [
@@ -24,7 +31,7 @@ export default {
         photos: [
           'https://res.cloudinary.com/buraiyen/image/upload/v1637183817/CSULB_TC_Website/6F3E6219-7561-4D01-AA4A-B13A735CCE80_kjncp4.jpg',
           'https://res.cloudinary.com/buraiyen/image/upload/v1637183822/CSULB_TC_Website/IMG_9996_bdgkjf.jpg',
-          'https://res.cloudinary.com/buraiyen/image/upload/v1637183820/CSULB_TC_Website/IMG_0040_txeaj1.jpg',
+          'https://res.cloudinary.com/buraiyen/image/upload/v1638232325/CSULB_TC_Website/outreach_totlvn.jpg',
         ],
       },
       {
@@ -44,11 +51,6 @@ export default {
 </script>
 
 <style>
-#photos_header {
-  text-align: center;
-  font-size: 3rem;
-  color: #2f86a6;
-}
 #photos_subheader {
   text-align: center;
   font-size: 2rem;

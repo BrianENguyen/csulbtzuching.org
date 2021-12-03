@@ -25,7 +25,6 @@ export default {
 
 <style scoped>
 .month {
-  font-size: 2.5rem;
   color: #3babd4;
 }
 
@@ -35,12 +34,14 @@ export default {
   }
   .month {
     margin-left: 15%;
+    font-size: 2vw;
   }
 }
 
 @media (min-width: 576px) {
   .month {
     margin-left: 10%;
+    font-size: 2.5vw;
   }
   .timeline_spacing {
     margin-left: 15%;

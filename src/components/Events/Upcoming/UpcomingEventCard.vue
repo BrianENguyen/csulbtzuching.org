@@ -1,14 +1,15 @@
 <template>
-  <v-card elevation="3">
+  <v-card elevation="3" data-aos="fade-up" data-aos-duration="1000">
     <v-card-title>
       <h1 class="upcoming_event_name">
         {{ event.name }}
       </h1>
     </v-card-title>
     <v-card-subtitle>
-      <h4 class="upcoming_event_datetime">
+      <h4 class="upcoming_event_datetime" v-if="event.date && event.time">
         {{ event.date }} @ {{ event.time }}
       </h4>
+      <h4 class="upcoming_event_datetime" v-else>Date and time TBA</h4>
       <h4 class="upcoming_event_location">
         {{ event.location }}
       </h4>
@@ -19,7 +20,18 @@
       </p>
     </v-card-text>
     <v-card-actions>
-      <v-btn color="blue" text>Sign Up</v-btn>
+      <v-btn
+        v-if="event.link"
+        class="upcoming_event_btn"
+        color="blue"
+        text
+        :href="event.link"
+        target="_blank"
+        >Sign Up</v-btn
+      >
+      <v-btn v-else color="blue" text target="_blank" disabled
+        >Sign Up Link Coming soon</v-btn
+      >
     </v-card-actions>
   </v-card>
 </template>
@@ -36,6 +48,7 @@ export default {
 .upcoming_event_name {
   font-size: 1.5rem;
   color: #34be82;
+  word-break: break-word;
 }
 .upcoming_event_datetime {
   font-size: 1rem;
@@ -45,5 +58,8 @@ export default {
 }
 .upcoming_event_description {
   font-weight: 300;
+}
+.upcoming_event_btn:hover {
+  text-decoration: none;
 }
 </style>
