@@ -1,6 +1,5 @@
 <template>
   <h1 class="page_header">
-    <hr />
     <slot></slot>
   </h1>
 </template>
