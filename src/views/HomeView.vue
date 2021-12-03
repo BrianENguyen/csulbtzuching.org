@@ -3,7 +3,9 @@
     <Carousel />
     <CardWrapper>
       <Introduction />
+      <hr />
       <UpcomingEvents />
+      <hr />
       <RecentPhotos />
       <Quote />
     </CardWrapper>
