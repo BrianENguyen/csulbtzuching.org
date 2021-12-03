@@ -45,7 +45,7 @@ const routes = [
     path: '/donate',
     name: 'Donate',
     component: DonateView,
-    meta: { title: 'Donate| CSULB TC' },
+    meta: { title: 'Donate | CSULB TC' },
   },
   {
     path: '*',
