@@ -114,7 +114,7 @@ export default {
     alumnis: [
       {
         name: 'Brian N.',
-        role: 'Webmaster / Photography',
+        role: 'Webmaster / Photographer',
         src: 'https://res.cloudinary.com/buraiyen/image/upload/e_brightness:27/v1638230670/CSULB_TC_Website/team_pic/brian2.jpg',
         description:
           'Manages CSULB TC website and provides photography at events',
