@@ -26,7 +26,7 @@ export default {
 .carousel_header {
   color: #ffffff;
   font-size: 4rem;
-  font-weight: 300;
+  font-weight: 500;
 }
 .carousel_description {
   font-size: 2rem;
