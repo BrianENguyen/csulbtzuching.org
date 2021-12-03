@@ -24,16 +24,14 @@ export default {
   text-align: center;
 }
 .carousel_header {
-  color: #000000;
+  color: #ffffff;
   font-size: 4rem;
-  -webkit-text-stroke-width: 3px;
-  -webkit-text-fill-color: #ffffff;
+  font-weight: 300;
 }
 .carousel_description {
   font-size: 2rem;
-  color: #000000;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-fill-color: #ffffff;
+  color: #ffffff;
+  font-weight: 300;
 }
 .carousel_btn:hover {
   text-decoration: none;
@@ -45,11 +43,9 @@ export default {
   }
   .carousel_header {
     font-size: 2.5rem;
-    -webkit-text-stroke-width: 1px;
   }
   .carousel_description {
     font-size: 2rem;
-    -webkit-text-stroke-width: 0.5px;
   }
 }
 
@@ -60,26 +56,22 @@ export default {
   }
   .carousel_header {
     font-size: 3rem;
-    -webkit-text-stroke-width: 2px;
   }
   .carousel_description {
     font-size: 2rem;
-    -webkit-text-stroke-width: 1px;
   }
 }
 
 @media (min-width: 768px) {
   .carousel_content {
-    margin-top: 13%;
+    margin-top: 10%;
     text-align: center;
   }
   .carousel_header {
     font-size: 4rem;
-    -webkit-text-stroke-width: 3px;
   }
   .carousel_description {
     font-size: 3rem;
-    -webkit-text-stroke-width: 2px;
   }
 }
 </style>
