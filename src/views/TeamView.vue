@@ -47,12 +47,14 @@ export default {
       {
         name: 'Samanta C.',
         role: 'President',
-        src: '',
+        src: 'https://res.cloudinary.com/buraiyen/image/upload/v1638506409/CSULB_TC_Website/team_pic/sam_qvxb4x.jpg',
         description:
           'Plans monthly events, leads general meetings, delegates tasks to other officers',
         links: {
           email: 'mailto:samanta.Corte@student.csulb.edu',
           linkedin: 'https://www.linkedin.com/in/samanta-corte-2000',
+          instagram: 'https://www.instagram.com/samantacorte/',
+          food: 'https://www.instagram.com/forevercherriesontop/',
         },
       },
       {
