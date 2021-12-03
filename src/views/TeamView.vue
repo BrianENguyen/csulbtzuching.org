@@ -132,7 +132,7 @@ export default {
         name: 'Weili K.',
         role: 'Advisor',
         description:
-          'Advises officer board, reports activities to the Tzu Chi Foundation, provides local Tzu Chi event opportunities, hosts monthly book club event',
+          'Advises officer board, reports activities to the Tzu Chi Foundation, supports CSULB TC with volunteering opportunities, hosts monthly book club event',
         src: 'https://res.cloudinary.com/buraiyen/image/upload/v1638304013/CSULB_TC_Website/team_pic/weili.jpg',
       },
     ],
