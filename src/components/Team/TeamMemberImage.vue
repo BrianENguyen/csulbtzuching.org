@@ -3,17 +3,35 @@
     <v-img
       class="member_profile_picture_popup"
       :src="src"
+      :lazy-src="src"
       aspect-ratio="1"
       @click="dialog = false"
-    />
+    >
+      <template v-slot:placeholder>
+        <v-row class="fill-height ma-0" align="center" justify="center">
+          <v-progress-circular
+            indeterminate
+            color="grey lighten-5"
+          ></v-progress-circular>
+        </v-row> </template
+    ></v-img>
     <template v-slot:activator="{ on, attrs }">
       <v-img
         :src="src"
+        :lazy-src="src"
         aspect-ratio="1"
         class="member_profile_picture"
         v-bind="attrs"
         v-on="on"
-      />
+      >
+        <template v-slot:placeholder>
+          <v-row class="fill-height ma-0" align="center" justify="center">
+            <v-progress-circular
+              indeterminate
+              color="grey lighten-5"
+            ></v-progress-circular>
+          </v-row> </template
+      ></v-img>
     </template>
   </v-dialog>
 </template>
