@@ -12,7 +12,6 @@
         <v-btn x-large class="events_btn">View More Events</v-btn>
       </router-link>
     </center>
-    <hr />
   </v-container>
 </template>
 
