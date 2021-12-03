@@ -47,9 +47,13 @@ export default {
       {
         name: 'Samanta C.',
         role: 'President',
+        src: '',
         description:
           'Plans monthly events, leads general meetings, delegates tasks to other officers',
-        links: {},
+        links: {
+          email: 'mailto:samanta.Corte@student.csulb.edu',
+          linkedin: 'https://www.linkedin.com/in/samanta-corte-2000',
+        },
       },
       {
         name: 'Vivienne A.',
