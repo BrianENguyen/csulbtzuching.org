@@ -20,7 +20,7 @@
       <h4 v-if="event.date && event.time" class="event_datetime">
         {{ event.date }} @ {{ event.time }}
       </h4>
-      <h4 v-else>Date and time TBA</h4>
+      <h4 v-else class="event_datetime">Date and time TBA</h4>
       <p class="event_location">{{ event.location }}</p>
     </v-card-subtitle>
     <v-card-text class="event_description">{{ event.description }}</v-card-text>
@@ -55,6 +55,7 @@ export default {
 }
 .event_datetime {
   font-size: 1.25rem;
+  font-weight: 500;
 }
 .event_description {
   font-weight: 300;
