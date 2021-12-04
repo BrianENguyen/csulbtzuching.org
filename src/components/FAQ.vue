@@ -116,7 +116,7 @@ export default {
 
 <style scoped>
 .question {
-  color: #34be82;
+  color: #3d3d3d;
 }
 .answer {
   margin: 0px 20px;

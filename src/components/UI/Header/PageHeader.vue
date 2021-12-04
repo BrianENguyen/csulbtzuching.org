@@ -6,7 +6,7 @@
 
 <style>
 .page_header {
-  color: #3babd4;
+  color: #505050;
 }
 @media (min-width: 0px) {
   .page_header {

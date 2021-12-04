@@ -10,7 +10,7 @@ export default {};
 
 <style>
 .page_subheader {
-  color: #34be82;
+  color: #6d6d6d;
 }
 @media (min-width: 0px) {
   .page_subheader {

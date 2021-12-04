@@ -11,7 +11,7 @@ export default {};
 <style>
 .page_title {
   font-size: 3vw;
-  color: #2f86a6;
+  color: #000000;
   text-align: center;
 }
 @media (min-width: 0px) {
