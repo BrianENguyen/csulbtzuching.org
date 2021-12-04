@@ -36,7 +36,7 @@ export default {
 
 <style>
 .event_namedate_header {
-  color: #2f86a6;
+  color: #34be82;
 }
 .gallery_section {
   margin: 3rem 0px;

@@ -25,7 +25,7 @@ export default {
 
 <style>
 .month {
-  color: #3babd4;
+  color: #505050;
 }
 
 @media (min-width: 768px) {
