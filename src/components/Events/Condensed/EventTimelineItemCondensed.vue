@@ -11,7 +11,7 @@
       >Link Coming Soon</v-btn
     >
     <a v-else-if="event.link" :href="event.link" class="signup_link">
-      <v-btn color="blue">Sign Up</v-btn>
+      <v-btn color="primary">Sign Up</v-btn>
     </a>
     <v-btn v-else class="btn_disabled" disabled>Event Ended</v-btn>
   </v-timeline-item>
