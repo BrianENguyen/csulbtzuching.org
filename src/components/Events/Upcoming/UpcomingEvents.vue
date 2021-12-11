@@ -37,24 +37,6 @@ export default {
         description: 'Help distribute food for families!',
         link: '',
       },
-      {
-        name: 'Food Distribution',
-        date: 'Saturday, 12/11/21',
-        time: '8:30 AM - 10:30 AM',
-        location:
-          'Tzu Chi Health Center - 1355 Broad Ave, Wilmington, CA 90744',
-        description: 'Help distribute food for families!',
-        link: '',
-      },
-      {
-        name: 'December General Meeting',
-        date: 'Thursday, 12/9/21',
-        time: '8:00 PM - 9:00 PM',
-        location: 'Zoom',
-        description:
-          "Join us this Thursday at our last meeting of the Fall 2021 semester! Come to hang and relax with CSULB Tzu Ching, December 9th at 8 pm! Register for December's General Meeting for the zoom meeting information. Happy Holidays!",
-        link: 'https://docs.google.com/forms/d/e/1FAIpQLSdcm7t9wurPK5ITen7YoKW8bqw-rfUVv4yXERvbWgDuwi3EoA/viewform',
-      },
     ],
   }),
 };

@@ -49,7 +49,7 @@ export default {
           'Tzu Chi Health Center - 1355 Broad Ave, Wilmington, CA 90744',
         description: 'Help distribute food for families!',
         img: 'https://res.cloudinary.com/buraiyen/image/upload/v1638307033/CSULB_TC_Website/fooddistribution.jpg',
-        link: 'TBA',
+        link: '',
       },
       {
         name: 'December General Meeting',
@@ -58,7 +58,7 @@ export default {
         location: 'Zoom',
         description:
           "Join us this Thursday at our last meeting of the Fall 2021 semester! Come to hang and relax with CSULB Tzu Ching, December 9th at 8 pm! Register for December's General Meeting for the zoom meeting information. Happy Holidays!",
-        link: 'https://docs.google.com/forms/d/e/1FAIpQLSdcm7t9wurPK5ITen7YoKW8bqw-rfUVv4yXERvbWgDuwi3EoA/viewform',
+        link: '',
       },
       {
         name: 'Online Dharma Study',
