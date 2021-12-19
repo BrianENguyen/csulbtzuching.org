@@ -28,21 +28,10 @@ export default {
   },
   data: () => ({
     month: 'December 2021',
-    events: [
-      {
-        name: 'Food Distribution',
-        date: 'Saturday, 12/18/21',
-        time: '7:30 AM - 11:00 AM',
-        location: '6720 Miles Ave, Huntington Park, CA 90255',
-        description: 'Help distribute food for families!',
-        link: '',
-      },
-    ],
+    events: [],
   }),
 };
 </script>
-
-<style></style>
 
 <style scoped>
 #recent_events_section {

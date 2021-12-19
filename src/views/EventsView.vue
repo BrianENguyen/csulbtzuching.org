@@ -39,7 +39,7 @@ export default {
         location: '6720 Miles Ave, Huntington Park, CA 90255',
         description: 'Help distribute food for families!',
         img: 'https://res.cloudinary.com/buraiyen/image/upload/v1638307033/CSULB_TC_Website/fooddistribution.jpg',
-        link: 'TBA',
+        link: '',
       },
       {
         name: 'Food Distribution',
