@@ -121,7 +121,7 @@ export default {
         links: {
           email: 'mailto:brian.edison.nguyen@gmail.com',
           linkedin: 'https://www.linkedin.com/in/brian-edison-nguyen/',
-          site: 'https://www.brianenguyen.com',
+          site: 'https://brianenguyen.com',
         },
       },
       {

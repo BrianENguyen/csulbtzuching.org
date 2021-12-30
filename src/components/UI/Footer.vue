@@ -14,10 +14,8 @@
         <v-col class="py-4" cols="12">
           <p>{{ new Date().getFullYear() }} — CSULB Tzu Ching</p>
           <p>
-            Designed by
-            <a href="https://www.brianenguyen.com/" target="_blank"
-              >Brian Nguyen</a
-            >
+            Designed and developed by
+            <a href="https://brianenguyen.com/" target="_blank">Brian Nguyen</a>
           </p>
         </v-col>
       </v-col>
