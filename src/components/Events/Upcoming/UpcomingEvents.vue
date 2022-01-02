@@ -1,7 +1,7 @@
 <template>
   <v-container id="recent_events_section">
     <PageHeader>Upcoming Events</PageHeader>
-    <PageSubheader>{{ month }}</PageSubheader>
+    <PageSubheader>{{ time }}</PageSubheader>
     <v-row>
       <v-col v-for="(event, i) in events" :key="i" cols="12" md="6" lg="4">
         <UpcomingEventCard :event="event" />
@@ -20,6 +20,10 @@ import UpcomingEventCard from './UpcomingEventCard';
 import PageHeader from '../../UI/Header/PageHeader';
 import PageSubheader from '../../UI/Header/PageSubheader';
 
+const date = new Date();
+const month = date.toLocaleString('default', { month: 'long' });
+const year = date.getFullYear();
+const time = month + ' ' + year;
 export default {
   components: {
     UpcomingEventCard,
@@ -27,7 +31,7 @@ export default {
     PageSubheader,
   },
   data: () => ({
-    month: 'December 2021',
+    time: time,
     events: [],
   }),
 };
