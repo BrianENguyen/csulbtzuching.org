@@ -1,10 +1,10 @@
 <template>
   <div class="jumbotron_">
-    <img :src="jumboImageSrc" alt="" class="jumbotron__image" />
+    <img :src="jumboData.src" alt="" class="jumbotron__image" />
     <div class="jumbotron__container">
-      <h1 class="jumbotron__title">CSULB Tzu Ching</h1>
-      <p class="jumbotron__description">
-        "With open arms and helping hands, our volunteers are here to serve you"
+      <h1 class="jumbotron__title">{{ jumboData.title }}</h1>
+      <p v-if="jumboData.description" class="jumbotron__description">
+        {{ jumboData.description }}
       </p>
     </div>
   </div>
@@ -13,7 +13,7 @@
 <script>
 export default {
   props: {
-    jumboImageSrc: String,
+    jumboData: Object,
   },
 };
 </script>
