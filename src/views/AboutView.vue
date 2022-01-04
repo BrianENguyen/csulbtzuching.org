@@ -1,5 +1,7 @@
 <template>
   <div id="about">
+    <Jumbotron :jumboData="jumboData" />
+
     <CardWrapper>
       <PageTitle>About Us</PageTitle>
       <PageHeader>The Tzu Chi Foundation</PageHeader>
@@ -43,6 +45,13 @@ import CardWrapper from '../components/UI/CardWrapper';
 import FAQ from '../components/FAQ';
 import PageTitle from '../components/UI/Header/PageTitle';
 import PageHeader from '../components/UI/Header/PageHeader';
+import Jumbotron from '../components/UI/Jumbotron';
+
+const jumboImage =
+  'https://res.cloudinary.com/buraiyen/image/upload/b_black,o_70/v1639515139/BEN_Website/recent_projects/lbtc_group.jpg';
+const jumboTitle = 'About Us';
+const jumboDescription =
+  'Get to know more about our organization and our efforts!';
 
 export default {
   components: {
@@ -50,7 +59,15 @@ export default {
     FAQ,
     PageTitle,
     PageHeader,
+    Jumbotron,
   },
+  data: () => ({
+    jumboData: {
+      src: jumboImage,
+      title: jumboTitle,
+      description: jumboDescription,
+    },
+  }),
 };
 </script>
 
