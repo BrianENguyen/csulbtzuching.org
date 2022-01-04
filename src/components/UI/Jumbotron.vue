@@ -1,6 +1,11 @@
 <template>
   <div class="jumbotron_">
-    <img :src="jumboData.src" alt="" class="jumbotron__image" />
+    <img
+      :src="jumboData.src"
+      :lazy-src="jumboData.src"
+      alt=""
+      class="jumbotron__image"
+    />
     <div class="jumbotron__container">
       <h1 class="jumbotron__title">{{ jumboData.title }}</h1>
       <p v-if="jumboData.description" class="jumbotron__description">
@@ -23,6 +28,7 @@ export default {
   height: 100vh;
   position: relative;
   text-align: center;
+  background-color: black;
 }
 .jumbotron__container {
   position: absolute;
