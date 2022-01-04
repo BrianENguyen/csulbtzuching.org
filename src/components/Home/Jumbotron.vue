@@ -1,10 +1,6 @@
 <template>
   <div class="jumbotron_">
-    <img
-      src="https://res.cloudinary.com/buraiyen/image/upload/b_black,o_70/v1636913492/CSULB_TC_Website/17097614_645084968996981_6289676080599741977_o_sewcrm.jpg"
-      alt=""
-      class="jumbotron__image"
-    />
+    <img :src="jumboImageSrc" alt="" class="jumbotron__image" />
     <div class="jumbotron__container">
       <h1 class="jumbotron__title">CSULB Tzu Ching</h1>
       <p class="jumbotron__description">
@@ -17,7 +13,7 @@
 <script>
 export default {
   props: {
-    src: String,
+    jumboImageSrc: String,
   },
 };
 </script>
