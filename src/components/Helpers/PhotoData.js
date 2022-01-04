@@ -1,4 +1,4 @@
-export const PhotoData = [
+const PhotoData = [
   {
     name: 'Medical Outreach',
     date: '11/13/21',
@@ -20,3 +20,5 @@ export const PhotoData = [
     ],
   },
 ];
+
+export default PhotoData;
