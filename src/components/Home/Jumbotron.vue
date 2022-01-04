@@ -1,13 +1,13 @@
 <template>
-  <div class="home-jumbotron">
+  <div class="jumbotron_">
     <img
       src="https://res.cloudinary.com/buraiyen/image/upload/b_black,o_70/v1636913492/CSULB_TC_Website/17097614_645084968996981_6289676080599741977_o_sewcrm.jpg"
       alt=""
       class="jumbotron__image"
     />
-    <div class="home-jumbotron__container">
-      <h1 class="home-jumbotron__title">CSULB Tzu Ching</h1>
-      <p class="home-jumbotron__description">
+    <div class="jumbotron__container">
+      <h1 class="jumbotron__title">CSULB Tzu Ching</h1>
+      <p class="jumbotron__description">
         "With open arms and helping hands, our volunteers are here to serve you"
       </p>
     </div>
@@ -15,27 +15,31 @@
 </template>
 
 <script>
-export default {};
+export default {
+  props: {
+    src: String,
+  },
+};
 </script>
 
 <style>
-.home-jumbotron {
+.jumbotron_ {
   height: 100vh;
   position: relative;
   text-align: center;
 }
-.home-jumbotron__container {
+.jumbotron__container {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -70%);
 }
-.home-jumbotron__title,
-.home-jumbotron__description {
+.jumbotron__title,
+.jumbotron__description {
   color: white;
 }
 
-.home-jumbotron__description {
+.jumbotron__description {
   font-size: 1.6rem;
 }
 .jumbotron__image {
@@ -47,18 +51,18 @@ export default {};
 }
 
 @media (min-width: 0px) {
-  .home-jumbotron__title {
+  .jumbotron__title {
     font-size: 15vw;
   }
 }
 @media (min-width: 576px) {
-  .home-jumbotron__title {
+  .jumbotron__title {
     font-size: 10vw;
   }
 }
 
 @media (min-width: 992px) {
-  .home-jumbotron__title {
+  .jumbotron__title {
     font-size: 5rem;
   }
 }
