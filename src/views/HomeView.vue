@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Carousel />
+    <Jumbotron />
     <CardWrapper>
       <Introduction />
       <hr />
@@ -13,7 +13,7 @@
 </template>
 
 <script>
-import Carousel from '../components/Carousel/Carousel.vue';
+import Jumbotron from '../components/Home/Jumbotron';
 import Introduction from '../components/Introduction';
 import UpcomingEvents from '../components/Events/Upcoming/UpcomingEvents';
 import Quote from '../components/Quote';
@@ -24,7 +24,7 @@ export default {
   name: 'Home',
 
   components: {
-    Carousel,
+    Jumbotron,
     Introduction,
     UpcomingEvents,
     Quote,
@@ -32,7 +32,6 @@ export default {
     CardWrapper,
   },
 };
-Carousel;
 </script>
 
 <style scoped>
