@@ -1,9 +1,7 @@
 <template>
   <div id="about">
     <Jumbotron :jumboData="jumboData" />
-
     <CardWrapper>
-      <PageTitle>About Us</PageTitle>
       <PageHeader>The Tzu Chi Foundation</PageHeader>
       <p>
         The Tzu Chi Foundation (<em>tzu</em> - "compassionate", <em>chi</em> -
@@ -43,7 +41,6 @@
 <script>
 import CardWrapper from '../components/UI/CardWrapper';
 import FAQ from '../components/FAQ';
-import PageTitle from '../components/UI/Header/PageTitle';
 import PageHeader from '../components/UI/Header/PageHeader';
 import Jumbotron from '../components/UI/Jumbotron';
 
@@ -57,7 +54,6 @@ export default {
   components: {
     CardWrapper,
     FAQ,
-    PageTitle,
     PageHeader,
     Jumbotron,
   },

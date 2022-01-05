@@ -2,10 +2,6 @@
   <div class="photos">
     <Jumbotron :jumboData="jumboData" />
     <CardWrapper>
-      <PageTitle>Photos</PageTitle>
-      <PageHeader class="text-center">
-        Get a glimpse at what we do in our organization!
-      </PageHeader>
       <div v-for="(event, i) in events" :key="i">
         <PhotoGallery :event="event" />
       </div>
@@ -17,8 +13,6 @@
 import Jumbotron from '../components/UI/Jumbotron';
 import PhotoGallery from '../components/Photos/PhotoGallery.vue';
 import CardWrapper from '../components/UI/CardWrapper';
-import PageTitle from '../components/UI/Header/PageTitle';
-import PageHeader from '../components/UI/Header/PageHeader';
 import PhotoData from '../components/Helpers/PhotoData.js';
 
 const jumboImage =
@@ -30,8 +24,6 @@ export default {
   components: {
     PhotoGallery,
     CardWrapper,
-    PageTitle,
-    PageHeader,
     Jumbotron,
   },
   data: () => ({

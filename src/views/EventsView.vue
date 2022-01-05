@@ -2,7 +2,6 @@
   <div class="events">
     <Jumbotron :jumboData="jumboData" />
     <CardWrapper>
-      <PageTitle>Events</PageTitle>
       <v-checkbox
         v-model="isCondensed"
         :label="`Condensed view: ${isCondensed.toString()}`"
@@ -24,7 +23,6 @@ import Jumbotron from '../components/UI/Jumbotron';
 import EventTimeline from '../components/Events/EventTimeline';
 import EventTimelineCondensed from '../components/Events/Condensed/EventTimelineCondensed';
 import CardWrapper from '../components/UI/CardWrapper';
-import PageTitle from '../components/UI/Header/PageTitle';
 import { december, november } from '../components/Helpers/EventData';
 
 const jumboImage =
@@ -37,7 +35,6 @@ export default {
     EventTimeline,
     EventTimelineCondensed,
     CardWrapper,
-    PageTitle,
     Jumbotron,
   },
   data: () => ({
