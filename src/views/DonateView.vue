@@ -3,17 +3,19 @@
     <PageTitle>Donate</PageTitle>
     <p class="my-3">
       Donations are greatly appreciated because they help keep the website
-      online! If you want to support our organization, then consider donating!
-      <em
-        >Note: the link will take you to our web developer's donation page,
-        where you can make your donation</em
-      >
+      online! If you want to support our organization, then consider please
+      donating! The link below will redirect you to our web developer's donation
+      page. Simply click on the "Donate" button on that page to make your
+      donation
     </p>
     <DonateButton :info="csulbtc" />
     <p class="my-3">
       You can also donate to our mother organization, the Tzu Chi Foundation, on
       their website. Your contribution will help Tzu Chi with their efforts in
-      providing relief, like food, clothing, and medical care!
+      providing relief, like food, clothing, and medical care! The link below
+      will redirect you to the Tzu Chi Foundation's donation page. From there,
+      you can choose you much you would like to donate and what your donation
+      can be used for, like charity, disaster relief, etc.
     </p>
     <DonateButton :info="tzuchi" />
   </CardWrapper>
@@ -32,12 +34,12 @@ export default {
   },
   data: () => ({
     csulbtc: {
-      logo: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_435/v1638399702/CSULB_TC_Website/logo.png',
+      text: 'Donate to this website',
       link: 'https://ko-fi.com/brianenguyen',
       color: 'light-green',
     },
     tzuchi: {
-      logo: 'https://res.cloudinary.com/buraiyen/image/upload/v1638403135/CSULB_TC_Website/tclogo.png',
+      text: 'Donate to TC Foundation',
       link: 'https://donate.tzuchi.us/cause/gift/',
       color: 'blue lighten-3',
     },
