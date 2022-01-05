@@ -46,7 +46,7 @@ import PageHeader from '../components/UI/Header/PageHeader';
 import { officers, alumnis } from '../components/Helpers/TeamData';
 
 const jumboImage =
-  'https://res.cloudinary.com/buraiyen/image/upload/v1636919257/CSULB_TC_Website/BEN_1689_01_hobk1j.jpg';
+  'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1915/v1636919257/CSULB_TC_Website/BEN_1689_01_hobk1j.jpg';
 const jumboTitle = 'Our Board Members';
 const jumboDescription = 'Meet our current officers and alumni!';
 

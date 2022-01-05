@@ -28,7 +28,7 @@ import PageTitle from '../components/UI/Header/PageTitle';
 import { december, november } from '../components/Helpers/EventData';
 
 const jumboImage =
-  'https://res.cloudinary.com/buraiyen/image/upload/v1636247406/CSULB_TC_Website/DSC_0400_nmkrtt.jpg';
+  'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1915/v1636247406/CSULB_TC_Website/DSC_0400_nmkrtt.jpg';
 const jumboTitle = 'Events';
 const jumboDescription = 'View our current / past events!';
 
