@@ -4,7 +4,7 @@
     <CardWrapper>
       <v-checkbox
         v-model="isCondensed"
-        :label="`Condensed view: ${isCondensed.toString()}`"
+        :label="`Condensed view: ${isCondensed ? 'On' : 'Off'}`"
       ></v-checkbox>
       <div v-if="isCondensed">
         <EventTimelineCondensed month="December 2021" :events="december" />
