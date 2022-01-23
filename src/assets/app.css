@@ -8,3 +8,6 @@ h4 {
 p {
   color: rgb(99, 98, 98);
 }
+html {
+  scroll-behavior: smooth;
+}
