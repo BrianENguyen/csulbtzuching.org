@@ -15,7 +15,7 @@
 </template>
 
 <script>
-import Navbar from './components/UI/Navbar';
+import Navbar from './components/UI/Navbar/Navbar';
 import Footer from './components/UI/Footer';
 
 export default {
