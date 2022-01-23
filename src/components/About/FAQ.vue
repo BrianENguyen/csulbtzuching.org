@@ -105,7 +105,7 @@
 </template>
 
 <script>
-import PageHeader from '../components/UI/Header/PageHeader';
+import PageHeader from '../../components/UI/Header/PageHeader';
 
 export default {
   components: {

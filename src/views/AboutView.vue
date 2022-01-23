@@ -40,7 +40,7 @@
 
 <script>
 import CardWrapper from '../components/UI/CardWrapper';
-import FAQ from '../components/FAQ';
+import FAQ from '../components/About/FAQ';
 import PageHeader from '../components/UI/Header/PageHeader';
 import Jumbotron from '../components/UI/Jumbotron';
 

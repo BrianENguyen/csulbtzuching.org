@@ -14,7 +14,7 @@
 
 <script>
 import Jumbotron from '../components/UI/Jumbotron';
-import Introduction from '../components/Introduction';
+import Introduction from '../components/Home/Introduction';
 import UpcomingEvents from '../components/Events/Upcoming/UpcomingEvents';
 import Quote from '../components/Home/Quote';
 import RecentPhotos from '../components/Photos/RecentPhotos';
