@@ -4,7 +4,7 @@
     <v-expansion-panels>
       <v-expansion-panel>
         <v-expansion-panel-header>
-          <h4 class="question">1. Do I have to pay dues to become a member?</h4>
+          <h2 class="question">1. Do I have to pay dues to become a member?</h2>
         </v-expansion-panel-header>
         <v-expansion-panel-content>
           <p>
@@ -15,16 +15,18 @@
       </v-expansion-panel>
       <v-expansion-panel>
         <v-expansion-panel-header>
-          <h4 class="question">2. Do I have to be Buddhist or Asian?</h4>
+          <h2 class="question">2. Do I have to be Buddhist or Asian?</h2>
         </v-expansion-panel-header>
         <v-expansion-panel-content>
-          No! The Tzu Chi Foundation is an international organization that has
-          volunteers from many different backgrounds, races, religions, etc.
+          <p>
+            No! The Tzu Chi Foundation is an international organization that has
+            volunteers from many different backgrounds, races, religions, etc.
+          </p>
         </v-expansion-panel-content>
       </v-expansion-panel>
       <v-expansion-panel>
         <v-expansion-panel-header>
-          <h4 class="question">3. Do I have to be vegetarian / vegan?</h4>
+          <h2 class="question">3. Do I have to be vegetarian / vegan?</h2>
         </v-expansion-panel-header>
         <v-expansion-panel-content>
           <p>
@@ -38,9 +40,9 @@
       </v-expansion-panel>
       <v-expansion-panel>
         <v-expansion-panel-header>
-          <h4 class="question">
+          <h2 class="question">
             4. What's the difference between "Tzu Chi" and "Tzu Ching"?
-          </h4>
+          </h2>
         </v-expansion-panel-header>
         <v-expansion-panel-content>
           <p>
@@ -59,9 +61,9 @@
       </v-expansion-panel>
       <v-expansion-panel>
         <v-expansion-panel-header>
-          <h4 class="question">
+          <h2 class="question">
             5. What is the uniform that you wear? How can I get one?
-          </h4>
+          </h2>
         </v-expansion-panel-header>
         <v-expansion-panel-content>
           <p>
@@ -84,7 +86,7 @@
       </v-expansion-panel>
       <v-expansion-panel>
         <v-expansion-panel-header>
-          <h4 class="question">6. My question wasn't answered in here!</h4>
+          <h2 class="question">6. My question wasn't answered in here!</h2>
         </v-expansion-panel-header>
         <v-expansion-panel-content>
           <p>
@@ -117,6 +119,7 @@ export default {
 <style scoped>
 .question {
   color: #3d3d3d;
+  font-size: 1.2rem;
 }
 .answer {
   margin: 0px 20px;
