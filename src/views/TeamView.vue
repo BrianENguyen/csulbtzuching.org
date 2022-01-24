@@ -18,7 +18,7 @@
           </v-col>
         </v-row>
       </div>
-      <div>
+      <div class="section_spacer">
         <PageHeader class="text-center">Alumni</PageHeader>
         <v-row>
           <v-col
@@ -33,6 +33,21 @@
           </v-col>
         </v-row>
       </div>
+      <div class="section_spacer">
+        <PageHeader class="text-center">Former Members</PageHeader>
+        <v-row>
+          <v-col
+            cols="12"
+            lg="4"
+            md="6"
+            sm="12"
+            v-for="(formerMember, i) in formerMembers"
+            :key="i"
+          >
+            <TeamMemberCard :member="formerMember" />
+          </v-col>
+        </v-row>
+      </div>
     </CardWrapper>
   </div>
 </template>
@@ -43,7 +58,11 @@ import TeamMemberCard from '../components/Team/TeamMemberCard';
 import CardWrapper from '../components/UI/CardWrapper';
 import PageTitle from '../components/UI/Header/PageTitle';
 import PageHeader from '../components/UI/Header/PageHeader';
-import { officers, alumnis } from '../components/Helpers/TeamData';
+import {
+  officers,
+  alumnis,
+  formerMembers,
+} from '../components/Helpers/TeamData';
 
 const jumboImage =
   'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1915/v1636919257/CSULB_TC_Website/BEN_1689_01_hobk1j.jpg';
@@ -61,6 +80,7 @@ export default {
   data: () => ({
     officers: officers,
     alumnis: alumnis,
+    formerMembers: formerMembers,
     jumboData: {
       src: jumboImage,
       title: jumboTitle,
