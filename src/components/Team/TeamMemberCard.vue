@@ -1,5 +1,5 @@
 <template>
-  <v-card outlined elevation="5" data-aos="fade-up">
+  <v-card outlined elevation="5" data-aos="fade-up" data-aos-delay="400">
     <div class="card_content">
       <TeamMemberImage :src="member.src" />
       <h3 class="member_name">{{ member.name }}</h3>
