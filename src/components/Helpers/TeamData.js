@@ -23,19 +23,6 @@ const officers = [
     },
   },
   {
-    name: 'Thu N.',
-    role: 'VP of Administration',
-    src: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1236/v1638065296/CSULB_TC_Website/team_pic/thu.jpg',
-    description:
-      "Manages files on organization's online drive, tracks members' volunteering hours",
-    links: {
-      email: 'mailto:nhanhthu920@gmail.com',
-      linkedin: 'https://www.linkedin.com/in/thu-h-nguyen2/',
-      facebook: 'https://www.facebook.com/profile.php?id=100045753340354',
-      instagram: 'https://www.instagram.com/thu.n02/',
-    },
-  },
-  {
     name: 'Jose A.',
     role: 'Treasurer',
     description: 'Handles all financial and budgeting of the organization',
@@ -67,7 +54,7 @@ const alumnis = [
     name: 'Brian N.',
     role: 'Webmaster / Photographer',
     src: 'https://res.cloudinary.com/buraiyen/image/upload/e_brightness:27/v1638230670/CSULB_TC_Website/team_pic/brian2.jpg',
-    description: 'Manages CSULB TC website and provides photography at events',
+    description: 'Manages CSULB TC website, provides photography at events',
     links: {
       email: 'mailto:brian.edison.nguyen@gmail.com',
       linkedin: 'https://www.linkedin.com/in/brian-edison-nguyen/',
@@ -94,4 +81,20 @@ const alumnis = [
   },
 ];
 
-export { officers, alumnis };
+const formerMembers = [
+  {
+    name: 'Thu N.',
+    role: 'Former VP of Administration',
+    src: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1236/v1638065296/CSULB_TC_Website/team_pic/thu.jpg',
+    description:
+      "Managed files on organization's online drive, tracked members' volunteering hours",
+    links: {
+      email: 'mailto:nhanhthu920@gmail.com',
+      linkedin: 'https://www.linkedin.com/in/thu-h-nguyen2/',
+      facebook: 'https://www.facebook.com/profile.php?id=100045753340354',
+      instagram: 'https://www.instagram.com/thu.n02/',
+    },
+  },
+];
+
+export { officers, alumnis, formerMembers };
