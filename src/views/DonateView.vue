@@ -14,7 +14,7 @@
       their website. Your contribution will help Tzu Chi with their efforts in
       providing relief, like food, clothing, and medical care! The link below
       will redirect you to the Tzu Chi Foundation's donation page. From there,
-      you can choose how much you would like to donate and what your donation
+      you can choose you much you would like to donate and what your donation
       can be used for, like charity, disaster relief, etc.
     </p>
     <DonateButton :info="tzuchi" />
