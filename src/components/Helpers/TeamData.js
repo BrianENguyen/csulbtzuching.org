@@ -91,6 +91,7 @@ const formerMembers = [
     links: {
       email: 'mailto:nhanhthu920@gmail.com',
       linkedin: 'https://www.linkedin.com/in/thu-h-nguyen2/',
+      site: 'https://thuhnguyen.com/',
       facebook: 'https://www.facebook.com/profile.php?id=100045753340354',
       instagram: 'https://www.instagram.com/thu.n02/',
     },
