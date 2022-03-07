@@ -1,5 +1,7 @@
 <template>
+  <!-- The team member image uses a dialog popup when clicked on -->
   <v-dialog v-model="dialog" width="750">
+    <!-- Popup image -->
     <v-img
       class="member_profile_picture_popup"
       :src="src"
@@ -7,6 +9,7 @@
       aspect-ratio="1"
       @click="dialog = false"
     >
+      <!-- Circular loading animation -->
       <template v-slot:placeholder>
         <v-row class="fill-height ma-0" align="center" justify="center">
           <v-progress-circular
@@ -16,6 +19,7 @@
         </v-row> </template
     ></v-img>
     <template v-slot:activator="{ on, attrs }">
+      <!-- Regular image -->
       <v-img
         :src="src"
         :lazy-src="src"
@@ -24,6 +28,7 @@
         v-bind="attrs"
         v-on="on"
       >
+        <!-- Circular loading animation -->
         <template v-slot:placeholder>
           <v-row class="fill-height ma-0" align="center" justify="center">
             <v-progress-circular
