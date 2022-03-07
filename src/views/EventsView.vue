@@ -22,7 +22,7 @@
 
 <script>
 import Jumbotron from '../components/UI/Jumbotron';
-import EventTimeline from '../components/Events/EventTimeline';
+import EventTimeline from '../components/Events/Regular/EventTimeline';
 import EventTimelineCondensed from '../components/Events/Condensed/EventTimelineCondensed';
 import CardWrapper from '../components/UI/CardWrapper';
 import { december, march, november } from '../components/Helpers/EventData';
