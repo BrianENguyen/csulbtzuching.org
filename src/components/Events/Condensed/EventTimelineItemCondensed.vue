@@ -41,9 +41,16 @@ export default {
 }
 .event_description {
   font-weight: 300;
+  width: 50%;
 }
 .btn_disabled:hover {
   cursor: default;
   text-decoration: none;
+}
+
+@media (max-width: 750px) {
+  .event_description {
+    width: 100%;
+  }
 }
 </style>
