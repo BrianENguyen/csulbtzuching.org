@@ -10,7 +10,12 @@
     <v-btn v-if="event.link == 'TBA'" class="btn_disabled" text disabled
       >Link Coming Soon</v-btn
     >
-    <a v-else-if="event.link" :href="event.link" class="signup_link">
+    <a
+      v-else-if="event.link"
+      :href="event.link"
+      target="_blank"
+      class="signup_link"
+    >
       <v-btn color="primary">Sign Up</v-btn>
     </a>
     <v-btn v-else class="btn_disabled" disabled>Event Ended</v-btn>
