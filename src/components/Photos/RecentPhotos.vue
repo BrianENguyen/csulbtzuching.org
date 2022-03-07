@@ -1,4 +1,5 @@
 <template>
+  <!-- Recent photos component used to display on the home page -->
   <div>
     <PageHeader>Recent Photos</PageHeader>
     <v-row class="fill-height">
