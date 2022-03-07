@@ -1,11 +1,13 @@
 <template>
   <v-card max-width="400" elevation="5">
+    <!-- Card image -->
     <v-img
       v-if="event.img"
       height="200px"
       :src="event.img"
       :lazy-src="event.img"
     >
+      <!-- Display a circle loading animation while image is loading -->
       <template v-slot:placeholder>
         <v-row class="fill-height ma-0" align="center" justify="center">
           <v-progress-circular
@@ -15,15 +17,21 @@
         </v-row>
       </template>
     </v-img>
+    <!-- Event Name -->
     <v-card-title class="event_name">{{ event.name }}</v-card-title>
     <v-card-subtitle>
+      <!-- Event date and time. If both aren't present, then 
+          display "Date and time TBA" -->
       <h4 v-if="event.date && event.time" class="event_datetime">
         {{ event.date }} @ {{ event.time }}
       </h4>
       <h4 v-else class="event_datetime">Date and time TBA</h4>
+      <!-- Event location -->
       <p class="event_location">{{ event.location }}</p>
     </v-card-subtitle>
+    <!-- Event description -->
     <v-card-text class="event_description">{{ event.description }}</v-card-text>
+    <!-- Event link. If event link 'TBA' then button will be disabled -->
     <v-card-actions>
       <v-btn v-if="event.link == 'TBA'" class="btn_disabled" text disabled
         >Link Coming Soon</v-btn
