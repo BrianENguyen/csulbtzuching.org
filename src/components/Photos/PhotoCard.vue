@@ -1,6 +1,7 @@
 <template>
   <v-dialog v-model="dialog" width="750">
     <template v-slot:activator="{ on, attrs }">
+      <!-- START IMAGE MODAL -->
       <v-img
         :src="photo"
         :lazy-src="photo"
@@ -9,6 +10,7 @@
         v-on="on"
         aspect-ratio="1"
       >
+        <!-- Circular loading animation -->
         <template v-slot:placeholder>
           <v-row class="fill-height ma-0" align="center" justify="center">
             <v-progress-circular
@@ -18,18 +20,18 @@
           </v-row>
         </template>
       </v-img>
+      <!-- END IMAGE MODAL -->
     </template>
-    <center>
-      <v-img
-        @click="dialog = false"
-        :src="photo"
-        width="750px"
-        v-bind="attrs"
-        v-on="on"
-        class="photo_card_popup"
-      >
-      </v-img>
-    </center>
+    <!-- Image display -->
+    <v-img
+      @click="dialog = false"
+      :src="photo"
+      width="750px"
+      v-bind="attrs"
+      v-on="on"
+      class="photo_card_popup"
+    >
+    </v-img>
   </v-dialog>
 </template>
 
