@@ -59,7 +59,9 @@ const router = new VueRouter({
   base: process.env.BASE_URL,
   routes,
   scrollBehavior() {
-    document.getElementById('app').scrollIntoView();
+    setTimeout(() => {
+      document.getElementById('app').scrollIntoView();
+    }, 1000);
   },
 });
 
