@@ -42,7 +42,22 @@ export default {
   },
   data: () => ({
     time: time,
-    events: [],
+    events: [
+      {
+        name: 'First General Meeting',
+        date: 'Thursday, 3/10/22',
+        time: '6:00 PM - 7:00 PM',
+        location: 'Location TBA',
+        description: `Great meeting so many of you at Week of Welcome. First General Meeting 
+        is on Thursday, March 10th @ 6:00PM - 7:00 PM!  We will dive deeper into 
+        why we joined Tzu Chi, where we will touch upon aspects of moral value, 
+        character development, compassion, & volunteering events. We will also 
+        announce officer positions that will be available for those interested in
+        gaining leadership roles. While we have not been assigned our classroom location 
+        yet we will still hold this general meeting :)`,
+        link: 'https://facebook.us14.list-manage.com/track/click?u=0e66e61be10c29cced4ad9b12&id=bc6642f68a&e=592d49b1ae',
+      },
+    ],
   }),
 };
 </script>
