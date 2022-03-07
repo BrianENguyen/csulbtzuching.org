@@ -7,12 +7,12 @@
         :label="`Condensed view: ${isCondensed ? 'On' : 'Off'}`"
       ></v-checkbox>
       <div v-if="isCondensed">
-        <EventTimelineCondensed month="February 2022" :events="february" />
+        <EventTimelineCondensed month="March 2022" :events="march" />
         <EventTimelineCondensed month="December 2021" :events="december" />
         <EventTimelineCondensed month="November 2021" :events="november" />
       </div>
       <div v-else>
-        <EventTimeline month="February 2022" :events="february" />
+        <EventTimeline month="March 2022" :events="march" />
         <EventTimeline month="December 2021" :events="december" />
         <EventTimeline month="November 2021" :events="november" />
       </div>
@@ -25,7 +25,7 @@ import Jumbotron from '../components/UI/Jumbotron';
 import EventTimeline from '../components/Events/EventTimeline';
 import EventTimelineCondensed from '../components/Events/Condensed/EventTimelineCondensed';
 import CardWrapper from '../components/UI/CardWrapper';
-import { december, february, november } from '../components/Helpers/EventData';
+import { december, march, november } from '../components/Helpers/EventData';
 
 const jumboImage =
   'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1915/v1636247406/CSULB_TC_Website/DSC_0400_nmkrtt.jpg';
@@ -41,7 +41,7 @@ export default {
   },
   data: () => ({
     isCondensed: false,
-    february: february,
+    march: march,
     december: december,
     november: november,
     jumboData: {

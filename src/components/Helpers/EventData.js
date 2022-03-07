@@ -1,4 +1,4 @@
-const february = [
+const march = [
   {
     name: 'First General Meeting',
     date: 'Thursday, 3/10/22',
@@ -74,4 +74,4 @@ const november = [
   },
 ];
 
-export { december, november, february };
+export { december, november, march };
