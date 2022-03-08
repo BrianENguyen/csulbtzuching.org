@@ -3,61 +3,19 @@
     <Jumbotron :jumboData="jumboData" />
     <CardWrapper>
       <PageTitle>2021-2022 Team</PageTitle>
-      <div class="section_spacer">
-        <PageHeader class="text-center">Officers</PageHeader>
-        <v-row>
-          <v-col
-            cols="12"
-            lg="4"
-            md="6"
-            sm="12"
-            v-for="(officer, i) in officers"
-            :key="i"
-          >
-            <TeamMemberCard :member="officer" />
-          </v-col>
-        </v-row>
-      </div>
-      <div class="section_spacer">
-        <PageHeader class="text-center">Alumni</PageHeader>
-        <v-row>
-          <v-col
-            cols="12"
-            lg="4"
-            md="6"
-            sm="12"
-            v-for="(alumni, i) in alumnis"
-            :key="i"
-          >
-            <TeamMemberCard :member="alumni" />
-          </v-col>
-        </v-row>
-      </div>
-      <div class="section_spacer">
-        <PageHeader class="text-center">Former Members</PageHeader>
-        <v-row>
-          <v-col
-            cols="12"
-            lg="4"
-            md="6"
-            sm="12"
-            v-for="(formerMember, i) in formerMembers"
-            :key="i"
-          >
-            <TeamMemberCard :member="formerMember" />
-          </v-col>
-        </v-row>
-      </div>
+      <TeamList :members="officers" memberType="Officers" />
+      <TeamList :members="alumnis" memberType="Alumni" />
+      <TeamList :members="formerMembers" memberType="Former Members" />
     </CardWrapper>
   </div>
 </template>
 
 <script>
 import Jumbotron from '../components/UI/Jumbotron';
-import TeamMemberCard from '../components/Team/TeamMemberCard';
 import CardWrapper from '../components/UI/CardWrapper';
 import PageTitle from '../components/UI/Header/PageTitle';
-import PageHeader from '../components/UI/Header/PageHeader';
+import TeamList from '../components/Team/TeamList';
+
 import {
   officers,
   alumnis,
@@ -71,11 +29,10 @@ const jumboDescription = 'Meet our current officers and alumni!';
 
 export default {
   components: {
-    TeamMemberCard,
     CardWrapper,
     PageTitle,
-    PageHeader,
     Jumbotron,
+    TeamList,
   },
   data: () => ({
     officers: officers,
@@ -97,8 +54,5 @@ export default {
   color: #3babd4;
   margin-top: 1rem;
   margin-bottom: 1rem;
-}
-.section_spacer {
-  margin-bottom: 4rem;
 }
 </style>
