@@ -1,7 +1,16 @@
 <template>
   <div>
     <PageHeader>Frequently Asked Questions</PageHeader>
+
+    <!-- 
+      v-expansion-panels - parent element that holds v-expansion-panel element
+      v-expansion-panel - clickable panel that reveals answer
+      v-expansion-panel-header - header of panel
+      v-expansion-panel-content - content of panel that is revealed when clicked on
+     -->
+
     <v-expansion-panels>
+      <!-- Question 1 -->
       <v-expansion-panel>
         <v-expansion-panel-header>
           <h2 class="question">1. Do I have to pay dues to become a member?</h2>
@@ -13,6 +22,8 @@
           </p>
         </v-expansion-panel-content>
       </v-expansion-panel>
+
+      <!-- Question 2 -->
       <v-expansion-panel>
         <v-expansion-panel-header>
           <h2 class="question">2. Do I have to be Buddhist or Asian?</h2>
@@ -24,6 +35,8 @@
           </p>
         </v-expansion-panel-content>
       </v-expansion-panel>
+
+      <!-- Question 3 -->
       <v-expansion-panel>
         <v-expansion-panel-header>
           <h2 class="question">3. Do I have to be vegetarian / vegan?</h2>
@@ -38,6 +51,8 @@
           </p>
         </v-expansion-panel-content>
       </v-expansion-panel>
+
+      <!-- Question 4 -->
       <v-expansion-panel>
         <v-expansion-panel-header>
           <h2 class="question">
@@ -59,6 +74,8 @@
           </p>
         </v-expansion-panel-content>
       </v-expansion-panel>
+
+      <!-- Question 5 -->
       <v-expansion-panel>
         <v-expansion-panel-header>
           <h2 class="question">
@@ -84,6 +101,8 @@
           </p>
         </v-expansion-panel-content>
       </v-expansion-panel>
+
+      <!-- Question 6 -->
       <v-expansion-panel>
         <v-expansion-panel-header>
           <h2 class="question">6. My question wasn't answered in here!</h2>
