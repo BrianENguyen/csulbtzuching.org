@@ -1,12 +1,10 @@
 /*
-CONDITIONS:
+The 'name' field is required to have a value. All other fields are optional
 
-Date / time:
-- if either one of these fields are blank, then the event items will render
-as "TBA"
-
-Link:
-- leave link value as blank if there is no link yet
+The following fields will render "TBA" on the app if left blank:
+- date AND time
+- location
+- link
 */
 
 const march = [
