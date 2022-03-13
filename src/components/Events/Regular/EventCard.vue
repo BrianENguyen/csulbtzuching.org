@@ -23,7 +23,10 @@
       <!-- Event date and time. If both aren't present, then 
           display "Date and time TBA" -->
       <h4 v-if="event.date && event.time" class="event_datetime">
-        {{ event.date }} @ {{ event.time }}
+        <!-- TODO: optimize -->
+        {{ event.date.toLocaleString('default', { weekday: 'long' }) }},
+        {{ event.date.toLocaleDateString() }} @
+        {{ event.time }}
       </h4>
       <h4 v-else class="event_datetime">Date and time TBA</h4>
       <!-- Event location -->
@@ -44,7 +47,13 @@
       >
         <v-btn color="blue" text>Sign Up</v-btn>
       </a>
-      <v-btn v-else class="btn_disabled" text disabled>Event Ended</v-btn>
+      <v-btn
+        v-else-if="event.date - new Date() < 0"
+        class="btn_disabled"
+        text
+        disabled
+        >Event Ended</v-btn
+      >
     </v-card-actions>
   </v-card>
 </template>
