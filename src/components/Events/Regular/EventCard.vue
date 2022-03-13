@@ -31,8 +31,10 @@
         {{ event.time }}
       </h4>
       <h4 v-else class="event_datetime">Date and time TBA</h4>
-      <!-- Event location -->
-      <p class="event_location">{{ event.location }}</p>
+
+      <!-- Event location. If no location provided, then render "Location TBA" -->
+      <p v-if="event.location" class="event_location">{{ event.location }}</p>
+      <p v-else class="event_location">Location TBA</p>
     </v-card-subtitle>
 
     <!-- Event description -->

@@ -13,10 +13,11 @@
       </h4>
       <h4 class="upcoming_event_datetime" v-else>Date and time TBA</h4>
 
-      <!-- Event location -->
-      <h4 class="upcoming_event_location">
+      <!-- Event location. If no location provided, then render "Location TBA" -->
+      <h4 v-if="event.location" class="upcoming_event_location">
         {{ event.location }}
       </h4>
+      <h4 v-else class="upcoming_event_location">Location TBA</h4>
     </v-card-subtitle>
     <v-card-text>
       <p class="upcoming_event_description">
