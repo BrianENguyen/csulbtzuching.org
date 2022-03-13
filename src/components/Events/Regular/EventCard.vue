@@ -52,7 +52,7 @@
         <v-btn color="blue" text>Sign Up</v-btn>
       </a>
       <v-btn
-        v-else-if="event.date - new Date() < 0"
+        v-else-if="new Date() > event.date"
         class="btn_disabled"
         text
         disabled

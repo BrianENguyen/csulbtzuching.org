@@ -29,7 +29,7 @@
     >
       <v-btn color="primary">Sign Up</v-btn>
     </a>
-    <v-btn v-else-if="event.date - new Date() < 0" class="btn_disabled" disabled
+    <v-btn v-else-if="new Date() > event.date" class="btn_disabled" disabled
       >Event Ended</v-btn
     >
   </v-timeline-item>
