@@ -35,6 +35,16 @@ const date = new Date();
 const month = date.toLocaleString('default', { month: 'long' });
 const year = date.getFullYear();
 const time = month + ' ' + year;
+
+const availableEvents = [];
+
+for (let i = 0; i < march.length; i++) {
+  if (date > march[i].date) {
+    break;
+  }
+  availableEvents.push(march[i]);
+}
+
 export default {
   components: {
     UpcomingEventCard,
@@ -43,7 +53,7 @@ export default {
   },
   data: () => ({
     time: time,
-    events: march,
+    events: availableEvents,
   }),
 };
 </script>
