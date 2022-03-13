@@ -17,18 +17,13 @@
     <!-- Event description -->
     <p class="event_description">{{ event.description }}</p>
 
-    <!-- Event link. If event link 'TBA' or event has ended, then button will be disabled -->
-    <v-btn v-if="event.link == 'TBA'" class="btn_disabled" text disabled
-      >Link Coming Soon</v-btn
-    >
-    <a
-      v-else-if="event.link"
-      :href="event.link"
-      target="_blank"
-      class="signup_link"
-    >
+    <a v-if="event.link" :href="event.link" target="_blank" class="signup_link">
       <v-btn color="primary">Sign Up</v-btn>
     </a>
+    <!-- Event link. If there is no link or event has ended, then button will be disabled -->
+    <v-btn v-else-if="!event.link" class="btn_disabled" text disabled
+      >Link Coming Soon</v-btn
+    >
     <v-btn v-else-if="new Date() > event.date" class="btn_disabled" disabled
       >Event Ended</v-btn
     >

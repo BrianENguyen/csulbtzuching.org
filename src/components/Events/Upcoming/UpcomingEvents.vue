@@ -1,7 +1,7 @@
 <template>
   <v-container id="recent_events_section">
     <PageHeader>Upcoming Events</PageHeader>
-    <PageSubheader>{{ time }}</PageSubheader>
+    <PageSubheader>{{ monthYear }}</PageSubheader>
     <v-row v-if="events.length">
       <v-col v-for="(event, i) in events" :key="i" cols="12" md="6" lg="4">
         <UpcomingEventCard v-if="new Date() < event.date" :event="event" />

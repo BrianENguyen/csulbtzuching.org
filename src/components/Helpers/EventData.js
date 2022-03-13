@@ -1,3 +1,14 @@
+/*
+CONDITIONS:
+
+Date / time:
+- if either one of these fields are blank, then the event items will render
+as "TBA"
+
+Link:
+- leave link value as blank if there is no link yet
+*/
+
 const march = [
   {
     name: 'Food Distribution',
@@ -14,7 +25,7 @@ const march = [
     time: '6:30 PM - 7:30 PM',
     location: 'CSULB, HHS1 Room 205',
     description: ``,
-    link: 'TBA',
+    link: '',
   },
   {
     name: 'Food Distribution',

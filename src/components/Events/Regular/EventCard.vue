@@ -38,19 +38,19 @@
     <!-- Event description -->
     <v-card-text class="event_description">{{ event.description }}</v-card-text>
 
-    <!-- Event link. If event link 'TBA' or event has ended, then button will be disabled -->
+    <!-- Event link. If there is no link or event has ended, then button will be disabled -->
     <v-card-actions>
-      <v-btn v-if="event.link == 'TBA'" class="btn_disabled" text disabled
-        >Link Coming Soon</v-btn
-      >
       <a
-        v-else-if="event.link"
+        v-if="event.link"
         :href="event.link"
         target="_blank"
         class="signup_link"
       >
         <v-btn color="blue" text>Sign Up</v-btn>
       </a>
+      <v-btn v-else-if="!event.link" class="btn_disabled" text disabled
+        >Link Coming Soon</v-btn
+      >
       <v-btn
         v-else-if="new Date() > event.date"
         class="btn_disabled"
