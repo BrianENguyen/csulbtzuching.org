@@ -21,16 +21,21 @@
     </v-card-text>
     <v-card-actions>
       <v-btn
-        v-if="event.link"
+        v-if="event.link == 'TBA'"
+        color="blue"
+        text
+        target="_blank"
+        disabled
+        >Sign Up Link Coming soon</v-btn
+      >
+      <v-btn
+        v-else-if="event.link"
         class="upcoming_event_btn"
         color="blue"
         text
         :href="event.link"
         target="_blank"
         >Sign Up</v-btn
-      >
-      <v-btn v-else color="blue" text target="_blank" disabled
-        >Sign Up Link Coming soon</v-btn
       >
     </v-card-actions>
   </v-card>
