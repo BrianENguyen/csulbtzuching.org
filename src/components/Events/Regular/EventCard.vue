@@ -17,34 +17,49 @@
         </v-row>
       </template>
     </v-img>
+
     <!-- Event Name -->
     <v-card-title class="event_name">{{ event.name }}</v-card-title>
+
     <v-card-subtitle>
       <!-- Event date and time. If both aren't present, then 
           display "Date and time TBA" -->
       <h4 v-if="event.date && event.time" class="event_datetime">
-        {{ event.date }} @ {{ event.time }}
+        <!-- TODO: optimize -->
+        {{ event.date.toLocaleString('default', { weekday: 'long' }) }},
+        {{ event.date.toLocaleDateString() }} @
+        {{ event.time }}
       </h4>
       <h4 v-else class="event_datetime">Date and time TBA</h4>
-      <!-- Event location -->
-      <p class="event_location">{{ event.location }}</p>
+
+      <!-- Event location. If no location provided, then render "Location TBA" -->
+      <p v-if="event.location" class="event_location">{{ event.location }}</p>
+      <p v-else class="event_location">Location TBA</p>
     </v-card-subtitle>
+
     <!-- Event description -->
     <v-card-text class="event_description">{{ event.description }}</v-card-text>
-    <!-- Event link. If event link 'TBA' then button will be disabled -->
+
+    <!-- Event link. If there is no link or event has ended, then button will be disabled -->
     <v-card-actions>
-      <v-btn v-if="event.link == 'TBA'" class="btn_disabled" text disabled
-        >Link Coming Soon</v-btn
-      >
       <a
-        v-else-if="event.link"
+        v-if="event.link"
         :href="event.link"
         target="_blank"
         class="signup_link"
       >
         <v-btn color="blue" text>Sign Up</v-btn>
       </a>
-      <v-btn v-else class="btn_disabled" text disabled>Event Ended</v-btn>
+      <v-btn
+        v-else-if="new Date() > event.date"
+        class="btn_disabled"
+        text
+        disabled
+        >Event Ended</v-btn
+      >
+      <v-btn v-else-if="!event.link" class="btn_disabled" text disabled
+        >Link Coming Soon</v-btn
+      >
     </v-card-actions>
   </v-card>
 </template>

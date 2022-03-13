@@ -2,29 +2,32 @@
   <v-timeline-item small>
     <!-- Event Name -->
     <h3 class="event_name">{{ event.name }}</h3>
+
     <!-- Event date and time. If both aren't present, then 
           display "Date and time TBA" -->
     <h4 v-if="event.date && event.time" class="event_datetime">
-      {{ event.date }} @ {{ event.time }}
+      {{ event.date.toLocaleString('default', { weekday: 'short' }) }},
+      {{ event.date.toLocaleDateString() }} @ {{ event.time }}
     </h4>
     <h4 v-else>Date and time TBA</h4>
-    <!-- Event location -->
-    <p class="event_location">{{ event.location }}</p>
+
+    <!-- Event location. If no location provided, then render "Location TBA" -->
+    <p v-if="event.location" class="event_location">{{ event.location }}</p>
+    <p v-else class="event_location">Location TBA</p>
+
     <!-- Event description -->
     <p class="event_description">{{ event.description }}</p>
-    <!-- Event link. If event link 'TBA' then button will be disabled -->
-    <v-btn v-if="event.link == 'TBA'" class="btn_disabled" text disabled
-      >Link Coming Soon</v-btn
-    >
-    <a
-      v-else-if="event.link"
-      :href="event.link"
-      target="_blank"
-      class="signup_link"
-    >
+
+    <a v-if="event.link" :href="event.link" target="_blank" class="signup_link">
       <v-btn color="primary">Sign Up</v-btn>
     </a>
-    <v-btn v-else class="btn_disabled" disabled>Event Ended</v-btn>
+    <!-- Event link. If there is no link or event has ended, then button will be disabled -->
+    <v-btn v-else-if="new Date() > event.date" class="btn_disabled" disabled
+      >Event Ended</v-btn
+    >
+    <v-btn v-else-if="!event.link" class="btn_disabled" text disabled
+      >Link Coming Soon</v-btn
+    >
   </v-timeline-item>
 </template>
 
