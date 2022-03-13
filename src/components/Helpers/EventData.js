@@ -1,9 +1,18 @@
 const march = [
   {
+    name: 'Food Distribution',
+    date: 'Saturday, 3/19/22',
+    time: '8:00 AM - 10:00 AM',
+    location: '1355 Broad Avenue, Wilmington, CA 90744',
+    description: `Help distribute food for families!`,
+    img: 'https://res.cloudinary.com/buraiyen/image/upload/v1638307033/CSULB_TC_Website/fooddistribution.jpg',
+    link: 'https://docs.google.com/forms/d/e/1FAIpQLScVzPaRfwyA8wCQzPfM8axYX3qeMtzngX0Qy4wWwp3Rf-MJQA/viewform',
+  },
+  {
     name: 'First General Meeting',
     date: 'Thursday, 3/10/22',
     time: '6:00 PM - 7:00 PM',
-    location: 'Location TBA',
+    location: 'CSULB HHS1 Room 205',
     description: `Great meeting so many of you at Week of Welcome. First General Meeting 
         is on Thursday, March 10th @ 6:00PM - 7:00 PM!  We will dive deeper into 
         why we joined Tzu Chi, where we will touch upon aspects of moral value, 
@@ -11,7 +20,7 @@ const march = [
         announce officer positions that will be available for those interested in
         gaining leadership roles. While we have not been assigned our classroom location 
         yet we will still hold this general meeting :)`,
-    link: 'https://facebook.us14.list-manage.com/track/click?u=0e66e61be10c29cced4ad9b12&id=bc6642f68a&e=592d49b1ae',
+    link: '',
   },
 ];
 
