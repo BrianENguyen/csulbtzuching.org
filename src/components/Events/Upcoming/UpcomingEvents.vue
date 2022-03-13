@@ -1,4 +1,9 @@
 <template>
+  <!-- The array of events passed in will be displayed in this component.
+      The only time the array will be empty is if the events have ended.
+      In that case, then the app will notify the user that there are
+      no events currently scheduled -->
+
   <v-container id="recent_events_section">
     <PageHeader>Upcoming Events</PageHeader>
     <PageSubheader>{{ monthYear }}</PageSubheader>

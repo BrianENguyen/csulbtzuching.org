@@ -1,12 +1,14 @@
 <template>
   <v-card elevation="3" data-aos="fade-up" data-aos-duration="1000">
     <v-card-title>
+      <!-- Event name -->
       <h1 class="upcoming_event_name">
         {{ event.name }}
       </h1>
     </v-card-title>
     <v-card-subtitle>
-      <!-- Event date-time -->
+      <!-- Event date and time. If both aren't present, then 
+          display "Date and time TBA" -->
       <h4 class="upcoming_event_datetime" v-if="event.date && event.time">
         {{ event.date.toLocaleString('default', { weekday: 'short' }) }},
         {{ event.date.toLocaleDateString() }} @ {{ event.time }}
