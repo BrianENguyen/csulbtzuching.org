@@ -50,15 +50,15 @@
       >
         <v-btn color="blue" text>Sign Up</v-btn>
       </a>
-      <v-btn v-else-if="!event.link" class="btn_disabled" text disabled
-        >Link Coming Soon</v-btn
-      >
       <v-btn
         v-else-if="new Date() > event.date"
         class="btn_disabled"
         text
         disabled
         >Event Ended</v-btn
+      >
+      <v-btn v-else-if="!event.link" class="btn_disabled" text disabled
+        >Link Coming Soon</v-btn
       >
     </v-card-actions>
   </v-card>

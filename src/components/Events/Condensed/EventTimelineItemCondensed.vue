@@ -22,11 +22,11 @@
       <v-btn color="primary">Sign Up</v-btn>
     </a>
     <!-- Event link. If there is no link or event has ended, then button will be disabled -->
-    <v-btn v-else-if="!event.link" class="btn_disabled" text disabled
-      >Link Coming Soon</v-btn
-    >
     <v-btn v-else-if="new Date() > event.date" class="btn_disabled" disabled
       >Event Ended</v-btn
+    >
+    <v-btn v-else-if="!event.link" class="btn_disabled" text disabled
+      >Link Coming Soon</v-btn
     >
   </v-timeline-item>
 </template>
