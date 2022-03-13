@@ -1,7 +1,7 @@
 const march = [
   {
     name: 'Food Distribution',
-    date: 'Saturday, 3/26/22',
+    date: new Date('3/26/22'),
     time: '8:00 AM - 10:00 AM',
     location: '2880 E Gage Avenue, Huntington Park, CA 90255',
     description: `Help distribute food for families!`,
@@ -10,7 +10,7 @@ const march = [
   },
   {
     name: 'General Meeting',
-    date: 'Tuesday, 3/22/22',
+    date: new Date('3/22/22'),
     time: '6:30 PM - 7:30 PM',
     location: 'CSULB, HHS1 Room 205',
     description: ``,
@@ -18,7 +18,7 @@ const march = [
   },
   {
     name: 'Food Distribution',
-    date: 'Saturday, 3/19/22',
+    date: new Date('3/19/22'),
     time: '8:00 AM - 10:00 AM',
     location: '1355 Broad Avenue, Wilmington, CA 90744',
     description: `Help distribute food for families!`,
@@ -27,7 +27,7 @@ const march = [
   },
   {
     name: 'First General Meeting',
-    date: 'Thursday, 3/10/22',
+    date: new Date('3/10/22'),
     time: '6:00 PM - 7:00 PM',
     location: 'CSULB HHS1 Room 205',
     description: `Great meeting so many of you at Week of Welcome. First General Meeting 
@@ -44,7 +44,7 @@ const march = [
 const december = [
   {
     name: 'Food Distribution',
-    date: 'Saturday, 12/18/21',
+    date: new Date('12/18/21'),
     time: '7:30 AM - 11:00 AM',
     location: '6720 Miles Ave, Huntington Park, CA 90255',
     description: 'Help distribute food for families!',
@@ -53,7 +53,7 @@ const december = [
   },
   {
     name: 'Food Distribution',
-    date: 'Saturday, 12/11/21',
+    date: new Date('12/11/21'),
     time: '8:30 AM - 10:30 AM',
     location: 'Tzu Chi Health Center - 1355 Broad Ave, Wilmington, CA 90744',
     description: 'Help distribute food for families!',
@@ -62,7 +62,7 @@ const december = [
   },
   {
     name: 'December General Meeting',
-    date: 'Thursday, 12/9/21',
+    date: new Date('12/9/21'),
     time: '8:00 PM - 9:00 PM',
     location: 'Zoom',
     description:
@@ -71,7 +71,7 @@ const december = [
   },
   {
     name: 'Online Dharma Study',
-    date: 'Sunday, 12/05/21',
+    date: new Date('12/5/21'),
     time: '5:00 PM - 6:00 PM',
     location: 'Zoom',
     description: '',
@@ -82,7 +82,7 @@ const december = [
 const november = [
   {
     name: 'Bowling Social',
-    date: 'Sunday, 11/21/21',
+    date: new Date('11/21/21'),
     time: '12:00 PM - 2:00PM',
     location: '',
     description: '',
@@ -90,7 +90,7 @@ const november = [
   },
   {
     name: 'Medical Outreach',
-    date: 'Saturday, 11/13/21',
+    date: new Date('11/13/21'),
     time: '9:00 AM',
     location: 'Tzu Chi Health Center - 1355 Broad Ave, Wilmington, CA 90744',
     description:
