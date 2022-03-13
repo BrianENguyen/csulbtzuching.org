@@ -17,8 +17,10 @@
         </v-row>
       </template>
     </v-img>
+
     <!-- Event Name -->
     <v-card-title class="event_name">{{ event.name }}</v-card-title>
+
     <v-card-subtitle>
       <!-- Event date and time. If both aren't present, then 
           display "Date and time TBA" -->
@@ -32,9 +34,11 @@
       <!-- Event location -->
       <p class="event_location">{{ event.location }}</p>
     </v-card-subtitle>
+
     <!-- Event description -->
     <v-card-text class="event_description">{{ event.description }}</v-card-text>
-    <!-- Event link. If event link 'TBA' then button will be disabled -->
+
+    <!-- Event link. If event link 'TBA' or event has ended, then button will be disabled -->
     <v-card-actions>
       <v-btn v-if="event.link == 'TBA'" class="btn_disabled" text disabled
         >Link Coming Soon</v-btn

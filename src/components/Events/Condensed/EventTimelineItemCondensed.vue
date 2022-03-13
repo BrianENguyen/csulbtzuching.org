@@ -2,6 +2,7 @@
   <v-timeline-item small>
     <!-- Event Name -->
     <h3 class="event_name">{{ event.name }}</h3>
+
     <!-- Event date and time. If both aren't present, then 
           display "Date and time TBA" -->
     <h4 v-if="event.date && event.time" class="event_datetime">
@@ -9,11 +10,14 @@
       {{ event.date.toLocaleDateString() }} @ {{ event.time }}
     </h4>
     <h4 v-else>Date and time TBA</h4>
+
     <!-- Event location -->
     <p class="event_location">{{ event.location }}</p>
+
     <!-- Event description -->
     <p class="event_description">{{ event.description }}</p>
-    <!-- Event link. If event link 'TBA' then button will be disabled -->
+
+    <!-- Event link. If event link 'TBA' or event has ended, then button will be disabled -->
     <v-btn v-if="event.link == 'TBA'" class="btn_disabled" text disabled
       >Link Coming Soon</v-btn
     >
