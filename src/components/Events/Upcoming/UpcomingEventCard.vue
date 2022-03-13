@@ -7,7 +7,8 @@
     </v-card-title>
     <v-card-subtitle>
       <h4 class="upcoming_event_datetime" v-if="event.date && event.time">
-        {{ event.date }} @ {{ event.time }}
+        {{ event.date.toLocaleString('default', { weekday: 'short' }) }},
+        {{ event.date.toLocaleDateString() }} @ {{ event.time }}
       </h4>
       <h4 class="upcoming_event_datetime" v-else>Date and time TBA</h4>
       <h4 class="upcoming_event_location">
