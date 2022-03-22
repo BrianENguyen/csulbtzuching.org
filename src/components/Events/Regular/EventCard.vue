@@ -43,7 +43,7 @@
     <!-- Event link. If there is no link or event has ended, then button will be disabled -->
     <v-card-actions>
       <a
-        v-if="event.link"
+        v-if="event.link && new Date() < event.date"
         :href="event.link"
         target="_blank"
         class="signup_link"
