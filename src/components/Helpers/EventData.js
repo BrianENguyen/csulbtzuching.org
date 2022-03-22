@@ -18,12 +18,13 @@ const march = [
     link: 'https://docs.google.com/forms/d/e/1FAIpQLScVzPaRfwyA8wCQzPfM8axYX3qeMtzngX0Qy4wWwp3Rf-MJQA/viewform',
   },
   {
-    name: 'General Meeting',
+    name: 'Second General Meeting',
     date: new Date('3/22/22'),
     time: '6:30 PM - 7:30 PM',
     location: 'CSULB, HHS1 Room 205',
-    description: ``,
-    link: '',
+    description: `This meeting we will go in more depth about Tzu Chi and
+       as always we have some free food or drinks to accompany the meeting. We will gladly be talking about even more volunteering events. We really hope you can join us this Tuesday. Thank you. :) `,
+    link: 'https://docs.google.com/forms/d/e/1FAIpQLSeg6XyGs5tnxSLXqP0Heyj4EERLdJEBHgZLdo1Ucn5T9X62pg/viewform',
   },
   {
     name: 'Food Distribution',
