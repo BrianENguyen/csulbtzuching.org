@@ -5,12 +5,19 @@ The following fields will render "TBA" on the app if left blank:
 - date AND time
 - location
 - link
+
+Date(year, month, day, hour)
+
+Month and hour starts at 0. Hour follows 24-hour clock format
+
+Ex. 0 = 00:00
+    18 = 18:00
 */
 
 const march = [
   {
     name: 'Food Distribution',
-    date: new Date('3/26/22'),
+    date: new Date(2022, 2, 26, 10),
     time: '8:00 AM - 10:00 AM',
     location: '2880 E Gage Avenue, Huntington Park, CA 90255',
     description: `Help distribute food for families!`,
@@ -19,7 +26,7 @@ const march = [
   },
   {
     name: 'Second General Meeting',
-    date: new Date('3/22/22'),
+    date: new Date(2022, 2, 22, 19),
     time: '6:30 PM - 7:30 PM',
     location: 'CSULB, HHS1 Room 205',
     description: `This meeting we will go in more depth about Tzu Chi and
@@ -28,7 +35,7 @@ const march = [
   },
   {
     name: 'Food Distribution',
-    date: new Date('3/19/22'),
+    date: new Date(2022, 2, 19, 10),
     time: '8:00 AM - 10:00 AM',
     location: '1355 Broad Avenue, Wilmington, CA 90744',
     description: `Help distribute food for families!`,
@@ -37,7 +44,7 @@ const march = [
   },
   {
     name: 'First General Meeting',
-    date: new Date('3/10/22'),
+    date: new Date(2022, 2, 10, 19),
     time: '6:00 PM - 7:00 PM',
     location: 'CSULB HHS1 Room 205',
     description: `Great meeting so many of you at Week of Welcome. First General Meeting 
@@ -54,7 +61,7 @@ const march = [
 const december = [
   {
     name: 'Food Distribution',
-    date: new Date('12/18/21'),
+    date: new Date(2021, 11, 18, 11),
     time: '7:30 AM - 11:00 AM',
     location: '6720 Miles Ave, Huntington Park, CA 90255',
     description: 'Help distribute food for families!',
@@ -63,7 +70,7 @@ const december = [
   },
   {
     name: 'Food Distribution',
-    date: new Date('12/11/21'),
+    date: new Date(2021, 11, 11, 11),
     time: '8:30 AM - 10:30 AM',
     location: 'Tzu Chi Health Center - 1355 Broad Ave, Wilmington, CA 90744',
     description: 'Help distribute food for families!',
@@ -72,7 +79,7 @@ const december = [
   },
   {
     name: 'December General Meeting',
-    date: new Date('12/9/21'),
+    date: new Date(2021, 11, 9, 11),
     time: '8:00 PM - 9:00 PM',
     location: 'Zoom',
     description:
@@ -81,7 +88,7 @@ const december = [
   },
   {
     name: 'Online Dharma Study',
-    date: new Date('12/5/21'),
+    date: new Date(2021, 11, 5, 11),
     time: '5:00 PM - 6:00 PM',
     location: 'Zoom',
     description: '',
@@ -92,15 +99,15 @@ const december = [
 const november = [
   {
     name: 'Bowling Social',
-    date: new Date('11/21/21'),
+    date: new Date(2021, 10, 21, 14),
     time: '12:00 PM - 2:00PM',
-    location: '',
+    location: 'Lakewood Center, 500 Lakewood Center Mall, Lakewood, CA 90712',
     description: '',
     link: '',
   },
   {
     name: 'Medical Outreach',
-    date: new Date('11/13/21'),
+    date: new Date(2021, 10, 13, 10),
     time: '9:00 AM',
     location: 'Tzu Chi Health Center - 1355 Broad Ave, Wilmington, CA 90744',
     description:
