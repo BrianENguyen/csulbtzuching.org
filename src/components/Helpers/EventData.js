@@ -6,12 +6,16 @@ The following fields will render "TBA" on the app if left blank:
 - location
 - link
 
+__________________________________
+
 Date(year, month, day, hour)
 
 Month and hour starts at 0. Hour follows 24-hour clock format
 
-Ex. 0 = 00:00
-    18 = 18:00
+Examples:
+
+March 22, 2022 at 2:00 PM 
+Date(2022, 2, 22, 14)
 */
 
 const march = [
