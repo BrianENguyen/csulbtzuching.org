@@ -1,4 +1,5 @@
 <template>
+  <!-- FIXME: find a better way to optimize this -->
   <div>
     <a v-if="links.email" :href="links.email" target="_blank"
       ><i class="fas fa-envelope fa-2x mr-2 member_card_icon"></i
