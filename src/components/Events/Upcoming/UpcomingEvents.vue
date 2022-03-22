@@ -30,20 +30,22 @@
 import UpcomingEventCard from './UpcomingEventCard';
 import PageHeader from '../../UI/Header/PageHeader';
 import PageSubheader from '../../UI/Header/PageSubheader';
-import { march } from '../../Helpers/EventData';
+import { march as events } from '../../Helpers/EventData';
 
 const date = new Date();
 const month = date.toLocaleString('default', { month: 'long' });
 const year = date.getFullYear();
 const monthYear = `${month} ${year}`;
 
+// TODO: fix module to support events from multiple months
+
 const availableEvents = [];
 
-for (let i = 0; i < march.length; i++) {
-  if (date > march[i].date) {
+for (let i = 0; i < events.length; i++) {
+  if (date > events[i].date) {
     break;
   }
-  availableEvents.push(march[i]);
+  availableEvents.push(events[i]);
 }
 
 export default {
