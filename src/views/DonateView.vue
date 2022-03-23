@@ -3,7 +3,7 @@
     <PageTitle>Donate</PageTitle>
     <p class="my-3">
       Donations are greatly appreciated because they help keep the website
-      online! If you want to support our organization, then consider please
+      online! If you want to support our organization, then please consider
       donating! The link below will redirect you to our web developer's donation
       page. Simply click on the "Donate" button on that page to make your
       donation
