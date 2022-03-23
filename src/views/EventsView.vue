@@ -2,19 +2,25 @@
   <div class="events">
     <Jumbotron :jumboData="jumboData" />
     <CardWrapper>
+      <!-- Checkbox to switch between (un)condensed timeline views.
+            The initial state of 'isCondensed' is set to false, so 
+            the regular timeline will display
+       -->
       <v-checkbox
         v-model="isCondensed"
         :label="`Condensed view: ${isCondensed ? 'On' : 'Off'}`"
       ></v-checkbox>
-      <div v-if="isCondensed">
-        <EventTimelineCondensed month="March 2022" :events="march" />
-        <EventTimelineCondensed month="December 2021" :events="december" />
-        <EventTimelineCondensed month="November 2021" :events="november" />
-      </div>
-      <div v-else>
+      <!-- Uncondensed timeline -->
+      <div v-if="!isCondensed">
         <EventTimeline month="March 2022" :events="march" />
         <EventTimeline month="December 2021" :events="december" />
         <EventTimeline month="November 2021" :events="november" />
+      </div>
+      <!-- Condensed timeline -->
+      <div v-else>
+        <EventTimelineCondensed month="March 2022" :events="march" />
+        <EventTimelineCondensed month="December 2021" :events="december" />
+        <EventTimelineCondensed month="November 2021" :events="november" />
       </div>
     </CardWrapper>
   </div>
