@@ -4,9 +4,9 @@
     <p class="my-3">
       Donations are greatly appreciated because they help keep the website
       online! If you want to support our organization, then please consider
-      donating! The link below will redirect you to our web developer's donation
-      page. Simply click on the "Donate" button on that page to make your
-      donation
+      donating! The link below will redirect you to our web developer's Venmo
+      page where you can make your donation. Alternatively, you could look up
+      the username @Buraiyen on Venmo.
     </p>
     <DonateButton :info="csulbtc" />
     <p class="my-3">
@@ -35,7 +35,7 @@ export default {
   data: () => ({
     csulbtc: {
       text: 'Donate to this website',
-      link: 'https://ko-fi.com/brianenguyen',
+      link: 'https://account.venmo.com/u/Buraiyen',
       color: 'light-green',
     },
     tzuchi: {
