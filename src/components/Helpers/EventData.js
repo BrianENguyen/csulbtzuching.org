@@ -18,6 +18,72 @@ March 22, 2022 at 2:00 PM
 Date(2022, 2, 22, 14)
 */
 
+// TODO: come up with a better name for variables, since months can overlap
+
+const april = [
+  {
+    name: 'Wilmington Food Distribution',
+    date: new Date(2022, 3, 23, 10),
+    time: '8:00 AM - 10:00 AM',
+    location: '1355 Broad Avenue, Wilmington, CA 90744',
+    description: `Help distribute food for families! We have two food distributions happening at the same time and day.
+      Feel free to join whichever one is convenient for you!`,
+    img: 'https://res.cloudinary.com/buraiyen/image/upload/v1638307033/CSULB_TC_Website/fooddistribution.jpg',
+    link: 'https://docs.google.com/forms/d/e/1FAIpQLScy0PHfB9q9Rt4srRTnAMvFrp7iYrmM8b1bBUKsK7F9WgmLaw/viewform',
+  },
+  {
+    name: 'Gage Food Distribution',
+    date: new Date(2022, 3, 23, 10),
+    time: '8:00 AM - 10:00 AM',
+    location: '2880 E Gage Avenue, Huntington Park, CA 90255',
+    description: `Help distribute food for families! We have two food distributions happening at the same time and day.
+      Feel free to join whichever one is convenient for you!`,
+    img: 'https://res.cloudinary.com/buraiyen/image/upload/v1638307033/CSULB_TC_Website/fooddistribution.jpg',
+    link: 'https://docs.google.com/forms/d/e/1FAIpQLScy0PHfB9q9Rt4srRTnAMvFrp7iYrmM8b1bBUKsK7F9WgmLaw/viewform',
+  },
+  {
+    name: 'Compassion in Action: 2022 Tzu Chi Walkathon',
+    date: new Date(2022, 3, 16, 14),
+    time: '9 AM - 2 PM',
+    location:
+      'Tzu Chi USA National Headquarters, 1100 S. Valley Center Ave., San Dimas, CA 91773, or flexible location',
+    description: `We’re safely gathering for a 5K to raise awareness and funds that support our missions of medicine and education. 
+      Whether you walk, run, or bike, we’re determined to get compassion going! If you are unable to make it to the location,
+      then you are free to participate where ever it is convenient for you!`,
+    img: '',
+    link: 'https://docs.google.com/forms/d/e/1FAIpQLScy0PHfB9q9Rt4srRTnAMvFrp7iYrmM8b1bBUKsK7F9WgmLaw/viewform',
+  },
+  {
+    name: 'Beach Clean Up Community Weekend',
+    date: new Date(2022, 3, 10, 12),
+    time: '10 AM',
+    location: 'Seal Beach (specific location will be provided the day before)',
+    description: `Come hang out with us while we help clean up trash at Seal Beach. Feel free to bring along your friends too!`,
+    img: '',
+    link: 'https://docs.google.com/forms/d/e/1FAIpQLScy0PHfB9q9Rt4srRTnAMvFrp7iYrmM8b1bBUKsK7F9WgmLaw/viewform',
+  },
+  {
+    name: 'Online Warm Gathering Book Club',
+    date: new Date(2022, 3, 6, 21),
+    time: '7:30 PM - 8:30 PM',
+    location: 'Zoom',
+    description: `Hosted by our advisor Weili, this Warm Gathering Book Club allows us to read and discuss various books that are related
+      to Tzu Chi and other topics. We also have other fun activities as well, such as music performances, drawing, and much more!`,
+    img: '',
+    link: 'https://docs.google.com/forms/d/e/1FAIpQLScy0PHfB9q9Rt4srRTnAMvFrp7iYrmM8b1bBUKsK7F9WgmLaw/viewform',
+  },
+  {
+    name: 'Online Dharma Study',
+    date: new Date(2022, 3, 3, 18),
+    time: '5:00 PM - 6:00 PM',
+    location: 'Zoom',
+    description: `Connect with other Tzu Chi members from around the world to study Dharma teachings, as well as learn
+      about the journeys and experiences that other Tzu Chi members have to share.`,
+    img: '',
+    link: 'https://docs.google.com/forms/d/e/1FAIpQLScy0PHfB9q9Rt4srRTnAMvFrp7iYrmM8b1bBUKsK7F9WgmLaw/viewform',
+  },
+];
+
 const march = [
   {
     name: 'Food Distribution',
@@ -121,4 +187,4 @@ const november = [
   },
 ];
 
-export { december, november, march };
+export { december, november, march, april };
