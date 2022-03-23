@@ -18,6 +18,31 @@ March 22, 2022 at 2:00 PM
 Date(2022, 2, 22, 14)
 */
 
+// TODO: come up with a better name for variables, since months can overlap
+
+const april = [
+  {
+    name: 'Online Warm Gathering Book Club',
+    date: new Date(2022, 3, 6, 21),
+    time: '7:30 PM - 8:30 PM',
+    location: 'Zoom',
+    description: `Hosted by our advisor Weili, this Warm Gathering Book Club allows us to read and discuss various books that are related
+      to Tzu Chi and other topics. We also have other fun activities as well, such as music performances, drawing, and much more!`,
+    img: '',
+    link: 'https://docs.google.com/forms/d/e/1FAIpQLScy0PHfB9q9Rt4srRTnAMvFrp7iYrmM8b1bBUKsK7F9WgmLaw/viewform',
+  },
+  {
+    name: 'Online Dharma Study',
+    date: new Date(2022, 3, 3, 18),
+    time: '5:00 PM - 6:00 PM',
+    location: 'Zoom',
+    description: `Connect with other Tzu Chi members from around the world to study Dharma teachings, as well as learn
+      about the journeys and experiences that other Tzu Chi members have to share.`,
+    img: '',
+    link: 'https://docs.google.com/forms/d/e/1FAIpQLScy0PHfB9q9Rt4srRTnAMvFrp7iYrmM8b1bBUKsK7F9WgmLaw/viewform',
+  },
+];
+
 const march = [
   {
     name: 'Food Distribution',
@@ -121,4 +146,4 @@ const november = [
   },
 ];
 
-export { december, november, march };
+export { december, november, march, april };
