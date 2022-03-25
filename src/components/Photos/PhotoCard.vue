@@ -41,6 +41,8 @@ export default {
   name: 'PhotoCard',
   data: () => ({
     dialog: false,
+    on: false,
+    attrs: false,
   }),
   props: {
     photo: String,
