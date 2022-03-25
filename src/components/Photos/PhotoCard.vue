@@ -26,6 +26,7 @@
     <v-img
       @click="dialog = false"
       :src="photo"
+      :lazy-src="photo"
       width="750px"
       v-bind="attrs"
       v-on="on"
