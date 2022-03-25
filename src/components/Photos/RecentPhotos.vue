@@ -35,7 +35,7 @@ export default {
   data: () => ({
     photos: [
       'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1915/v1648069430/CSULB_TC_Website/Gallery/2021-11-13_MedicalOutreach/outreach1_k1nzkx.webp',
-      'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1915/v1637183820/CSULB_TC_Website/Gallery/IMG_0040_txeaj1.jpg',
+      'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1915/v1648233698/CSULB_TC_Website/Gallery/distribution.webp',
     ],
   }),
 };
