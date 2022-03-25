@@ -1,7 +1,7 @@
 <template>
   <router-link class="navbar-brand-align" :to="{ name: 'Home' }">
     <b-navbar-brand>
-      <img src="../../../assets/logo.png" alt="" width="50px" />
+      <img src="../../../assets/logo.png" alt="" width="50px" height="40px" />
       CSULB Tzu Ching
     </b-navbar-brand>
   </router-link>

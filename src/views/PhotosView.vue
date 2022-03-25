@@ -16,7 +16,7 @@ import CardWrapper from '../components/UI/CardWrapper';
 import PhotoData from '../components/Helpers/PhotoData.js';
 
 const jumboImage =
-  'https://res.cloudinary.com/buraiyen/image/upload/b_black,o_70,c_scale,w_1915/v1636913788/CSULB_TC_Website/17546836_656892331149578_6206756973583337194_o_f82awv.jpg';
+  'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1915/v1648148277/CSULB_TC_Website/Jumbotron/BEN_tc-keychain.webp';
 const jumboTitle = 'Photos';
 const jumboDescription = 'Photos from our recent events!';
 
