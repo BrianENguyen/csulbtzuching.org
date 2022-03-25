@@ -41,7 +41,7 @@ import {
 } from '../components/Helpers/EventData';
 
 const jumboImage =
-  'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1915/v1636247406/CSULB_TC_Website/DSC_0400_nmkrtt.jpg';
+  'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1915/v1648148277/CSULB_TC_Website/Jumbotron/BEN_distribution_bwl3cq.webp';
 const jumboTitle = 'Events';
 const jumboDescription = 'View our current / past events!';
 
