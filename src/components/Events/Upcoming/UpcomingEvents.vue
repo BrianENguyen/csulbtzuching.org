@@ -6,7 +6,6 @@
 
   <v-container id="recent_events_section">
     <PageHeader>Upcoming Events</PageHeader>
-    <PageSubheader>{{ monthYear }}</PageSubheader>
     <v-row v-if="events.length">
       <v-col v-for="(event, i) in events" :key="i" cols="12" md="6" lg="4">
         <UpcomingEventCard v-if="new Date() < event.date" :event="event" />
@@ -29,7 +28,6 @@
 <script>
 import UpcomingEventCard from './UpcomingEventCard';
 import PageHeader from '../../UI/Header/PageHeader';
-import PageSubheader from '../../UI/Header/PageSubheader';
 import { april, march } from '../../Helpers/EventData';
 
 const today = new Date();
@@ -49,7 +47,6 @@ export default {
   components: {
     UpcomingEventCard,
     PageHeader,
-    PageSubheader,
   },
   data: () => ({
     events: availableEvents,
