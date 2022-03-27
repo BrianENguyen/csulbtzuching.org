@@ -40,9 +40,6 @@ export default {
   color: white;
 }
 
-.jumbotron__description {
-  font-size: 1.6rem;
-}
 .jumbotron__image {
   object-fit: cover;
   width: 100%;
@@ -53,25 +50,48 @@ export default {
 
 @media (min-width: 0px) {
   .jumbotron__title {
-    font-size: 15vw;
+    font-size: 7vw;
   }
+
+  .jumbotron__description {
+    font-size: 1.2rem;
+  }
+
+  .jumbotron_,
+  .jumbotron__image {
+    height: 40vh;
+  }
+
   .jumbotron__container {
-    position: absolute;
-    top: 50%;
-    left: 50%;
     transform: translate(-50%, -50%);
     width: 90%;
   }
 }
 @media (min-width: 576px) {
   .jumbotron__title {
-    font-size: 10vw;
+    font-size: 5vw;
+  }
+
+  .jumbotron__description {
+    font-size: 1.2rem;
+  }
+
+  .jumbotron_,
+  .jumbotron__image {
+    height: 60vh;
   }
 }
 
 @media (min-width: 992px) {
   .jumbotron__title {
     font-size: 5rem;
+  }
+  .jumbotron_,
+  .jumbotron__image {
+    height: 90vh;
+  }
+  .jumbotron__description {
+    font-size: 1.6rem;
   }
 }
 </style>
