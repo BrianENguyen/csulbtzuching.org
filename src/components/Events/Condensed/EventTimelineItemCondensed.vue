@@ -19,7 +19,7 @@
     <p class="event_description">{{ event.description }}</p>
 
     <a
-      v-if="event.link && new Date() < event.date"
+      v-if="event.link && Date.now() < event.date"
       :href="event.link"
       target="_blank"
       class="signup_link"
@@ -27,7 +27,7 @@
       <v-btn color="primary">Sign Up</v-btn>
     </a>
     <!-- Event link. If there is no link or event has ended, then button will be disabled -->
-    <v-btn v-else-if="new Date() > event.date" class="btn_disabled" disabled
+    <v-btn v-else-if="Date.now() > event.date" class="btn_disabled" disabled
       >Event Ended</v-btn
     >
     <v-btn v-else-if="!event.link" class="btn_disabled" text disabled

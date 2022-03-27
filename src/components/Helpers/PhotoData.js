@@ -7,9 +7,9 @@ const PhotoData = [
     name: 'Medical Outreach',
     date: '11/13/21',
     photos: [
-      'https://res.cloudinary.com/buraiyen/image/upload/v1648069419/CSULB_TC_Website/Gallery/2021-11-13_MedicalOutreach/IMG_9996_bdgkjf_yvg6j0.webp',
-      'https://res.cloudinary.com/buraiyen/image/upload/v1648069429/CSULB_TC_Website/Gallery/2021-11-13_MedicalOutreach/outreach_totlvn_sznera.webp',
-      'https://res.cloudinary.com/buraiyen/image/upload/v1648069430/CSULB_TC_Website/Gallery/2021-11-13_MedicalOutreach/outreach1_k1nzkx.webp',
+      'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1151/v1648069419/CSULB_TC_Website/Gallery/2021-11-13_MedicalOutreach/IMG_9996_bdgkjf_yvg6j0.webp',
+      'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1151/v1648069429/CSULB_TC_Website/Gallery/2021-11-13_MedicalOutreach/outreach_totlvn_sznera.webp',
+      'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1151/v1648069430/CSULB_TC_Website/Gallery/2021-11-13_MedicalOutreach/outreach1_k1nzkx.webp',
     ],
   },
   {

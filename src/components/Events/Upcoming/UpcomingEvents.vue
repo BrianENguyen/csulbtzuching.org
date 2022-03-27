@@ -8,7 +8,7 @@
     <PageHeader>Upcoming Events</PageHeader>
     <v-row v-if="events.length">
       <v-col v-for="(event, i) in events" :key="i" cols="12" md="6" lg="4">
-        <UpcomingEventCard v-if="new Date() < event.date" :event="event" />
+        <UpcomingEventCard v-if="Date.now() < event.date" :event="event" />
       </v-col>
     </v-row>
     <p v-else>
@@ -28,18 +28,21 @@
 <script>
 import UpcomingEventCard from './UpcomingEventCard';
 import PageHeader from '../../UI/Header/PageHeader';
-import { april, march } from '../../Helpers/EventData';
+import { april } from '../../Helpers/EventData';
 
-const today = new Date();
-
-const allEvents = [...april, ...march];
+const today = Date.now();
+const allEvents = [...april];
 const availableEvents = [];
 
-// Loop through all events. If the current event has not happened yet,
-// then that event will be added to the availableEvents array
+/* Loop through all events. If the current event has not happened yet,
+ then that event will be added to the availableEvents array
+
+ Events are pushed to the front array rather than the back so that
+ the most upcoming event will be displayed first
+ */
 for (let i = 0; i < allEvents.length; i++) {
   if (today < allEvents[i].date) {
-    availableEvents.push(allEvents[i]);
+    availableEvents.unshift(allEvents[i]);
   }
 }
 

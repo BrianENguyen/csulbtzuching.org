@@ -43,7 +43,7 @@
     <!-- Event link. If there is no link or event has ended, then button will be disabled -->
     <v-card-actions>
       <a
-        v-if="event.link && new Date() < event.date"
+        v-if="event.link && Date.now() < event.date"
         :href="event.link"
         target="_blank"
         class="signup_link"
@@ -51,7 +51,7 @@
         <v-btn color="blue" text>Sign Up</v-btn>
       </a>
       <v-btn
-        v-else-if="new Date() > event.date"
+        v-else-if="Date.now() > event.date"
         class="btn_disabled"
         text
         disabled
