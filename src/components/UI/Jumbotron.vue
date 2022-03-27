@@ -25,7 +25,7 @@ export default {
 
 <style>
 .jumbotron_ {
-  height: 100vh;
+  height: 90vh;
   position: relative;
   text-align: center;
   background-color: black;
@@ -34,7 +34,6 @@ export default {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -70%);
 }
 .jumbotron__title,
 .jumbotron__description {
@@ -48,13 +47,20 @@ export default {
   object-fit: cover;
   width: 100%;
   position: relative;
-  height: 110vh;
+  height: 90vh;
   z-index: 0;
 }
 
 @media (min-width: 0px) {
   .jumbotron__title {
     font-size: 15vw;
+  }
+  .jumbotron__container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
   }
 }
 @media (min-width: 576px) {

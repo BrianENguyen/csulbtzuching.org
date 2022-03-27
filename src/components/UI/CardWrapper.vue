@@ -12,7 +12,7 @@ export default {};
 
 <style>
 .card_wrapper {
-  margin: 2% 5%;
+  margin: -2% 5%;
 }
 .card_wrapper_content {
   margin-top: 100px;
