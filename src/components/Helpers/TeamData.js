@@ -1,3 +1,14 @@
+/*
+TeamData is used to display team members on the Team view.
+
+Officers - main board of the organization
+Alumni - LBTC members who had graduated but still continue to help the organization
+Former members - any member, student or alumni, who has previously held an officer position and who are no longer active.
+
+For the officers, always put the president and the vice president
+in the first and second element respectively
+*/
+
 const officers = [
   {
     name: 'Samanta C.',
