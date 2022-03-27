@@ -8,7 +8,7 @@
     <PageHeader>Upcoming Events</PageHeader>
     <v-row v-if="events.length">
       <v-col v-for="(event, i) in events" :key="i" cols="12" md="6" lg="4">
-        <UpcomingEventCard v-if="new Date() < event.date" :event="event" />
+        <UpcomingEventCard v-if="Date.now() < event.date" :event="event" />
       </v-col>
     </v-row>
     <p v-else>
@@ -30,8 +30,7 @@ import UpcomingEventCard from './UpcomingEventCard';
 import PageHeader from '../../UI/Header/PageHeader';
 import { april } from '../../Helpers/EventData';
 
-const today = new Date();
-
+const today = Date.now();
 const allEvents = [...april];
 const availableEvents = [];
 
