@@ -35,11 +35,15 @@ const today = new Date();
 const allEvents = [...april, ...march];
 const availableEvents = [];
 
-// Loop through all events. If the current event has not happened yet,
-// then that event will be added to the availableEvents array
+/* Loop through all events. If the current event has not happened yet,
+ then that event will be added to the availableEvents array
+
+ Events are pushed to the front array rather than the back so that
+ the most upcoming event will be displayed first
+ */
 for (let i = 0; i < allEvents.length; i++) {
   if (today < allEvents[i].date) {
-    availableEvents.push(allEvents[i]);
+    availableEvents.unshift(allEvents[i]);
   }
 }
 
