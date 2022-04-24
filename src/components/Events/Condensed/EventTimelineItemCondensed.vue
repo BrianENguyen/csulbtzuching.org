@@ -30,7 +30,7 @@
     <v-btn v-else-if="Date.now() > event.date" class="btn_disabled" disabled
       >Event Ended</v-btn
     >
-    <v-btn v-else-if="!event.link" class="btn_disabled" text disabled
+    <v-btn v-else-if="!event.link" class="btn_disabled" disabled
       >Link Coming Soon</v-btn
     >
   </v-timeline-item>
