@@ -28,10 +28,10 @@
 <script>
 import UpcomingEventCard from './UpcomingEventCard';
 import PageHeader from '../../UI/Header/PageHeader';
-import { april } from '../../Helpers/EventData';
+import { may } from '../../Helpers/EventData';
 
 const today = Date.now();
-const allEvents = [...april];
+const allEvents = [...may];
 const availableEvents = [];
 
 /* Loop through all events. If the current event has not happened yet,
