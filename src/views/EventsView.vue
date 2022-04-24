@@ -20,6 +20,7 @@
       </div>
       <!-- Condensed timeline -->
       <div v-else>
+        <EventTimelineCondensed month="May 2022" :events="may" />
         <EventTimelineCondensed month="April 2022" :events="april" />
         <EventTimelineCondensed month="March 2022" :events="march" />
         <EventTimelineCondensed month="December 2021" :events="december" />
