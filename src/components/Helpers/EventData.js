@@ -17,11 +17,9 @@ Examples:
 March 22, 2022 at 2:00 PM 
 Date(2022, 2, 22, 14)
 
+_________________________________
 
-5/4 Online Warm Gathering Event 7:30pm 
-5/7 Buddha/Mother’s Day and Tzu Chi Day Event at San Dimas Headquarter.  
-5/21 Wilmington Food Distribution 
-5/28  Gage Middle School FD
+Upcoming events. Will post once I get more information
 
 07/29 Lotus Sutra Musical Adaptation - San Dimas Headquarter 
 Summer Officer Retreat - June 1 - June 12th 
