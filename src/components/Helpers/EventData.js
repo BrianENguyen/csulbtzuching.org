@@ -16,10 +16,60 @@ Examples:
 
 March 22, 2022 at 2:00 PM 
 Date(2022, 2, 22, 14)
+
+_________________________________
+
+Upcoming events. Will post once I get more information
+
+07/29 Lotus Sutra Musical Adaptation - San Dimas Headquarter 
+Summer Officer Retreat - June 1 - June 12th 
+July Social Day - TBD 
+TCCA Leadership Conference August 12-14th @ San Jose 
+
 */
-
+// FIXME: if date OR time is blank, then both will be TBA. Make them unreliant on each other
 // TODO: come up with a better name for variables, since months can overlap
-
+const may = [
+  {
+    name: 'Gage Food Distribution',
+    date: new Date(2022, 4, 28, 10),
+    time: '8:00 AM - 10:00 AM',
+    location: '2880 E Gage Avenue, Huntington Park, CA 90255',
+    description: `Help distribute food for families!`,
+    img: 'https://res.cloudinary.com/buraiyen/image/upload/v1638307033/CSULB_TC_Website/fooddistribution.jpg',
+    link: '',
+  },
+  {
+    name: 'Wilmington Food Distribution',
+    date: new Date(2022, 4, 21, 10),
+    time: '8:00 AM - 10:00 AM',
+    location: '1355 Broad Avenue, Wilmington, CA 90744',
+    description: `Help distribute food for families!`,
+    img: 'https://res.cloudinary.com/buraiyen/image/upload/v1638307033/CSULB_TC_Website/fooddistribution.jpg',
+    link: '',
+  },
+  {
+    name: 'Buddha Bathing Ceremony',
+    date: new Date(2022, 4, 4, 21),
+    time: '',
+    location:
+      'Tzu Chi USA National Headquarters, 1100 S. Valley Center Ave., San Dimas, CA 91773',
+    description: `Annual Buddha Bathing Ceremonies are taking place at Tzu Chi Global 
+       Headquarters in Taiwan and across the US. It’s a triple celebration of Mother’s Day, Buddha Day, and Tzu Chi Day!`,
+    img: '',
+    link: '',
+  },
+  {
+    name: 'Online Warm Gathering Book Club',
+    date: new Date(2022, 4, 4, 21),
+    time: '7:30 PM - 8:30 PM',
+    location: 'Zoom',
+    description: `Hosted by our advisor Weili, this Warm Gathering Book Club allows us to read and discuss various books that are related
+      to Tzu Chi and other topics. We also have other fun activities as well, such as music performances, drawing, and much more!`,
+    img: '',
+    link: '',
+  },
+];
 const april = [
   {
     name: 'Wilmington Food Distribution',
@@ -187,4 +237,4 @@ const november = [
   },
 ];
 
-export { december, november, march, april };
+export { december, november, march, april, may };
