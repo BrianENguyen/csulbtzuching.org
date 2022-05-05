@@ -51,7 +51,7 @@ const may = [
   {
     name: 'Buddha Bathing Ceremony',
     date: new Date(2022, 4, 7, 21),
-    time: '',
+    time: '3:00 PM',
     location:
       'Tzu Chi USA National Headquarters, 1100 S. Valley Center Ave., San Dimas, CA 91773',
     description: `Annual Buddha Bathing Ceremonies are taking place at Tzu Chi Global 
