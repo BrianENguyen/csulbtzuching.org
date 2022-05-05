@@ -37,7 +37,7 @@ const may = [
     location: '2880 E Gage Avenue, Huntington Park, CA 90255',
     description: `Help distribute food for families!`,
     img: 'https://res.cloudinary.com/buraiyen/image/upload/v1638307033/CSULB_TC_Website/fooddistribution.jpg',
-    link: '',
+    link: 'https://docs.google.com/forms/d/e/1FAIpQLSfB1rfXog-DggKiKlDC31sL1IW3vfvrjd4CZpy9cgMMo819OA/viewform',
   },
   {
     name: 'Wilmington Food Distribution',
@@ -46,18 +46,18 @@ const may = [
     location: '1355 Broad Avenue, Wilmington, CA 90744',
     description: `Help distribute food for families!`,
     img: 'https://res.cloudinary.com/buraiyen/image/upload/v1638307033/CSULB_TC_Website/fooddistribution.jpg',
-    link: '',
+    link: 'https://docs.google.com/forms/d/e/1FAIpQLSfB1rfXog-DggKiKlDC31sL1IW3vfvrjd4CZpy9cgMMo819OA/viewform',
   },
   {
     name: 'Buddha Bathing Ceremony',
-    date: new Date(2022, 4, 4, 21),
-    time: '',
+    date: new Date(2022, 4, 7, 21),
+    time: '3:00 PM',
     location:
       'Tzu Chi USA National Headquarters, 1100 S. Valley Center Ave., San Dimas, CA 91773',
     description: `Annual Buddha Bathing Ceremonies are taking place at Tzu Chi Global 
        Headquarters in Taiwan and across the US. It’s a triple celebration of Mother’s Day, Buddha Day, and Tzu Chi Day!`,
     img: '',
-    link: '',
+    link: 'https://docs.google.com/forms/d/e/1FAIpQLSfB1rfXog-DggKiKlDC31sL1IW3vfvrjd4CZpy9cgMMo819OA/viewform',
   },
   {
     name: 'Online Warm Gathering Book Club',
