@@ -2,7 +2,7 @@
   <div class="team">
     <Jumbotron :jumboData="jumboData" />
     <CardWrapper>
-      <PageTitle>2021-2022 Team</PageTitle>
+      <PageTitle>2022-2023 Team</PageTitle>
       <TeamList :members="officers" memberType="Officers" />
       <TeamList :members="alumnis" memberType="Alumni" />
       <TeamList :members="formerMembers" memberType="Former Members" />

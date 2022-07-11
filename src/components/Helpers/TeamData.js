@@ -11,23 +11,11 @@ in the first and second element respectively
 
 const officers = [
   {
-    name: 'Samanta C.',
+    name: 'Vivienne A.',
     role: 'President',
-    src: 'https://res.cloudinary.com/buraiyen/image/upload/v1638506409/CSULB_TC_Website/team_pic/sam_qvxb4x.jpg',
+    src: 'https://res.cloudinary.com/buraiyen/image/upload/v1638054519/CSULB_TC_Website/team_pic/vivienne.jpg',
     description:
       'Plans monthly events, leads general meetings, delegates tasks to other officers',
-    links: {
-      email: 'mailto:samanta.Corte@student.csulb.edu',
-      linkedin: 'https://www.linkedin.com/in/samanta-corte-2000',
-      instagram: 'https://www.instagram.com/samantacorte/',
-      food: 'https://www.instagram.com/forevercherriesontop/',
-    },
-  },
-  {
-    name: 'Vivienne A.',
-    role: 'Executive Vice President',
-    src: 'https://res.cloudinary.com/buraiyen/image/upload/v1638054519/CSULB_TC_Website/team_pic/vivienne.jpg',
-    description: 'Helps lead organization with president',
     links: {
       email: 'mailto:Vivienne.An@student.csulb.edu',
       facebook: 'https://www.facebook.com/profile.php?id=100006438256523',
@@ -35,8 +23,8 @@ const officers = [
   },
   {
     name: 'Jose A.',
-    role: 'Treasurer',
-    description: 'Handles all financial and budgeting of the organization',
+    role: 'Vice President',
+    description: 'Helps lead the organization along with the President',
     src: 'https://res.cloudinary.com/buraiyen/image/upload/v1638071353/CSULB_TC_Website/team_pic/jose.jpg',
     links: {
       email: 'mailto:josecarlos.alcantara2016@gmail.com',
@@ -46,17 +34,32 @@ const officers = [
     },
   },
   {
-    name: 'Mahya J.',
-    role: 'VP of Communications',
-    src: 'https://res.cloudinary.com/buraiyen/image/upload/v1638067243/CSULB_TC_Website/team_pic/mahya.jpg',
-    description:
-      'Sends monthly emails that advertise general meetings and volunteering events',
-    links: {
-      email: 'mailto:Habibimasar99@gmail.com',
-      linkedin: 'https://www.linkedin.com/in/mahya-jalali-42425561/',
-      instagram: 'https://www.instagram.com/missshadesofcool/',
-      tiktok: 'https://www.tiktok.com/@fragileseams',
-    },
+    name: 'Wendy V.',
+    role: 'VP of Events',
+    description: '',
+    src: '',
+    links: {},
+  },
+  {
+    name: 'Angeline D.',
+    role: 'Secretary',
+    description: '',
+    src: '',
+    links: {},
+  },
+  {
+    name: 'Annie L.',
+    role: 'Secretary',
+    description: '',
+    src: '',
+    links: {},
+  },
+  {
+    name: 'Denver D.',
+    role: 'Treasurer',
+    description: '',
+    src: '',
+    links: {},
   },
 ];
 
@@ -94,8 +97,21 @@ const alumnis = [
 
 const formerMembers = [
   {
+    name: 'Mahya J.',
+    role: 'Former VP of Communications (2021-2022)',
+    src: 'https://res.cloudinary.com/buraiyen/image/upload/v1638067243/CSULB_TC_Website/team_pic/mahya.jpg',
+    description:
+      'Sent monthly emails that advertised general meetings and volunteering events',
+    links: {
+      email: 'mailto:Habibimasar99@gmail.com',
+      linkedin: 'https://www.linkedin.com/in/mahya-jalali-42425561/',
+      instagram: 'https://www.instagram.com/missshadesofcool/',
+      tiktok: 'https://www.tiktok.com/@fragileseams',
+    },
+  },
+  {
     name: 'Thu N.',
-    role: 'Former VP of Administration',
+    role: 'Former VP of Administration (2021-2022)',
     src: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1236/v1638065296/CSULB_TC_Website/team_pic/thu.jpg',
     description:
       "Managed files on organization's online drive, tracked members' volunteering hours",
@@ -105,6 +121,19 @@ const formerMembers = [
       site: 'https://thuhnguyen.com/',
       facebook: 'https://www.facebook.com/profile.php?id=100045753340354',
       instagram: 'https://www.instagram.com/thu.n02/',
+    },
+  },
+  {
+    name: 'Samanta C.',
+    role: 'Former President (2021-2022)',
+    src: 'https://res.cloudinary.com/buraiyen/image/upload/v1638506409/CSULB_TC_Website/team_pic/sam_qvxb4x.jpg',
+    description:
+      'Planned monthly events, led general meetings, delegated tasks to other officers',
+    links: {
+      email: 'mailto:samanta.Corte@student.csulb.edu',
+      linkedin: 'https://www.linkedin.com/in/samanta-corte-2000',
+      instagram: 'https://www.instagram.com/samantacorte/',
+      food: 'https://www.instagram.com/forevercherriesontop/',
     },
   },
 ];
