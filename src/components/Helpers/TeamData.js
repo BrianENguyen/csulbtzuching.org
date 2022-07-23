@@ -50,9 +50,13 @@ const officers = [
   {
     name: 'Annie L.',
     role: 'Secretary',
-    description: '',
-    src: '',
-    links: {},
+    description:
+      "Manages organizations' online drive, records members' volunteering hours",
+    src: 'https://res.cloudinary.com/buraiyen/image/upload/v1658600265/CSULB_TC_Website/team_pic/annie.webp',
+    links: {
+      email: 'annie.lam01@student.csulb.edu',
+      instagram: 'https://www.instagram.com/anniee.xv/',
+    },
   },
   {
     name: 'Denver D.',
