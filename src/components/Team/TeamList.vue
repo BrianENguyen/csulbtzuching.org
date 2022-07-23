@@ -1,6 +1,10 @@
 <template>
   <div class="section_spacer">
     <PageHeader class="text-center">{{ memberType }}</PageHeader>
+    <p class="section_description" v-if="memberType.toLowerCase() === 'alumni'">
+      In Tzu Chi, the term "alumni" refers to any members who graduated from
+      college but still participate in Tzu Chi activities
+    </p>
     <v-row>
       <v-col
         cols="12"
@@ -34,5 +38,9 @@ export default {
 <style scoped>
 .section_spacer {
   margin-bottom: 4rem;
+}
+
+.section_description {
+  font-size: 1.4rem;
 }
 </style>
