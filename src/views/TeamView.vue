@@ -5,7 +5,7 @@
       <PageTitle>2022-2023 Team</PageTitle>
       <TeamList :members="officers" memberType="Officers" />
       <TeamList :members="alumnis" memberType="Alumni" />
-      <TeamList :members="formerMembers" memberType="Former Members" />
+      <TeamList :members="formerOfficers" memberType="Former Officers" />
     </CardWrapper>
   </div>
 </template>
@@ -19,7 +19,7 @@ import TeamList from '../components/Team/TeamList';
 import {
   officers,
   alumnis,
-  formerMembers,
+  formerOfficers,
 } from '../components/Helpers/TeamData';
 
 const jumboImage =
@@ -37,7 +37,7 @@ export default {
   data: () => ({
     officers: officers,
     alumnis: alumnis,
-    formerMembers: formerMembers,
+    formerOfficers: formerOfficers,
     jumboData: {
       src: jumboImage,
       title: jumboTitle,
