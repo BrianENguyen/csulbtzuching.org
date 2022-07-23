@@ -15,7 +15,7 @@ const officers = [
     role: 'President',
     src: 'https://res.cloudinary.com/buraiyen/image/upload/v1638054519/CSULB_TC_Website/team_pic/vivienne.jpg',
     description:
-      'Plans monthly events, leads general meetings, delegates tasks to other officers',
+      'Leads the organization and general meetings, delegates tasks to other officers',
     links: {
       email: 'mailto:Vivienne.An@student.csulb.edu',
       facebook: 'https://www.facebook.com/profile.php?id=100006438256523',
@@ -36,7 +36,7 @@ const officers = [
   {
     name: 'Wendy V.',
     role: 'VP of Events',
-    description: "Plans the organization's monthly events",
+    description: "Plans organization's monthly events",
     src: 'https://res.cloudinary.com/buraiyen/image/upload/v1658600265/CSULB_TC_Website/team_pic/wendy.webp',
     links: {
       email: 'mailto:wendyvillalobos12357@gmail.com',
@@ -68,8 +68,8 @@ const officers = [
   {
     name: 'Denver D.',
     role: 'Treasurer',
-    description: '',
-    src: '',
+    description: "Manages organization's finances and spending",
+    src: 'https://res.cloudinary.com/buraiyen/image/upload/v1658600265/CSULB_TC_Website/team_pic/denver.webp',
     links: {},
   },
 ];
@@ -90,7 +90,7 @@ const alumnis = [
     name: 'Lily K.',
     role: 'Graphic Designer',
     description:
-      "Designed our organization's logo, provides art/designs for social media posts",
+      "Designed organization's logo, provides art/designs for social media posts",
     src: 'https://res.cloudinary.com/buraiyen/image/upload/v1638064513/CSULB_TC_Website/team_pic/lily.jpg',
     links: {
       site: 'https://www.lilykang.com/',
