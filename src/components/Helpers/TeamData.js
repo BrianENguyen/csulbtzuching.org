@@ -36,9 +36,11 @@ const officers = [
   {
     name: 'Wendy V.',
     role: 'VP of Events',
-    description: '',
-    src: '',
-    links: {},
+    description: "Plans the organization's monthly events",
+    src: 'https://res.cloudinary.com/buraiyen/image/upload/v1658600265/CSULB_TC_Website/team_pic/wendy.webp',
+    links: {
+      email: 'mailto:wendyvillalobos12357@gmail.com',
+    },
   },
   {
     name: 'Angeline D.',
@@ -54,7 +56,7 @@ const officers = [
       "Manages organizations' online drive, records members' volunteering hours",
     src: 'https://res.cloudinary.com/buraiyen/image/upload/v1658600265/CSULB_TC_Website/team_pic/annie.webp',
     links: {
-      email: 'annie.lam01@student.csulb.edu',
+      email: 'mailto:annie.lam01@student.csulb.edu',
       instagram: 'https://www.instagram.com/anniee.xv/',
     },
   },
