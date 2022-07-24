@@ -36,7 +36,7 @@ const may = [
     time: '8:00 AM - 10:00 AM',
     location: '2880 E Gage Avenue, Huntington Park, CA 90255',
     description: `Help distribute food for families!`,
-    img: 'https://res.cloudinary.com/buraiyen/image/upload/v1638307033/CSULB_TC_Website/fooddistribution.jpg',
+    img: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600/v1658705642/CSULB_TC_Website/event_banner/food_distribution.webp',
     link: 'https://docs.google.com/forms/d/e/1FAIpQLSfB1rfXog-DggKiKlDC31sL1IW3vfvrjd4CZpy9cgMMo819OA/viewform',
   },
   {
@@ -45,7 +45,7 @@ const may = [
     time: '8:00 AM - 10:00 AM',
     location: '1355 Broad Avenue, Wilmington, CA 90744',
     description: `Help distribute food for families!`,
-    img: 'https://res.cloudinary.com/buraiyen/image/upload/v1638307033/CSULB_TC_Website/fooddistribution.jpg',
+    img: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600/v1658705642/CSULB_TC_Website/event_banner/food_distribution.webp',
     link: 'https://docs.google.com/forms/d/e/1FAIpQLSfB1rfXog-DggKiKlDC31sL1IW3vfvrjd4CZpy9cgMMo819OA/viewform',
   },
   {
@@ -78,7 +78,7 @@ const april = [
     location: '1355 Broad Avenue, Wilmington, CA 90744',
     description: `Help distribute food for families! We have two food distributions happening at the same time and day.
       Feel free to join whichever one is convenient for you!`,
-    img: 'https://res.cloudinary.com/buraiyen/image/upload/v1638307033/CSULB_TC_Website/fooddistribution.jpg',
+    img: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600/v1658705642/CSULB_TC_Website/event_banner/food_distribution.webp',
     link: 'https://docs.google.com/forms/d/e/1FAIpQLScy0PHfB9q9Rt4srRTnAMvFrp7iYrmM8b1bBUKsK7F9WgmLaw/viewform',
   },
   {
@@ -88,7 +88,7 @@ const april = [
     location: '2880 E Gage Avenue, Huntington Park, CA 90255',
     description: `Help distribute food for families! We have two food distributions happening at the same time and day.
       Feel free to join whichever one is convenient for you!`,
-    img: 'https://res.cloudinary.com/buraiyen/image/upload/v1638307033/CSULB_TC_Website/fooddistribution.jpg',
+    img: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600/v1658705642/CSULB_TC_Website/event_banner/food_distribution.webp',
     link: 'https://docs.google.com/forms/d/e/1FAIpQLScy0PHfB9q9Rt4srRTnAMvFrp7iYrmM8b1bBUKsK7F9WgmLaw/viewform',
   },
   {
@@ -141,7 +141,7 @@ const march = [
     time: '8:00 AM - 10:00 AM',
     location: '2880 E Gage Avenue, Huntington Park, CA 90255',
     description: `Help distribute food for families!`,
-    img: 'https://res.cloudinary.com/buraiyen/image/upload/v1638307033/CSULB_TC_Website/fooddistribution.jpg',
+    img: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600/v1658705642/CSULB_TC_Website/event_banner/food_distribution.webp',
     link: 'https://docs.google.com/forms/d/e/1FAIpQLScVzPaRfwyA8wCQzPfM8axYX3qeMtzngX0Qy4wWwp3Rf-MJQA/viewform',
   },
   {
@@ -159,7 +159,7 @@ const march = [
     time: '8:00 AM - 10:00 AM',
     location: '1355 Broad Avenue, Wilmington, CA 90744',
     description: `Help distribute food for families!`,
-    img: 'https://res.cloudinary.com/buraiyen/image/upload/v1638307033/CSULB_TC_Website/fooddistribution.jpg',
+    img: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600/v1658705642/CSULB_TC_Website/event_banner/food_distribution.webp',
     link: 'https://docs.google.com/forms/d/e/1FAIpQLScVzPaRfwyA8wCQzPfM8axYX3qeMtzngX0Qy4wWwp3Rf-MJQA/viewform',
   },
   {
@@ -185,7 +185,7 @@ const december = [
     time: '7:30 AM - 11:00 AM',
     location: '6720 Miles Ave, Huntington Park, CA 90255',
     description: 'Help distribute food for families!',
-    img: 'https://res.cloudinary.com/buraiyen/image/upload/v1638307033/CSULB_TC_Website/fooddistribution.jpg',
+    img: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600/v1658705642/CSULB_TC_Website/event_banner/food_distribution.webp',
     link: '',
   },
   {
@@ -194,7 +194,7 @@ const december = [
     time: '8:30 AM - 10:30 AM',
     location: 'Tzu Chi Health Center - 1355 Broad Ave, Wilmington, CA 90744',
     description: 'Help distribute food for families!',
-    img: 'https://res.cloudinary.com/buraiyen/image/upload/v1638307033/CSULB_TC_Website/fooddistribution.jpg',
+    img: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600/v1658705642/CSULB_TC_Website/event_banner/food_distribution.webp',
     link: '',
   },
   {
