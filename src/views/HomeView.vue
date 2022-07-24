@@ -20,12 +20,10 @@ import Quote from '../components/Home/Quote';
 import RecentPhotos from '../components/Photos/RecentPhotos';
 import CardWrapper from '../components/UI/CardWrapper.vue';
 
-// const jumboImage =
-// 'https://res.cloudinary.com/buraiyen/image/upload/b_black,o_70,c_scale,w_1915/v1648148269/CSULB_TC_Website/Jumbotron/social-day-group.webp';
-
-const jumboImage = new Image();
-jumboImage.src =
-  'https://res.cloudinary.com/buraiyen/image/upload/b_black,o_70,c_scale,w_1915/v1648148269/CSULB_TC_Website/Jumbotron/social-day-group.webp';
+const jumboImage =
+  'https://res.cloudinary.com/buraiyen/image/upload/b_black,o_70,c_scale,w_1200/v1648148269/CSULB_TC_Website/Jumbotron/social-day-group.webp';
+const jumboImageMobile =
+  'https://res.cloudinary.com/buraiyen/image/upload/b_black,o_70,c_scale,w_600/v1648148269/CSULB_TC_Website/Jumbotron/social-day-group.webp';
 const jumboTitle = 'CSULB Tzu Ching';
 const jumboDescription =
   '"With open arms and helping hands, our volunteers are here to serve you"';
@@ -42,7 +40,8 @@ export default {
   },
   data: () => ({
     jumboData: {
-      src: jumboImage.src,
+      src: jumboImage,
+      srcMobile: jumboImageMobile,
       title: jumboTitle,
       description: jumboDescription,
     },
