@@ -20,7 +20,11 @@ import Quote from '../components/Home/Quote';
 import RecentPhotos from '../components/Photos/RecentPhotos';
 import CardWrapper from '../components/UI/CardWrapper.vue';
 
-const jumboImage =
+// const jumboImage =
+// 'https://res.cloudinary.com/buraiyen/image/upload/b_black,o_70,c_scale,w_1915/v1648148269/CSULB_TC_Website/Jumbotron/social-day-group.webp';
+
+const jumboImage = new Image();
+jumboImage.src =
   'https://res.cloudinary.com/buraiyen/image/upload/b_black,o_70,c_scale,w_1915/v1648148269/CSULB_TC_Website/Jumbotron/social-day-group.webp';
 const jumboTitle = 'CSULB Tzu Ching';
 const jumboDescription =
@@ -38,7 +42,7 @@ export default {
   },
   data: () => ({
     jumboData: {
-      src: jumboImage,
+      src: jumboImage.src,
       title: jumboTitle,
       description: jumboDescription,
     },
