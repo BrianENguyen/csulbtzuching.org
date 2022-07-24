@@ -8,6 +8,7 @@
         alt=""
         class="jumbotron__image"
         decoding="async"
+        rel="preload"
       />
     </picture>
 
