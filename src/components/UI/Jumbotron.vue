@@ -5,6 +5,7 @@
       :lazy-src="jumboData.src"
       alt=""
       class="jumbotron__image"
+      rel="preload"
     />
     <div class="jumbotron__container">
       <h1 class="jumbotron__title">{{ jumboData.title }}</h1>
