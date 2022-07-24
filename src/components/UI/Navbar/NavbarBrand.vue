@@ -3,9 +3,11 @@
     <b-navbar-brand>
       <img
         src="../../../assets/logo.6bd7c5f2.webp"
+        lazy-src="../../../assets/logo.6bd7c5f2.webp"
         alt=""
         width="50px"
         height="40px"
+        rel="preload"
       />
       CSULB Tzu Ching
     </b-navbar-brand>
