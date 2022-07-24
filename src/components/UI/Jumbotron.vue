@@ -1,12 +1,16 @@
 <template>
   <div class="jumbotron_">
-    <img
-      :src="jumboData.src"
-      :lazy-src="jumboData.src"
-      alt=""
-      class="jumbotron__image"
-      rel="preload"
-    />
+    <picture>
+      <source :srcset="jumboData.src" media="(min-width: 600px)" />
+      <img
+        :src="jumboData.srcMobile"
+        :lazy-src="jumboData.srcMobile"
+        alt=""
+        class="jumbotron__image"
+        decoding="async"
+      />
+    </picture>
+
     <div class="jumbotron__container">
       <h1 class="jumbotron__title">{{ jumboData.title }}</h1>
       <p v-if="jumboData.description" class="jumbotron__description">
