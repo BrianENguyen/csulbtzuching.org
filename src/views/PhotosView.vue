@@ -3,7 +3,8 @@
     <Jumbotron :jumboData="jumboData" />
     <CardWrapper>
       <p style="font-size: 1.2rem">
-        Below are our photos from our recent events.
+        Below are our photos from our recent events (not all events have photos
+        that are available).
         <a href="https://flickr.com/people/135720189@N02/" target="_blank"
           >Click here</a
         >
