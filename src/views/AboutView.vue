@@ -45,7 +45,9 @@ import PageHeader from '../components/UI/Header/PageHeader';
 import Jumbotron from '../components/UI/Jumbotron';
 
 const jumboImage =
-  'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1915/v1648148277/CSULB_TC_Website/Jumbotron/BEN_group-photo.webp';
+  'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1200/v1648148277/CSULB_TC_Website/Jumbotron/BEN_group-photo.webp';
+const jumboImageMobile =
+  'https://res.cloudinary.com/buraiyen/image/upload/b_black,o_70,c_scale,w_600/v1648148269/CSULB_TC_Website/Jumbotron/BEN_group-photo.webp';
 const jumboTitle = 'About Us';
 const jumboDescription =
   'Get to know more about our organization and our efforts!';
@@ -60,6 +62,7 @@ export default {
   data: () => ({
     jumboData: {
       src: jumboImage,
+      srcMobile: jumboImageMobile,
       title: jumboTitle,
       description: jumboDescription,
     },
