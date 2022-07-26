@@ -2,8 +2,8 @@
   <router-link class="navbar-brand-align" :to="{ name: 'Home' }">
     <b-navbar-brand>
       <img
-        src="../../../assets/logo.6bd7c5f2.webp"
-        lazy-src="../../../assets/logo.6bd7c5f2.webp"
+        src="../../../assets/logo_navbar.webp"
+        lazy-src="../../../assets/logo_navbar.webp"
         alt=""
         width="50px"
         height="40px"
