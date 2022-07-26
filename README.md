@@ -1,6 +1,9 @@
 <h1 align="center">CSULB Tzu Ching</h1>
 
+<div align="center">
 <img align="center" src='./src/assets/logo.webp' width="300px"/>
+
+</div>
 
 "With open arms and helping hands, our volunteers are here to serve you"
 
