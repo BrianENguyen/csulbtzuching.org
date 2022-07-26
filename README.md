@@ -1,5 +1,7 @@
 <h1 align="center">CSULB Tzu Ching</h1>
 
+<img align="center" src='./src/assets/logo.webp'/>
+
 "With open arms and helping hands, our volunteers are here to serve you"
 
 CSULB Tzu Ching (tzu - "compassionate", ching - "youth") is a charity and volunteering organization at California State University, Long Beach. It is the CSULB collegiate chapter of the global relief organization, the Tzu Chi Foundation; it was founded in 2014 and consists of many students from diverse backgrounds, majors, ethnicities, and more. Our general meetings are once a month and we provide diverse range of events for members to attend, such as food-packing events, medical outreaches, senior center visits, and socials.
