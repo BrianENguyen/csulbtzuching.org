@@ -2,12 +2,20 @@
   <div>
     <Jumbotron :jumboData="jumboData" />
     <CardWrapper>
-      <Introduction />
+      <AnimateFadeIn>
+        <Introduction />
+      </AnimateFadeIn>
       <hr />
-      <UpcomingEvents />
+      <AnimateFadeIn>
+        <UpcomingEvents />
+      </AnimateFadeIn>
       <hr />
-      <RecentPhotos />
-      <Quote />
+      <AnimateFadeIn>
+        <RecentPhotos />
+      </AnimateFadeIn>
+      <AnimateFadeIn>
+        <Quote />
+      </AnimateFadeIn>
     </CardWrapper>
   </div>
 </template>
@@ -19,6 +27,7 @@ import UpcomingEvents from '../components/Events/Upcoming/UpcomingEvents';
 import Quote from '../components/Home/Quote';
 import RecentPhotos from '../components/Photos/RecentPhotos';
 import CardWrapper from '../components/UI/CardWrapper.vue';
+import AnimateFadeIn from '../components/Animations/AnimateFadeIn';
 
 const jumboImage =
   'https://res.cloudinary.com/buraiyen/image/upload/b_black,o_70,c_scale,w_1200/v1648148269/CSULB_TC_Website/Jumbotron/social-day-group.webp';
@@ -37,6 +46,7 @@ export default {
     Quote,
     RecentPhotos,
     CardWrapper,
+    AnimateFadeIn,
   },
   data: () => ({
     jumboData: {
