@@ -2,8 +2,8 @@
   <v-container>
     <!-- CSULB Tzu Ching Logo -->
     <v-img
-      :src="require('../../assets/logo.6bd7c5f2.webp')"
-      :lazy-src="require('../../assets/logo.6bd7c5f2.webp')"
+      :src="require('../../assets/logo.webp')"
+      :lazy-src="require('../../assets/logo.webp')"
       class="my-3"
       contain
       height="300"
