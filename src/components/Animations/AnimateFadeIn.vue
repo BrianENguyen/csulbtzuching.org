@@ -3,6 +3,7 @@
     :options="{
       threshold: 0.9,
     }"
+    min-height="200px"
     transition="fade-transition"
   >
     <slot></slot>
