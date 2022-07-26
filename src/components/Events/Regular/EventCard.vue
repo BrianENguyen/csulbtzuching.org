@@ -1,67 +1,77 @@
 <template>
-  <v-card max-width="400" elevation="5">
-    <!-- Card image -->
-    <v-img
-      v-if="event.img"
-      height="200px"
-      :src="event.img"
-      :lazy-src="event.img"
-    >
-      <!-- Display a circle loading animation while image is loading -->
-      <template v-slot:placeholder>
-        <v-row class="fill-height ma-0" align="center" justify="center">
-          <v-progress-circular
-            indeterminate
-            color="grey lighten-5"
-          ></v-progress-circular>
-        </v-row>
-      </template>
-    </v-img>
+  <v-lazy
+    :options="{
+      threshold: 0.9,
+    }"
+    min-height="200px"
+    transition="fade-transition"
+  >
+    <v-card max-width="400" elevation="5">
+      <!-- Card image -->
+      <v-img
+        v-if="event.img"
+        height="200px"
+        :src="event.img"
+        :lazy-src="event.img"
+      >
+        <!-- Display a circle loading animation while image is loading -->
+        <template v-slot:placeholder>
+          <v-row class="fill-height ma-0" align="center" justify="center">
+            <v-progress-circular
+              indeterminate
+              color="grey lighten-5"
+            ></v-progress-circular>
+          </v-row>
+        </template>
+      </v-img>
 
-    <!-- Event Name -->
-    <v-card-title class="event_name">{{ event.name }}</v-card-title>
+      <!-- Event Name -->
+      <v-card-title class="event_name">{{ event.name }}</v-card-title>
 
-    <v-card-subtitle>
-      <!-- Event date and time. If both aren't present, then 
+      <v-card-subtitle>
+        <!-- Event date and time. If both aren't present, then 
           display "Date and time TBA" -->
-      <h4 v-if="event.date && event.time" class="event_datetime">
-        <!-- TODO: optimize -->
-        {{ event.date.toLocaleString('default', { weekday: 'long' }) }},
-        {{ event.date.toLocaleDateString() }} @
-        {{ event.time }}
-      </h4>
-      <h4 v-else class="event_datetime">Date and time TBA</h4>
+        <h4 v-if="event.date && event.time" class="event_datetime">
+          <!-- TODO: optimize -->
+          {{ event.date.toLocaleString('default', { weekday: 'long' }) }},
+          {{ event.date.toLocaleDateString() }} @
+          {{ event.time }}
+        </h4>
+        <h4 v-else class="event_datetime">Date and time TBA</h4>
 
-      <!-- Event location. If no location provided, then render "Location TBA" -->
-      <p v-if="event.location" class="event_location">{{ event.location }}</p>
-      <p v-else class="event_location">Location TBA</p>
-    </v-card-subtitle>
+        <!-- Event location. If no location provided, then render "Location TBA" -->
+        <p v-if="event.location" class="event_location">{{ event.location }}</p>
+        <p v-else class="event_location">Location TBA</p>
+      </v-card-subtitle>
 
-    <!-- Event description -->
-    <v-card-text class="event_description">{{ event.description }}</v-card-text>
+      <!-- Event description -->
+      <v-card-text class="event_description">{{
+        event.description
+      }}</v-card-text>
 
-    <!-- Event link. If there is no link or event has ended, then button will be disabled -->
-    <v-card-actions>
-      <a
-        v-if="event.link && Date.now() < event.date"
-        :href="event.link"
-        target="_blank"
-        class="signup_link"
-      >
-        <v-btn color="blue" text>Sign Up</v-btn>
-      </a>
-      <v-btn
-        v-else-if="Date.now() > event.date"
-        class="btn_disabled"
-        text
-        disabled
-        >Event Ended</v-btn
-      >
-      <v-btn v-else-if="!event.link" class="btn_disabled" text disabled
-        >Link Coming Soon</v-btn
-      >
-    </v-card-actions>
-  </v-card>
+      <!-- Event link. If there is no link or event has ended, then button will be disabled -->
+      <v-card-actions>
+        <a
+          v-if="event.link && Date.now() < event.date"
+          :href="event.link"
+          target="_blank"
+          class="signup_link"
+        >
+          <v-btn color="blue" text>Sign Up</v-btn>
+        </a>
+        <v-btn
+          v-else-if="Date.now() > event.date"
+          class="btn_disabled"
+          text
+          disabled
+          >Event Ended</v-btn
+        >
+        <v-btn v-else-if="!event.link" class="btn_disabled" text disabled
+          >Link Coming Soon</v-btn
+        >
+      </v-card-actions>
+    </v-card>
+  </v-lazy>
 </template>
 
 <script>
