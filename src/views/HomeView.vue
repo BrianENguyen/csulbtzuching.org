@@ -2,18 +2,18 @@
   <div>
     <Jumbotron :jumboData="jumboData" />
     <CardWrapper>
-      <AnimateFadeIn>
+      <AnimateFadeIn minHeight="300px">
         <Introduction />
       </AnimateFadeIn>
       <hr />
-      <AnimateFadeIn>
+      <AnimateFadeIn minHeight="300px">
         <UpcomingEvents />
       </AnimateFadeIn>
       <hr />
-      <AnimateFadeIn>
+      <AnimateFadeIn minHeight="300px">
         <RecentPhotos />
       </AnimateFadeIn>
-      <AnimateFadeIn>
+      <AnimateFadeIn minHeight="300px">
         <Quote />
       </AnimateFadeIn>
     </CardWrapper>
