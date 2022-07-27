@@ -9,15 +9,12 @@
             :href="externalLink.hyperlink"
             target="_blank"
           >
-            <!-- <img
-              src="../../assets/svg/envelope-solid.svg"
+            <img
+              :src="externalLink.icon"
               class="mx-3 icon-link"
-              alt=""
-            /> -->
-            <img :src="externalLink.icon" class="mx-3 icon-link" alt="" />
-            <!-- <p>{{ externalLink.icon }}</p> -->
-          </a></v-card
-        >
+              :alt="externalLink.alt"
+            /> </a
+        ></v-card>
         <v-col class="py-4" cols="12">
           <p>{{ new Date().getFullYear() }} — CSULB Tzu Ching</p>
           <p>
@@ -39,18 +36,22 @@ export default {
         {
           icon: require('../../assets/svg/envelope-solid.svg'),
           hyperlink: 'mailto:tcca.csulb@gmail.com',
+          alt: 'Mail button',
         },
         {
           icon: require('../../assets/svg/facebook-brands.svg'),
           hyperlink: 'https://www.facebook.com/CSULBTzuChing',
+          alt: 'Facebook button',
         },
         {
           icon: require('../../assets/svg/instagram-brands.svg'),
           hyperlink: 'https://www.instagram.com/tccaofcsulb/',
+          alt: 'Instagram button',
         },
         {
           icon: require('../../assets/svg/discord-brands.svg'),
           hyperlink: 'https://discord.gg/fmf3JtTNCc',
+          alt: 'Discord buttton',
         },
       ],
     };
@@ -79,10 +80,12 @@ export default {
 }
 
 .icon-link {
-  color: rgb(116, 116, 116);
   transition: 0.5s;
   margin-bottom: 1rem;
   width: 50px;
+  /* the 'color' property doesn't work with SVG images,
+      so you would need to use the 'filter' property ; */
+  filter: invert(50%);
 }
 .icon-link:hover {
   color: rgb(24, 24, 24);
