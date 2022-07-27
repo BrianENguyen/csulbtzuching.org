@@ -63,8 +63,10 @@ export default {
 
 <style>
 .member_card_icon {
-  color: rgb(116, 116, 116);
   transition: 0.5s;
+  filter: invert(50%);
+  display: inline-block;
+  width: 30px;
 }
 .member_card_icon:hover {
   color: rgb(24, 24, 24);
