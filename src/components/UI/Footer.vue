@@ -9,7 +9,11 @@
             :href="externalLink.hyperlink"
             target="_blank"
           >
-            <i :class="externalLink.icon" class="mx-3 icon-link"></i> </a
+            <img
+              :src="externalLink.icon"
+              class="mx-3 icon-link"
+              :alt="externalLink.alt"
+            /> </a
         ></v-card>
         <v-col class="py-4" cols="12">
           <p>{{ new Date().getFullYear() }} — CSULB Tzu Ching</p>
@@ -27,22 +31,27 @@
 export default {
   data() {
     return {
+      // you need the 'require' function when binding images
       externalLinks: [
         {
-          icon: 'fas fa-envelope fa-2x',
+          icon: require('../../assets/svg/envelope-solid.svg'),
           hyperlink: 'mailto:tcca.csulb@gmail.com',
+          alt: 'Mail button',
         },
         {
-          icon: 'fab fa-facebook fa-2x',
+          icon: require('../../assets/svg/facebook-brands.svg'),
           hyperlink: 'https://www.facebook.com/CSULBTzuChing',
+          alt: 'Facebook button',
         },
         {
-          icon: 'fab fa-instagram fa-2x',
+          icon: require('../../assets/svg/instagram-brands.svg'),
           hyperlink: 'https://www.instagram.com/tccaofcsulb/',
+          alt: 'Instagram button',
         },
         {
-          icon: 'fab fa-discord fa-2x',
+          icon: require('../../assets/svg/discord-brands.svg'),
           hyperlink: 'https://discord.gg/fmf3JtTNCc',
+          alt: 'Discord buttton',
         },
       ],
     };
@@ -71,9 +80,12 @@ export default {
 }
 
 .icon-link {
-  color: rgb(116, 116, 116);
   transition: 0.5s;
   margin-bottom: 1rem;
+  width: 50px;
+  /* the 'color' property doesn't work with SVG images,
+      so you would need to use the 'filter' property ; */
+  filter: invert(50%);
 }
 .icon-link:hover {
   color: rgb(24, 24, 24);
