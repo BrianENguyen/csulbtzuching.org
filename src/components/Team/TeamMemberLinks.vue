@@ -2,29 +2,54 @@
   <!-- FIXME: find a better way to optimize this -->
   <div>
     <a v-if="links.email" :href="links.email" target="_blank"
-      ><i class="fas fa-envelope fa-2x mr-2 member_card_icon"></i
-    ></a>
+      ><img
+        src="../../assets/svg/envelope-solid.svg"
+        class="mx-2 member_card_icon"
+        alt="Mail button"
+    /></a>
     <a v-if="links.site" :href="links.site" target="_blank">
-      <i class="fas fa-link fa-2x mx-2 member_card_icon"></i
-    ></a>
+      <img
+        src="../../assets/svg/laptop-solid.svg"
+        class="mx-2 member_card_icon"
+        alt="Personal website button"
+    /></a>
     <a v-if="links.linkedin" :href="links.linkedin" target="_blank">
-      <i class="fab fa-linkedin fa-2x mx-2 member_card_icon"></i
-    ></a>
+      <img
+        src="../../assets/svg/linkedin-brands.svg"
+        class="mx-2 member_card_icon"
+        alt="LinkedIn button"
+      />
+    </a>
     <a v-if="links.facebook" :href="links.facebook" target="_blank">
-      <i class="fab fa-facebook fa-2x mx-2 member_card_icon"></i
-    ></a>
+      <img
+        src="../../assets/svg/facebook-brands.svg"
+        class="mx-2 member_card_icon"
+        alt="Facebook button"
+    /></a>
     <a v-if="links.instagram" :href="links.instagram" target="_blank">
-      <i class="fab fa-instagram fa-2x mx-2 member_card_icon"></i
-    ></a>
+      <img
+        src="../../assets/svg/instagram-brands.svg"
+        class="mx-2 member_card_icon"
+        alt="Instagram button"
+    /></a>
     <a v-if="links.art" :href="links.art" target="_blank">
-      <i class="fas fa-palette fa-2x mx-2 member_card_icon"></i
-    ></a>
+      <img
+        src="../../assets/svg/palette-solid.svg"
+        class="mx-2 member_card_icon"
+        alt="Art button"
+    /></a>
     <a v-if="links.food" :href="links.food" target="_blank">
-      <i class="fas fa-ice-cream fa-2x mx-2 member_card_icon"></i
-    ></a>
+      <img
+        src="../../assets/svg/ice-cream-solid.svg"
+        class="mx-2 member_card_icon"
+        alt="Food button"
+    /></a>
     <a v-if="links.tiktok" :href="links.tiktok" target="_blank">
-      <i class="fab fa-tiktok fa-2x mx-2 member_card_icon"></i
-    ></a>
+      <img
+        src="../../assets/svg/ice-cream-solid.svg"
+        class="mx-2 member_card_icon"
+        alt="TikTok button"
+    /></a>
   </div>
 </template>
 
