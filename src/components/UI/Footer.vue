@@ -83,6 +83,7 @@ export default {
   transition: 0.5s;
   margin-bottom: 1rem;
   width: 50px;
+  height: 50px;
   /* the 'color' property doesn't work with SVG images,
       so you would need to use the 'filter' property ; */
   filter: invert(50%);
