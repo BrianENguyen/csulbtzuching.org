@@ -13,7 +13,9 @@ const officers = [
   {
     name: 'Vivienne A.',
     role: 'President',
-    src: 'https://res.cloudinary.com/buraiyen/image/upload/v1658602388/CSULB_TC_Website/team_pic/vivienne_rvppzg.webp',
+    src: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800/v1658602388/CSULB_TC_Website/team_pic/vivienne_rvppzg.webp',
+    srcSmall:
+      'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_200/v1658602388/CSULB_TC_Website/team_pic/vivienne_rvppzg.webp',
     description:
       'Leads the organization and general meetings, delegates tasks to other officers',
     links: {
@@ -25,7 +27,9 @@ const officers = [
     name: 'Jose A.',
     role: 'Vice President',
     description: 'Helps lead the organization along with the President',
-    src: 'https://res.cloudinary.com/buraiyen/image/upload/v1658602792/CSULB_TC_Website/team_pic/jose_coodzi.webp',
+    src: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800/v1658602792/CSULB_TC_Website/team_pic/jose_coodzi.webp',
+    srcSmall:
+      'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_200/v1658602792/CSULB_TC_Website/team_pic/jose_coodzi.webp',
     links: {
       email: 'mailto:josecarlos.alcantara2016@gmail.com',
       linkedin: 'https://www.linkedin.com/in/jose-alcantara-321378188',
@@ -37,7 +41,9 @@ const officers = [
     name: 'Wendy V.',
     role: 'VP of Events',
     description: "Plans organization's monthly events",
-    src: 'https://res.cloudinary.com/buraiyen/image/upload/v1658600265/CSULB_TC_Website/team_pic/wendy.webp',
+    src: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800/v1658602792/CSULB_TC_Website/team_pic/wendy.webp',
+    srcSmall:
+      'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_200/v1658602792/CSULB_TC_Website/team_pic/wendy.webp',
     links: {
       email: 'mailto:wendyvillalobos12357@gmail.com',
     },
@@ -47,7 +53,9 @@ const officers = [
     role: 'Secretary',
     description:
       "Manages organizations's online drive, records members' volunteering hours",
-    src: 'https://res.cloudinary.com/buraiyen/image/upload/v1658600265/CSULB_TC_Website/team_pic/angeline.webp',
+    src: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800/v1658602792/CSULB_TC_Website/team_pic/angeline.webp',
+    srcSmall:
+      'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_200/v1658602792/CSULB_TC_Website/team_pic/angeline.webp',
     links: {
       email: 'mailto:Angeline.Dequit@student.csulb.edu',
       linkedin: 'https://www.linkedin.com/in/angeline-dequit',
@@ -59,7 +67,9 @@ const officers = [
     role: 'Secretary',
     description:
       "Manages organizations's online drive, records members' volunteering hours",
-    src: 'https://res.cloudinary.com/buraiyen/image/upload/v1658600265/CSULB_TC_Website/team_pic/annie.webp',
+    src: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800/v1658602792/CSULB_TC_Website/team_pic/annie.webp',
+    srcSmall:
+      'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_200/v1658602792/CSULB_TC_Website/team_pic/annie.webp',
     links: {
       email: 'mailto:annie.lam01@student.csulb.edu',
       instagram: 'https://www.instagram.com/anniee.xv/',
@@ -69,7 +79,9 @@ const officers = [
     name: 'Denver D.',
     role: 'Treasurer',
     description: "Manages organization's finances and spending",
-    src: 'https://res.cloudinary.com/buraiyen/image/upload/v1658600265/CSULB_TC_Website/team_pic/denver.webp',
+    src: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800/v1658602792/CSULB_TC_Website/team_pic/denver.webp',
+    srcSmall:
+      'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_200/v1658602792/CSULB_TC_Website/team_pic/denver.webp',
     links: {},
   },
 ];
@@ -78,7 +90,9 @@ const alumnis = [
   {
     name: 'Brian N.',
     role: 'Webmaster / Photographer',
-    src: 'https://res.cloudinary.com/buraiyen/image/upload/v1658602993/CSULB_TC_Website/team_pic/brian2_myf2av.webp',
+    src: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800/v1658602792/CSULB_TC_Website/team_pic/brian2_myf2av.webp',
+    srcSmall:
+      'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_200/v1658602792/CSULB_TC_Website/team_pic/brian2_myf2av.webp',
     description: 'Manages CSULB TC website, provides photography at events',
     links: {
       email: 'mailto:brian.edison.nguyen@gmail.com',
@@ -91,7 +105,9 @@ const alumnis = [
     role: 'Graphic Designer',
     description:
       "Designed organization's logo, provides art/designs for social media posts",
-    src: 'https://res.cloudinary.com/buraiyen/image/upload/v1658602884/CSULB_TC_Website/team_pic/lily_serd5b.webp',
+    src: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800/v1658602792/CSULB_TC_Website/team_pic/lily_serd5b.webp',
+    srcSmall:
+      'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_200/v1658602792/CSULB_TC_Website/team_pic/lily_serd5b.webp',
     links: {
       site: 'https://www.lilykang.com/',
       instagram: 'https://www.instagram.com/lilykang.design/',
@@ -102,7 +118,9 @@ const alumnis = [
     role: 'Advisor',
     description:
       'Advises officer board, reports activities to the Tzu Chi Foundation, supports CSULB TC with volunteering opportunities, hosts monthly book club event',
-    src: 'https://res.cloudinary.com/buraiyen/image/upload/v1658602388/CSULB_TC_Website/team_pic/weili_i5iiwz.webp',
+    src: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800/v1658602792/CSULB_TC_Website/team_pic/weili_i5iiwz.webp',
+    srcSmall:
+      'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_200/v1658602792/CSULB_TC_Website/team_pic/weili_i5iiwz.webp',
   },
 ];
 
@@ -110,7 +128,9 @@ const formerOfficers = [
   {
     name: 'Mahya J.',
     role: 'Former VP of Communications (2021-2022)',
-    src: 'https://res.cloudinary.com/buraiyen/image/upload/v1658602985/CSULB_TC_Website/team_pic/mahya_ezx3af.webp',
+    src: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800/v1658602792/CSULB_TC_Website/team_pic/mahya_ezx3af.webp',
+    srcSmall:
+      'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_200/v1658602792/CSULB_TC_Website/team_pic/weili_i5iiwz.webp',
     description:
       'Sent monthly emails that advertised general meetings and volunteering events',
     links: {
@@ -123,7 +143,9 @@ const formerOfficers = [
   {
     name: 'Thu N.',
     role: 'Former VP of Administration (2021-2022)',
-    src: 'https://res.cloudinary.com/buraiyen/image/upload/v1658602393/CSULB_TC_Website/team_pic/thu_tmnwsi.webp',
+    src: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800/v1658602792/CSULB_TC_Website/team_pic/thu_tmnwsi.webp',
+    srcSmall:
+      'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_200/v1658602792/CSULB_TC_Website/team_pic/thu_tmnwsi.webp',
     description:
       "Managed files on organization's online drive, tracked members' volunteering hours",
     links: {
@@ -137,7 +159,9 @@ const formerOfficers = [
   {
     name: 'Samanta C.',
     role: 'Former President (2021-2022)',
-    src: 'https://res.cloudinary.com/buraiyen/image/upload/v1658602389/CSULB_TC_Website/team_pic/sam_qvxb4x_j3d0ic.webp',
+    src: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800/v1658602389/CSULB_TC_Website/team_pic/sam_qvxb4x_j3d0ic.webp',
+    srcSmall:
+      'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_200/v1658602389/CSULB_TC_Website/team_pic/sam_qvxb4x_j3d0ic.webp',
     description:
       'Planned monthly events, led general meetings, delegated tasks to other officers',
     links: {

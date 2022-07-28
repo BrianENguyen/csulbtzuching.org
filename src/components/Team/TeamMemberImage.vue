@@ -21,8 +21,8 @@
     <template v-slot:activator="{ on, attrs }">
       <!-- Regular image -->
       <v-img
-        :src="src"
-        :lazy-src="src"
+        :src="srcSmall"
+        :lazy-src="srcSmall"
         aspect-ratio="1"
         class="member_profile_picture"
         v-bind="attrs"
@@ -48,6 +48,7 @@ export default {
   }),
   props: {
     src: String,
+    srcSmall: String,
   },
 };
 </script>
