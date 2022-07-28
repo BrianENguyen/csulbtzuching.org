@@ -97,7 +97,7 @@ export default {
   filter: invert(50%);
 }
 .icon-link:hover {
-  color: rgb(24, 24, 24);
+  filter: invert(30%);
   transition: 0.5s;
 }
 .footer-link {
