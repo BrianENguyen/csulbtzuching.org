@@ -67,9 +67,10 @@ export default {
   filter: invert(50%);
   display: inline-block;
   width: 30px;
+  height: 30px;
 }
 .member_card_icon:hover {
-  color: rgb(24, 24, 24);
+  filter: invert(30%);
   transition: 0.5s;
 }
 </style>
