@@ -120,7 +120,7 @@ const alumnis = [
       'Advises officer board, reports activities to the Tzu Chi Foundation, supports CSULB TC with volunteering opportunities, hosts monthly book club event',
     src: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800/v1658602792/CSULB_TC_Website/team_pic/weili_i5iiwz.webp',
     srcSmall:
-      'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_200/v1658602792/CSULB_TC_Website/team_pic/lily_serd5b.webp',
+      'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_200/v1658602792/CSULB_TC_Website/team_pic/weili_i5iiwz.webp',
   },
 ];
 
