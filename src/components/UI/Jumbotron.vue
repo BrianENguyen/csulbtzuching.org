@@ -31,7 +31,6 @@ export default {
 
 <style>
 .jumbotron_ {
-  height: 90vh;
   position: relative;
   text-align: center;
   background-color: black;
@@ -50,7 +49,6 @@ export default {
   object-fit: cover;
   width: 100%;
   position: relative;
-  height: 90vh;
   z-index: 0;
 }
 
@@ -65,7 +63,7 @@ export default {
 
   .jumbotron_,
   .jumbotron__image {
-    height: 40vh;
+    height: 35vh;
   }
 
   .jumbotron__container {
@@ -84,7 +82,7 @@ export default {
 
   .jumbotron_,
   .jumbotron__image {
-    height: 60vh;
+    height: 50vh;
   }
 }
 
@@ -94,10 +92,17 @@ export default {
   }
   .jumbotron_,
   .jumbotron__image {
-    height: 90vh;
+    height: 70vh;
   }
   .jumbotron__description {
     font-size: 1.6rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .jumbotron_,
+  .jumbotron__image {
+    height: 90vh;
   }
 }
 </style>
