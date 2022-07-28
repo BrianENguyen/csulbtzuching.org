@@ -23,9 +23,9 @@ import {
 } from '../components/Helpers/TeamData';
 
 const jumboImage =
-  'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1200/v1648148277/CSULB_TC_Website/Jumbotron/BEN_WoW-tabling.webp';
+  'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1200/v1648148277/CSULB_TC_Website/Jumbotron/BEN_WoW-tabling_vszybk.webp';
 const jumboImageMobile =
-  'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600/v1648148277/CSULB_TC_Website/Jumbotron/BEN_WoW-tabling.webp';
+  'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600/v1648148277/CSULB_TC_Website/Jumbotron/BEN_WoW-tabling_vszybk.webp';
 const jumboTitle = 'Our Board Members';
 const jumboDescription = 'Meet our current officers and alumni!';
 

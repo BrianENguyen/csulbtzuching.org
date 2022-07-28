@@ -61,9 +61,9 @@ import Jumbotron from '../components/UI/Jumbotron';
 import AnimateFadeIn from '../components/Animations/AnimateFadeIn';
 
 const jumboImage =
-  'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1200/v1648148277/CSULB_TC_Website/Jumbotron/BEN_group-photo.webp';
+  'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1200/v1648148277/CSULB_TC_Website/Jumbotron/BEN_group-photo2.webp';
 const jumboImageMobile =
-  'https://res.cloudinary.com/buraiyen/image/upload/b_black,o_70,c_scale,w_600/v1648148269/CSULB_TC_Website/Jumbotron/BEN_group-photo.webp';
+  'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600/v1648148269/CSULB_TC_Website/Jumbotron/BEN_group-photo2.webp';
 const jumboTitle = 'About Us';
 const jumboDescription =
   'Get to know more about our organization and our efforts!';
