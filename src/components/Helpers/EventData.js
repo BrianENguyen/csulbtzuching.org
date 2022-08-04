@@ -32,12 +32,30 @@ TCCA Leadership Conference August 12-14th @ San Jose
 
 const august = [
   {
+    name: 'Gage Food Distribution',
+    date: new Date(2022, 7, 27, 10),
+    time: '8:00 AM - 10:00 AM',
+    location: '2880 E Gage Avenue, Huntington Park, CA 90255',
+    description: `Help distribute food for families!`,
+    img: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600/v1658705642/CSULB_TC_Website/event_banner/food_distribution2.webp',
+    link: 'https://docs.google.com/forms/d/e/1FAIpQLSfB1rfXog-DggKiKlDC31sL1IW3vfvrjd4CZpy9cgMMo819OA/viewform',
+  },
+  {
+    name: 'Wilmington Food Distribution',
+    date: new Date(2022, 7, 20, 10),
+    time: '8:00 AM - 10:00 AM',
+    location: '1355 Broad Avenue, Wilmington, CA 90744',
+    description: `Help distribute food for families!`,
+    img: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600/v1658705642/CSULB_TC_Website/event_banner/food_distribution.webp',
+    link: 'https://docs.google.com/forms/d/e/1FAIpQLSfB1rfXog-DggKiKlDC31sL1IW3vfvrjd4CZpy9cgMMo819OA/viewform',
+  },
+  {
     name: 'Gage Middle School Back-to-School',
     date: new Date(2022, 7, 6, 11),
     time: '8:00 AM - 11:00 AM',
     location: '2880 E Gage Avenue, Huntington Park, CA 90255',
     description: `Volunteers will help kids K-3 learn about and do arts and crafts!`,
-    img: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600/v1658705642/CSULB_TC_Website/event_banner/food_distribution.webp',
+    img: 'https://res.cloudinary.com/buraiyen/image/upload/v1659632593/CSULB_TC_Website/event_banner/tutoring_rbi3qa.webp',
     link: 'https://docs.google.com/forms/d/e/1FAIpQLSfB1rfXog-DggKiKlDC31sL1IW3vfvrjd4CZpy9cgMMo819OA/viewform',
   },
 ];
