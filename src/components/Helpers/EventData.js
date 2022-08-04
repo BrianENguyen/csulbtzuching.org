@@ -18,17 +18,60 @@ March 22, 2022 at 2:00 PM
 Date(2022, 2, 22, 14)
 
 _________________________________
-
-Upcoming events. Will post once I get more information
-
-07/29 Lotus Sutra Musical Adaptation - San Dimas Headquarter 
-Summer Officer Retreat - June 1 - June 12th 
-July Social Day - TBD 
-TCCA Leadership Conference August 12-14th @ San Jose 
-
 */
+
 // FIXME: if date OR time is blank, then both will be TBA. Make them unreliant on each other
 // TODO: come up with a better name for variables, since months can overlap
+
+const august = [
+  {
+    name: 'Lucky Month Blessing Tabling',
+    date: new Date(2022, 7, 27, 12),
+    time: '9:00 AM - 12:00 PM',
+    location: '1355 Broad Avenue, Wilmington, CA 90744',
+    description: `Come help us promote Tzu Chi values to children at our tabling event inside the Wilmington Tzu Chi clinic!`,
+    img: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600/v1658705642/CSULB_TC_Website/event_banner/candle.webp',
+    link: 'https://docs.google.com/forms/d/e/1FAIpQLSdgdTxd-x_Hbg0S31qnimcXQ6FGPkqkLny3mttuSauu4EkI7A/viewform',
+  },
+  {
+    name: 'Gage Food Distribution',
+    date: new Date(2022, 7, 27, 10),
+    time: '8:00 AM - 10:00 AM',
+    location: '2880 E Gage Avenue, Huntington Park, CA 90255',
+    description: `Help distribute food for families!`,
+    img: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600/v1658705642/CSULB_TC_Website/event_banner/food_distribution2.webp',
+    link: 'https://docs.google.com/forms/d/e/1FAIpQLSdgdTxd-x_Hbg0S31qnimcXQ6FGPkqkLny3mttuSauu4EkI7A/viewform',
+  },
+  {
+    name: 'Wilmington Food Distribution',
+    date: new Date(2022, 7, 20, 10),
+    time: '8:00 AM - 10:00 AM',
+    location: '1355 Broad Avenue, Wilmington, CA 90744',
+    description: `Help distribute food for families!`,
+    img: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600/v1658705642/CSULB_TC_Website/event_banner/food_distribution.webp',
+    link: 'https://docs.google.com/forms/d/e/1FAIpQLSdgdTxd-x_Hbg0S31qnimcXQ6FGPkqkLny3mttuSauu4EkI7A/viewform',
+  },
+  {
+    name: 'Online Dharma Study',
+    date: new Date(2022, 7, 7, 18),
+    time: '5:00 PM - 6:00 PM',
+    location: 'Zoom',
+    description: `Connect with other Tzu Chi members from around the world to study Dharma teachings, as well as learn
+      about the journeys and experiences that other Tzu Chi members have to share.`,
+    img: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600/v1658705642/CSULB_TC_Website/event_banner/flower.webp',
+    link: 'https://docs.google.com/forms/d/e/1FAIpQLSdgdTxd-x_Hbg0S31qnimcXQ6FGPkqkLny3mttuSauu4EkI7A/viewform',
+  },
+  {
+    name: 'Gage Middle School Back-to-School',
+    date: new Date(2022, 7, 6, 11),
+    time: '8:00 AM - 11:00 AM',
+    location: '2880 E Gage Avenue, Huntington Park, CA 90255',
+    description: `Volunteers will help kids K-3 learn about and do arts and crafts!`,
+    img: 'https://res.cloudinary.com/buraiyen/image/upload/v1659632593/CSULB_TC_Website/event_banner/tutoring_rbi3qa.webp',
+    link: 'https://docs.google.com/forms/d/e/1FAIpQLSdgdTxd-x_Hbg0S31qnimcXQ6FGPkqkLny3mttuSauu4EkI7A/viewform',
+  },
+];
+
 const may = [
   {
     name: 'Gage Food Distribution',
@@ -237,4 +280,4 @@ const november = [
   },
 ];
 
-export { december, november, march, april, may };
+export { december, november, march, april, may, august };

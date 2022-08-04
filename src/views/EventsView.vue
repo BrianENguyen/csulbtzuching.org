@@ -12,6 +12,7 @@
       ></v-checkbox>
       <!-- Uncondensed timeline -->
       <div v-if="!isCondensed">
+        <EventTimeline month="August 2022" :events="august" />
         <EventTimeline month="May 2022" :events="may" />
         <EventTimeline month="April 2022" :events="april" />
         <EventTimeline month="March 2022" :events="march" />
@@ -20,6 +21,7 @@
       </div>
       <!-- Condensed timeline -->
       <div v-else>
+        <EventTimelineCondensed month="August 2022" :events="august" />
         <EventTimelineCondensed month="May 2022" :events="may" />
         <EventTimelineCondensed month="April 2022" :events="april" />
         <EventTimelineCondensed month="March 2022" :events="march" />
@@ -36,6 +38,7 @@ import EventTimeline from '../components/Events/Regular/EventTimeline';
 import EventTimelineCondensed from '../components/Events/Condensed/EventTimelineCondensed';
 import CardWrapper from '../components/UI/CardWrapper';
 import {
+  august,
   may,
   april,
   march,
@@ -59,6 +62,7 @@ export default {
   },
   data: () => ({
     isCondensed: false,
+    august: august,
     may: may,
     april: april,
     march: march,
