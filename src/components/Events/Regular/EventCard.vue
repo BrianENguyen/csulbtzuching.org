@@ -10,7 +10,7 @@
       <!-- Card image -->
       <v-img
         v-if="event.img"
-        height="200px"
+        height="215px"
         :src="event.img"
         :lazy-src="event.img"
       >
