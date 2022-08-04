@@ -52,6 +52,16 @@ const august = [
     link: 'https://docs.google.com/forms/d/e/1FAIpQLSdgdTxd-x_Hbg0S31qnimcXQ6FGPkqkLny3mttuSauu4EkI7A/viewform',
   },
   {
+    name: 'Online Dharma Study',
+    date: new Date(2022, 7, 7, 18),
+    time: '5:00 PM - 6:00 PM',
+    location: 'Zoom',
+    description: `Connect with other Tzu Chi members from around the world to study Dharma teachings, as well as learn
+      about the journeys and experiences that other Tzu Chi members have to share.`,
+    img: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600/v1658705642/CSULB_TC_Website/event_banner/flower.webp',
+    link: 'https://docs.google.com/forms/d/e/1FAIpQLSdgdTxd-x_Hbg0S31qnimcXQ6FGPkqkLny3mttuSauu4EkI7A/viewform',
+  },
+  {
     name: 'Gage Middle School Back-to-School',
     date: new Date(2022, 7, 6, 11),
     time: '8:00 AM - 11:00 AM',
