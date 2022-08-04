@@ -29,6 +29,19 @@ TCCA Leadership Conference August 12-14th @ San Jose
 */
 // FIXME: if date OR time is blank, then both will be TBA. Make them unreliant on each other
 // TODO: come up with a better name for variables, since months can overlap
+
+const august = [
+  {
+    name: 'Gage Middle School Back-to-School',
+    date: new Date(2022, 7, 6, 11),
+    time: '8:00 AM - 11:00 AM',
+    location: '2880 E Gage Avenue, Huntington Park, CA 90255',
+    description: `Volunteers will help kids K-3 learn about and do arts and crafts!`,
+    img: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600/v1658705642/CSULB_TC_Website/event_banner/food_distribution.webp',
+    link: 'https://docs.google.com/forms/d/e/1FAIpQLSfB1rfXog-DggKiKlDC31sL1IW3vfvrjd4CZpy9cgMMo819OA/viewform',
+  },
+];
+
 const may = [
   {
     name: 'Gage Food Distribution',
@@ -237,4 +250,4 @@ const november = [
   },
 ];
 
-export { december, november, march, april, may };
+export { december, november, march, april, may, august };
