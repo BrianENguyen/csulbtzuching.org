@@ -2,6 +2,7 @@
 #+DESCRIPTION: Website for the CSULB collegiate chapter of Tzu Chi, a global-relief organization that focuses on volunteering, education, medicine, charity, and humanistic culture
 
 #+ATTR_HTML: :style margin-left: auto; margin-right: auto; width: 300px;
+#+ATTR_ORG: :width 300
 [[./readme-img/logo.png]]
 
 /With open arms and helping hands, our volunteers are here to serve you/
