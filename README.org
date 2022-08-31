@@ -1,8 +1,8 @@
 #+TITLE: CSULB Tzu Ching
 #+DESCRIPTION: Website for the CSULB collegiate chapter of Tzu Chi, a global-relief organization that focuses on volunteering, education, medicine, charity, and humanistic culture
 
-#+ATTR_HTML: :width: 300px;
-#+ATTR_ORG: :width 300
+#+ATTR_HTML: :width: 250px;
+#+ATTR_ORG: :width 250
 [[./readme-img/logo.png]]
 
 /With open arms and helping hands, our volunteers are here to serve you/
