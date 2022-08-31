@@ -39,7 +39,7 @@ Donations are greatly appreciated because they help keep the website online! If 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/M4M55WZLN)
 
 * Images
-![img1](./readme-img/img1.png)
-![img2](./readme-img/img2.png)
-![img3](./readme-img/img3.png)
-![img4](./readme-img/img4.png)
+[[./readme-img/img1.png]]
+[[./readme-img/img2.png]]
+[[./readme-img/img3.png]]
+[[./readme-img/img4.png]]
