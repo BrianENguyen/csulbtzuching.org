@@ -8,6 +8,7 @@
 * Table of Contents :toc:
 - [[#about-csulb-tzu-ching][About CSULB Tzu Ching]]
 - [[#tech-stack][Tech Stack]]
+- [[#download-and-installation][Download and Installation]]
 - [[#future-plans][Future Plans]]
 - [[#donations][Donations]]
 - [[#images][Images]]
@@ -26,6 +27,18 @@ This website is for showcasing information about us, upcoming and past events, b
 - [[https://vuetifyjs.com/en/][Vuetify]] - material design framework for Vue.js
 - [[https://animate.style/][Animate.css]] - library of animations
 - [[https://michalsnik.github.io/aos/][Animate on Scroll (AOS)]] - library of animations when scrolling
+
+* Download and Installation
+Be sure that you have git and NPM installed on your system
+
+#+begin_src shell
+$ git clone https://github.com/Buraiyen/CSULB-TC-Website.git
+$ cd CSULB-TC-Website
+$ npm i
+$ npm run serve
+#+end_src
+
+From there, you would be able to access the website on your local server (~localhost:8080~)
 
 * Future Plans
 
