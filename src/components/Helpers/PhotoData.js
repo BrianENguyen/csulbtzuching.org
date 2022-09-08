@@ -4,6 +4,14 @@ Be sure to order events chronologically in ascending order
 */
 const PhotoData = [
   {
+    name: 'First Social',
+    date: 'September 2022',
+    photos: [
+      'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1151/v1662653559/CSULB_TC_Website/Gallery/2022-09-07_FirstSocial/septembersocial.webp',
+    ],
+  },
+
+  {
     name: 'Medical Outreach',
     date: 'November 2021',
     photos: [
