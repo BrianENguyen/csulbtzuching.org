@@ -2,6 +2,14 @@
   <div class="photos">
     <Jumbotron :jumboData="jumboData" />
     <CardWrapper>
+      <p style="font-size: 1.2rem">
+        Below are our photos from our recent events (not all events have photos
+        that are available).
+        <a href="https://flickr.com/people/135720189@N02/" target="_blank"
+          >Click here</a
+        >
+        to view photos from previous years!
+      </p>
       <div v-for="(event, i) in events" :key="i">
         <PhotoGallery :event="event" />
       </div>
@@ -20,7 +28,6 @@ const jumboImage =
 const jumboImageMobile =
   'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600/v1648148277/CSULB_TC_Website/Jumbotron/BEN_tc-keychain.webp';
 const jumboTitle = 'Photos';
-const jumboDescription = 'Photos from our recent events!';
 
 export default {
   components: {
@@ -34,7 +41,6 @@ export default {
       src: jumboImage,
       srcMobile: jumboImageMobile,
       title: jumboTitle,
-      description: jumboDescription,
     },
   }),
 };

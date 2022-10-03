@@ -130,7 +130,7 @@ const formerOfficers = [
     role: 'Former VP of Communications (2021-2022)',
     src: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800/v1658602792/CSULB_TC_Website/team_pic/mahya_ezx3af.webp',
     srcSmall:
-      'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_200/v1658602792/CSULB_TC_Website/team_pic/weili_i5iiwz.webp',
+      'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_200/v1658602792/CSULB_TC_Website/team_pic/mahya_ezx3af.webp',
     description:
       'Sent monthly emails that advertised general meetings and volunteering events',
     links: {
