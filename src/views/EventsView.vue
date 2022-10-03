@@ -6,6 +6,19 @@
             The initial state of 'isCondensed' is set to false, so 
             the regular timeline will display
        -->
+      <div style='font-size: 1.3rem'>
+        <p><strong>Note from the web developer of this site:</strong></p>
+        <p>
+          While I try to update the events as much as I can, I have been busy with many other
+          aspects in my life and have not found the time to regularly update this website.
+          Thus, this page may not be up-to-date with the latest events.
+        </p>
+        <p>To ensure that you have the latest information about our organization, make sure
+          that you are subscribed to our mailing list. Please contact
+          <a href="mailto:tcca.csulb@gmail.com">tcca.csulb@gmail.com</a> to sign up for our
+           mailing list if you haven't already
+        </p>
+      </div>
       <v-checkbox
         v-model="isCondensed"
         :label="`Condensed view: ${isCondensed ? 'On' : 'Off'}`"
