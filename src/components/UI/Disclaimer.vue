@@ -1,5 +1,5 @@
 <template>
-  <v-card outlined elevation="4" class="disclaimer">
+  <v-card outlined elevation="4" class="disclaimer" v-if="showCard">
     <h2>Important Information</h2>
     <p>
       This site is now in archived mode, meaning it will no longer receive any
@@ -10,11 +10,23 @@
       <a href="mailto:tcca.csulb@gmail.com">tcca.csulb@gmail.com</a> to sign up
       for our mailing list if you aren't already
     </p>
+    <v-btn @click="close" color="light-green"> Close </v-btn>
   </v-card>
 </template>
 
 <script>
-export default {};
+export default {
+  data() {
+    return {
+      showCard: true,
+    };
+  },
+  methods: {
+    close() {
+      this.showCard = false;
+    },
+  },
+};
 </script>
 
 <style>
