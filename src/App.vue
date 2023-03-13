@@ -10,6 +10,7 @@
         <router-view />
       </transition>
     </v-main>
+    <Disclaimer />
     <Footer />
   </v-app>
 </template>
@@ -17,12 +18,13 @@
 <script>
 import Navbar from './components/UI/Navbar/Navbar';
 import Footer from './components/UI/Footer';
-
+import Disclaimer from './components/UI/Disclaimer.vue';
 export default {
   name: 'App',
   components: {
     Navbar,
     Footer,
+    Disclaimer,
   },
   watch: {
     $route: {
