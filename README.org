@@ -4,6 +4,7 @@
   - [[#about-weili][About Weili]]
   - [[#about-this-repository][About this Repository]]
   - [[#download-inspection-and-modification][Download, Inspection, and Modification]]
+  - [[#images][Images]]
 
 ** About Weili
 Weili Kang is a piano and flute specialist who works as both a music teacher and
@@ -29,3 +30,8 @@ or using these files, you agree to the terms in the license
 
 If you have any suggestions or improvements, please open an issue in this
 repository or submit a pull request. I welcome all suggestions!
+
+** Images
+[[./readme-img/img1.png]]
+[[./readme-img/img2.png]]
+[[./readme-img/img3.png]]
