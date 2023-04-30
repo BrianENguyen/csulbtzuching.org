@@ -1,0 +1,16 @@
+#+title: Weili Kang's Website
+
+* Table of Contents :toc:
+  - [[#about-weili][About Weili]]
+  - [[#about-this-repository][About this Repository]]
+
+** About Weili
+Weili Kang is a piano and flute specialist who works as both a music teacher and
+a private tutor. This website will display comprehensive information about her,
+the lessons she provides, her portfolio, photos, as well as contact details.
+
+** About this Repository
+The repository will solely consist of design files for her website created
+using [[https://penpot.app/][Penpot]], a free and open-source alternative to Figma. The website's code is
+proprietary and will not be included
+
