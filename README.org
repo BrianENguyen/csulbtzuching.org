@@ -10,6 +10,9 @@ Weili Kang is a piano and flute specialist who works as both a music teacher and
 a private tutor. This website will display comprehensive information about her,
 the lessons she provides, her portfolio, photos, as well as contact details.
 
+This website is currently in development, and I will post the link to the
+website once it is finished
+
 ** About this Repository
 The repository will solely consist of design files for her website created
 using [[https://penpot.app/][Penpot]], a free and open-source alternative to Figma. The website's code is
@@ -20,3 +23,9 @@ You are free to download, inspect, and modify the design file in this
 repository. I encourage you to use them as a reference or starting point for
 your own design projects, or to contribute them to the development of Weili's
 website
+
+The files in this repository are released under the MIT license. By downloading
+or using these files, you agree to the terms in the license
+
+If you have any suggestions or improvements, please open an issue in this
+repository or submit a pull request. I welcome all suggestions!
