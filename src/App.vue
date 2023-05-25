@@ -10,7 +10,6 @@
         <router-view />
       </transition>
     </v-main>
-    <Disclaimer />
     <Footer />
   </v-app>
 </template>
