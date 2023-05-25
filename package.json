@@ -1,8 +1,7 @@
 {
-  "name": "csulb-tc-website",
+  "name": "csulbtzuching.org",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://brian-e-nguyen.github.io/CSULB-TC-Website",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
