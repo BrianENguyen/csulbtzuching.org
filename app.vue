@@ -1,5 +1,13 @@
 <template>
-  <div>
-    <h1 class="text-3xl">Weili's Website</h1>
-  </div>
+  <Home />
 </template>
+
+<script>
+import Home from '~/pages/home.vue'
+
+export default {
+  components: {
+    Home
+  }
+}
+</script>
