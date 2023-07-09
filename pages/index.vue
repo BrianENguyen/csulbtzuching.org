@@ -1,23 +1,36 @@
 <template>
   <section
     class="
-      h-screen
+      h-[75vh]
       bg-gradient-to-r 
     from-gray-700 
     to-gray-900
-      grid
-      grid-rows-2
       text-white
       mb-4
+      flex
+      justify-center
+      items-center
       "
   >
-    <div class="container mx-auto">
-      <h1 class="text-5xl">Weili Kang</h1>
-      <p>Pianist, flutist, music teacher, private tutorer</p>
+    <div
+      class=" 
+        container
+        mx-auto 
+        px-10
+        grid 
+        grid-cols-2
+        gap-4
+    "
+    >
+      <div>
+        <h1 class="text-5xl">Weili Kang</h1>
+        <p>Pianist, flutist, music teacher, private tutorer</p>
+      </div>
+      <div><img src="" alt="Profile shot of Weili" /></div>
     </div>
   </section>
 
-  <section class="container mx-auto grid grid-cols-2 gap-4">
+  <section class="container mx-auto px-10 grid grid-cols-2 gap-4">
     <div>
       <h2 class="text-4xl text-center mb-4">Welcome to Weili's Website</h2>
       <p class="mb-5">
@@ -55,6 +68,7 @@
     lg:grid-cols-3
     gap-4
     py-6
+    px-10
   "
   >
     <WebCard v-for="webCard in webCardList" :page="webCard" />
