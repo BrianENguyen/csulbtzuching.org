@@ -1,13 +1,13 @@
 <template>
-  <Home />
+  <Index />
 </template>
 
 <script>
-import Home from '~/pages/home.vue'
+import Index from '~/pages/index.vue'
 
 export default {
   components: {
-    Home
+    Index
   }
 }
 </script>
