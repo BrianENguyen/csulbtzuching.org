@@ -22,7 +22,7 @@
         gap-4
     "
     >
-      <div class="relative top-[240px]">
+      <div class="relative">
         <h1 class="text-6xl mb-4">Weili Kang</h1>
         <p>Pianist, flutist, music teacher, private tutorer</p>
       </div>
