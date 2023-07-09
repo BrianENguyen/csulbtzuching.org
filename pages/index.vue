@@ -27,12 +27,7 @@
         <p>Pianist, flutist, music teacher, private tutorer</p>
       </div>
       <div>
-        <img
-          src="../public/images/weili-1.jpg"
-          class="rounded-md"
-          width="400px"
-          alt="Profile shot of Weili"
-        />
+        <img class="rounded-md" width="400px" alt="Profile shot of Weili" />
       </div>
     </div>
   </section>
@@ -60,11 +55,7 @@
       </p>
     </div>
     <div>
-      <img
-        src="../public/images/weili-2.JPG"
-        class="rounded-md"
-        alt="Weili walking alongside a train"
-      />
+      <img class="rounded-md" alt="Weili walking alongside a train" />
     </div>
   </section>
 
