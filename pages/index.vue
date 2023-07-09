@@ -55,73 +55,42 @@
     py-6
   "
   >
-    <!-- ABOUT -->
-    <div
-      class="text-white rounded-md bg-gray-900 border-l-slate-500 border-l-4 w-[400px] h-[150px] mx-auto"
-    >
-      <div class="mt-4 ml-4">
-        <h3 class="text-2xl font-bold mb-2">About</h3>
-        <p class="text-lg mb-5">Get to know about me and my career</p>
-        <a class="text-blue-300 cursor-pointer font-bold italic mt-auto"
-          >Learn More</a
-        >
-      </div>
-    </div>
-
-    <!-- PORTFOLIO -->
-    <div
-      class="text-white rounded-md bg-gray-900 border-l-slate-500 border-l-4 w-[400px] h-[150px] mx-auto"
-    >
-      <div class="mt-4 ml-4">
-        <h3 class="text-2xl font-bold mb-2">Portfolio</h3>
-        <p class="text-lg mb-5">View my entire music work</p>
-        <a class="text-blue-300 cursor-pointer font-bold italic mt-auto"
-          >Learn More</a
-        >
-      </div>
-    </div>
-
-    <!-- LESSONS -->
-    <div
-      class="text-white rounded-md bg-gray-900 border-l-slate-500 border-l-4 w-[400px] h-[150px] mx-auto"
-    >
-      <div class="mt-4 ml-4">
-        <h3 class="text-2xl font-bold mb-2">Lessons</h3>
-        <p class="text-lg mb-5">View my various lessons and services</p>
-        <a class="text-blue-300 cursor-pointer font-bold italic mt-auto"
-          >Learn More</a
-        >
-      </div>
-    </div>
-
-    <!-- GALLERY -->
-    <div
-      class="text-white rounded-md bg-gray-900 border-l-slate-500 border-l-4 w-[400px] h-[150px] mx-auto"
-    >
-      <div class="mt-4 ml-4">
-        <h3 class="text-2xl font-bold">Gallery</h3>
-        <p class="text-lg mb-5">
-          View phtos of my performances and my experiences
-        </p>
-        <a class="text-blue-300 cursor-pointer font-bold italic mt-auto"
-          >Learn More</a
-        >
-      </div>
-    </div>
-
-    <!-- CONTACT -->
-    <div
-      class="text-white rounded-md bg-gray-900 border-l-slate-500 border-l-4 w-[400px] h-[150px] mx-auto"
-    >
-      <div class="mt-4 ml-4">
-        <h3 class="text-2xl font-bold">Contact</h3>
-        <p class="text-lg mb-5">
-          Contact me for any inquiries or if you want to have a conversation
-        </p>
-        <a class="text-blue-300 cursor-pointer font-bold italic mt-auto"
-          >Learn More</a
-        >
-      </div>
-    </div>
+    <WebCard v-for="webCard in webCardList" :page="webCard" />
   </section>
 </template>
+
+<script>
+import WebCard from '~/components/WebCard.vue'
+
+export default {
+  components: {
+    WebCard
+  },
+  data() {
+    return {
+      webCardList : [
+        {
+          title: 'About',
+          description: 'Get to know about me and my career'
+        },
+        {
+          title: 'Portfolio',
+          description: 'View my entire work'
+        },
+        {
+          title: 'Lessons',
+          description: 'View my various lessons and services'
+        },
+        {
+          title: 'Gallery',
+          description: 'View photos of my performances and experiences'
+        },
+        {
+          title: 'Contact',
+          description: 'Contact me for any inquiries or if you want to have a conversation'
+        },
+      ]
+    }
+  }
+}
+</script>
