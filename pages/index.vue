@@ -8,8 +8,8 @@
       text-white
       mb-4
       flex
-      justify-center
       items-center
+      justify-center
       "
   >
     <div
@@ -22,15 +22,22 @@
         gap-4
     "
     >
-      <div>
-        <h1 class="text-5xl">Weili Kang</h1>
+      <div class="relative top-[240px]">
+        <h1 class="text-6xl mb-4">Weili Kang</h1>
         <p>Pianist, flutist, music teacher, private tutorer</p>
       </div>
-      <div><img src="" alt="Profile shot of Weili" /></div>
+      <div>
+        <img
+          src="../public/images/weili-1.jpg"
+          class="rounded-md"
+          width="400px"
+          alt="Profile shot of Weili"
+        />
+      </div>
     </div>
   </section>
 
-  <section class="container mx-auto px-10 grid grid-cols-2 gap-4">
+  <section class="container mx-auto px-10 py-5 grid grid-cols-2 gap-4">
     <div>
       <h2 class="text-4xl text-center mb-4">Welcome to Weili's Website</h2>
       <p class="mb-5">
@@ -53,7 +60,11 @@
       </p>
     </div>
     <div>
-      <h3>Insert Image here</h3>
+      <img
+        src="../public/images/weili-2.JPG"
+        class="rounded-md"
+        alt="Weili walking alongside a train"
+      />
     </div>
   </section>
 
