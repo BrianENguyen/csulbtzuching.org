@@ -1,5 +1,5 @@
 <template>
-  <section
+  <header
     class="
       h-[75vh]
       bg-gradient-to-r 
@@ -24,13 +24,13 @@
     >
       <div class="relative">
         <h1 class="text-6xl mb-4">Weili Kang</h1>
-        <p>Pianist, flutist, music teacher, private tutorer</p>
+        <p>Pianist, flutist, music teacher</p>
       </div>
       <div>
         <img class="rounded-md" width="400px" alt="Profile shot of Weili" />
       </div>
     </div>
-  </section>
+  </header>
 
   <section class="container mx-auto px-10 py-5 grid grid-cols-2 gap-4">
     <div>
