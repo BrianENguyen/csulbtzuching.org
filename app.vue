@@ -1,3 +1,11 @@
 <template>
-  <NuxtPage />
+  <NuxtPage
+    class="
+      h-[100vh]
+      bg-gradient-to-r 
+    from-gray-700 
+    to-gray-900
+      text-white
+    "
+  />
 </template>
