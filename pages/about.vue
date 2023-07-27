@@ -1,8 +1,10 @@
 <template>
   <main>
-    <section class="container mx-auto grid grid-cols-2">
+    <section
+      class="h-screen container flex flex-justify-items-center items-center mx-auto grid grid-cols-2"
+    >
       <div>
-        <h1 class="text-3xl font-bold">About Me</h1>
+        <h1 class="text-3xl font-bold text-center">About Me</h1>
         <p class="mb-4">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
           doloribus, cupiditate aperiam ullam illo dolores, deserunt, vitae
