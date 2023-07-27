@@ -8,4 +8,5 @@
       text-white
     "
   />
+  <Footer />
 </template>
