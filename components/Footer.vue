@@ -5,7 +5,9 @@
         <h2>Weili Kang</h2>
         <ul>
           <li class="inline px-4 text-lg font-bold" v-for="navlink in navlinks">
-            <a href="">{{ navlink }}</a>
+            <NuxtLink :to="navlink.url">
+              {{ navlink.name }}
+            </NuxtLink>
           </li>
         </ul>
       </div>
@@ -23,11 +25,30 @@ export default {
   data() {
     return {
       navlinks: [
-        'Home',
-        'Portfolio',
-        'Lessons',
-        'Gallery',
-        'Contact',
+        {
+          name: 'Home',
+          url: '/'
+        },
+        {
+          name: 'About',
+          url: '/about'
+        },
+        {
+          name: 'Portfolio',
+          url: '/portfolio'
+        },
+        {
+          name: 'Lessons',
+          url: '/lessons'
+        },
+        {
+          name: 'Gallery',
+          url: '/gallery'
+        },
+        {
+          name: 'Contact',
+          url: '/contact'
+        },
       ],
       currentYear: new Date().getFullYear()
     }
