@@ -15,9 +15,12 @@
       <p class="text-lg mb-5">
         {{ page.description }}
       </p>
-      <a class="text-blue-300 cursor-pointer font-bold italic mt-auto"
-        >Learn More</a
+      <NuxtLink
+        :to="page.url"
+        class="text-blue-300 cursor-pointer font-bold italic mt-auto"
       >
+        Learn More
+      </NuxtLink>
     </div>
   </div>
 </template>
