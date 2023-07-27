@@ -1,5 +1,20 @@
 <template>
-  <WebCard v-for="data in webCardData" :page="data" />
+  <section
+    class="
+      bg-gradient-to-r 
+    from-gray-700 
+    to-gray-900
+    grid
+    zero:grid-cols-1
+    md:grid-cols-2
+    lg:grid-cols-3
+    gap-4
+    py-6
+    px-10
+  "
+  >
+    <WebCard v-for="data in webCardData" :page="data" />
+  </section>
 </template>
 
 <script>
