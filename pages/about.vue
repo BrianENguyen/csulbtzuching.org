@@ -1,7 +1,12 @@
 <template>
   <main>
     <section
-      class="h-screen container flex flex-justify-items-center items-center mx-auto grid grid-cols-2"
+      class="h-screen 
+            container 
+            mx-auto
+            md:flex 
+            flex-justify-items-center 
+            items-center"
     >
       <div>
         <h1 class="text-3xl font-bold text-center">About Me</h1>
