@@ -8,7 +8,11 @@
     border-l-4 
     w-[23vw] 
     h-[170px]
-    mx-auto"
+    mx-auto
+    transition-colors
+    transition-6
+    hover:border-l-slate-400
+    hover:bg-gray-800"
   >
     <div class="mt-4 ml-4">
       <h3 class="text-2xl font-bold">{{ page.title }}</h3>
