@@ -38,7 +38,7 @@
       </button>
       <div class="w-full md:block md:w-auto" id="navbar-default">
         <ul
-          class="list-none rounded shadow-xl font-medium flex-col p-4 md:p-0 mt-4 border border-gray-100 bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700"
+          class="list-none rounded shadow-xl font-medium md:flex flex-col p-4 md:p-0 mt-4 border border-gray-100 bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700"
           :class='isMobileMenuOpen ? "flex" : "hidden"'
         >
           <li v-for="link in links" :key="link">
