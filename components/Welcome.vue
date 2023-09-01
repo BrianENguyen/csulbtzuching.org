@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section class="mb-24">
     <h2>Welcome to CSULB Tzu Ching!</h2>
     <p>
       CSULB Tzu Ching (also known as the Tzu Chi Collegiate Association of

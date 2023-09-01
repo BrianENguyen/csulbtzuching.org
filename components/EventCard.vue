@@ -14,7 +14,7 @@
       <p class="mb-8">{{event.description}}</p>
       <a
         :href="event.link"
-        class="inline-block bg-green rounded text-white px-4 py-4 decoration-none
+        class="inline-block bg-green-500 rounded text-white px-4 py-4 decoration-none
               transition duration-300
               hover:bg-emerald"
       >

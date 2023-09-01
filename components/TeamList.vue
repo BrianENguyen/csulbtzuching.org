@@ -1,13 +1,15 @@
 <template>
   <section id="team">
     <h2>2023-2024 Team</h2>
-    <h3>Officers</h3>
-    <div class="grid gap-4 zero:grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
-      <TeamCard
-        v-for="officer in officers"
-        :member="officer"
-        :key="officer.name"
-      />
+    <div class="mb-16">
+      <h3>Officers</h3>
+      <div class="grid gap-4 zero:grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
+        <TeamCard
+          v-for="officer in officers"
+          :member="officer"
+          :key="officer.name"
+        />
+      </div>
     </div>
     <h3>Alumni</h3>
     <p>

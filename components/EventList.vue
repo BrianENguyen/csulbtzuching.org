@@ -1,6 +1,6 @@
 <template>
-  <section id="events">
-    <h2>Upcoming Events</h2>
+  <section id="events" class="mb-24">
+    <h2 class="mb-8">Upcoming Events</h2>
     <p v-if="!eventData.length">
       There are no events scheduled at this time. Please check back soon, or
       feel free to email us at
