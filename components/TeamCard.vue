@@ -11,7 +11,7 @@
       <img
         :src="member.img"
         :alt="member.imgAlt"
-        class="w-[100px] h-100px rounded"
+        class="w-[100px] h-[100px] rounded"
       />
       <h4>{{member.name}}</h4>
       <p>{{member.role}}</p>
