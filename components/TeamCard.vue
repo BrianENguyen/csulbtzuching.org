@@ -24,11 +24,10 @@
           :href="member.socialLinks.email"
           target="_blank"
         >
-          <div
-            class="i-ic-baseline-mail
-              text-gray text-3xl transition-color 
-              duration-300 hover:text-green"
-          ></div>
+          <Icon
+            icon="ic:baseline-mail"
+            class="text-gray-500 text-3xl transition-color duration-300 hover:text-green-500"
+          />
         </a>
 
         <!-- WEBSITE  -->
@@ -37,26 +36,21 @@
           :href="member.socialLinks.website"
           target="_blank"
         >
-          <div
-            v-if="member.socialLinks.website"
-            class="i-ic-baseline-computer
-              text-gray text-3xl transition-color 
-              duration-300 hover:text-green"
-          ></div>
+          <Icon
+            icon="ic:baseline-laptop"
+            class="text-gray-500 text-3xl transition-color duration-300 hover:text-green-500"
+          />
         </a>
-
         <!-- LINKEDIN -->
         <a
           v-if="member.socialLinks.linkedIn"
           :href="member.socialLinks.linkedIn"
           target="_blank"
         >
-          <div
-            v-if="member.socialLinks.linkedIn"
-            class="i-simple-icons-linkedin
-              text-gray text-3xl transition-color 
-              duration-300 hover:text-green"
-          ></div>
+          <Icon
+            icon="simple-icons:linkedin"
+            class="text-gray-500 text-3xl transition-color duration-300 hover:text-green-500"
+          />
         </a>
 
         <a
@@ -64,12 +58,10 @@
           :href="member.socialLinks.instagram"
           target="_blank"
         >
-          <div
-            v-if="member.socialLinks.instagram"
-            class="i-simple-icons-instagram
-              text-gray text-3xl transition-color 
-              duration-300 hover:text-green"
-          ></div>
+          <Icon
+            icon="simple-icons:instagram"
+            class="text-gray-500 text-3xl transition-color duration-300 hover:text-green-500"
+          />
         </a>
       </div>
     </div>
@@ -77,7 +69,12 @@
 </template>
 
 <script>
+import { Icon } from '@iconify/vue';
+
 export default {
-  props: ['member']
+  props: ['member'],
+  components: {
+    Icon
+  }
 }
 </script>

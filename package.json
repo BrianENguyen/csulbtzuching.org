@@ -17,6 +17,7 @@
     "unocss": "^0.53.6"
   },
   "dependencies": {
+    "@iconify-json/ic": "^1.1.14",
     "@iconify-json/simple-icons": "^1.1.68"
   }
 }

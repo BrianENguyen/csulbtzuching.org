@@ -1,7 +1,6 @@
 <template>
   <section id="about" class="mb-24">
     <h2>About Us</h2>
-    <Icon icon="mdi-light:home" />
     <div class="mb-8">
       <h3>The Tzu Chi Foundation</h3>
       <p>
@@ -39,13 +38,3 @@
     </div>
   </section>
 </template>
-
-<script>
-import { Icon } from '@iconify/vue';
-
-export default {
-  components: {
-    Icon
-  }
-}
-</script>
