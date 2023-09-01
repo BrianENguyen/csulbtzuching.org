@@ -1,12 +1,12 @@
 <template>
-  <NuxtPage
-    class="
-      h-[100vh]
-      bg-gradient-to-r 
-    from-gray-700 
-    to-gray-900
-      text-white
-    "
-  />
-  <Footer />
+  <Navbar />
+  <Jumbotron />
+  <div class="flex justify-center">
+    <NuxtLayout>
+      <Welcome />
+      <About />
+      <EventList />
+      <TeamList />
+    </NuxtLayout>
+  </div>
 </template>

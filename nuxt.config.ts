@@ -1,10 +1,6 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  css: ['~/assets/css/main.css'],
-  postcss: {
-    plugins: {
-      tailwindcss: {},
-      autoprefixer: {},
-    },
-  },
+  devtools: { enabled: true },
+  modules: ['@unocss/nuxt'],
+  components: [{ path: '~/components', extensions: ['.vue'] }],
+  css: ['assets/css/global.css', '@unocss/reset/normalize.css'],
 });
