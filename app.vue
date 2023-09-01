@@ -7,6 +7,7 @@
       <About />
       <EventList />
       <TeamList />
+      <Donate />
     </NuxtLayout>
   </div>
   <Footer />

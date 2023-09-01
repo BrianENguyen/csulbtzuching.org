@@ -1,5 +1,5 @@
 <template>
-  <section id="team">
+  <section id="team" class="mb-32">
     <h2>2023-2024 Team</h2>
     <div class="mb-16">
       <h3>Officers</h3>

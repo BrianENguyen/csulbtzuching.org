@@ -56,7 +56,7 @@
 export default {
   data() {
     return {
-      links: ['about', 'events', 'team'],
+      links: ['about', 'events', 'team', 'donate'],
       isMobileMenuOpen: false // Track the mobile menu state
     }
   },
