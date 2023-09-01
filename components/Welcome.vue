@@ -1,6 +1,6 @@
 <template>
   <section class="mb-24">
-    <h2 class="text-center">
+    <h2 class="text-center text-3xl mb-4">
       Welcome to CSULB Tzu Ching (and our newly redesigned website!)
     </h2>
     <p>
