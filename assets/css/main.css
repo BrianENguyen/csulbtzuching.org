@@ -5,6 +5,7 @@
 
 html {
   font-family: 'Lato';
+  scroll-behavior: smooth;
 }
 
 h2 {
@@ -23,4 +24,5 @@ h4 {
 
 p {
   color: #555555;
+  margin-bottom: 20px;
 }
