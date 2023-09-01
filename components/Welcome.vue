@@ -1,5 +1,8 @@
 <template>
   <section class="mb-24">
+    <div class="flex justify-center">
+      <img src="../assets/logo.webp" alt="" width="400px" />
+    </div>
     <h2 class="text-center text-3xl mb-4">
       Welcome to CSULB Tzu Ching (and our newly redesigned website!)
     </h2>
