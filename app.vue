@@ -9,4 +9,5 @@
       <TeamList />
     </NuxtLayout>
   </div>
+  <Footer />
 </template>
