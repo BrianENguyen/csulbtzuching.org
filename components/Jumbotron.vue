@@ -35,7 +35,7 @@
 export default {
   data() {
     return {
-      src: 'https://res.cloudinary.com/buraiyen/image/upload/b_black,o_70,c_scale,w_600/v1648148269/CSULB_TC_Website/Jumbotron/social-day-group.webp'
+      src: 'https://res.cloudinary.com/buraiyen/image/upload/b_black,o_70/v1648148269/CSULB_TC_Website/Jumbotron/social-day-group.webp'
     }
   }
 }
