@@ -81,7 +81,7 @@ export default {
           name: 'Brian N.',
           role: 'Webmaster',
           description: 'Maintains the CSULB Tzu Ching website',
-          img: `${imgPrefix}/brian2_myf2av.webp`,
+          img: `https://res.cloudinary.com/buraiyen/image/upload/v1693615832/CSULB_TC_Website/team_pic/brian2023.jpg`,
           socialLinks: {
             email: 'mailto:brian.edison.nguyen@gmail.com',
             website: 'https://brianenguyen.com',
