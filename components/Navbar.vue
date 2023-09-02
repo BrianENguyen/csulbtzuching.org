@@ -4,6 +4,9 @@
       class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
     >
       <div class="flex items-center">
+        <span>
+          <img src="../assets/logo.webp" alt="" width="70px" />
+        </span>
         <span class="self-center text-2xl font-semibold whitespace-nowrap"
           >CSULB Tzu Ching</span
         >
