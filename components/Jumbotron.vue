@@ -17,7 +17,7 @@
       :class="'object-cover w-screen relative z-0 zero:h-[35vh] xs:h-[50vh] md:h-[70vh] lg:h-screen'"
     />
     <div
-      class="text-white absolute inset-0 flex justify-center items-center flex-col"
+      class="text-white absolute inset-0 flex justify-center items-center flex-col mt-12"
     >
       <h1 class="zero:text-[7vw] xs:text-[5vw] md:text-[5rem]">
         CSULB Tzu Ching
