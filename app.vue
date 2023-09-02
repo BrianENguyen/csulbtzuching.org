@@ -5,6 +5,7 @@
     <NuxtLayout>
       <Welcome />
       <About />
+      <FAQ />
       <GlobalFootprints />
       <EventList />
       <TeamList />

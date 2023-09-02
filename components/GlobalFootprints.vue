@@ -101,7 +101,7 @@
       </div>
       <div>
         <h3 class="text-2xl">
-          <Icon icon="typcn:world" class="inline text-green-500" />
+          <Icon icon="ic:baseline-handshake" class="inline text-green-500" />
           Volunteers
         </h3>
         <p>

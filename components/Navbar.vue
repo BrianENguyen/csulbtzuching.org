@@ -41,7 +41,7 @@
           <li v-for="link in links" :key="link">
             <a
               :href="`#${link}`"
-              class="block py-2 pl-3 pr-4 text-black font-bold hover:text-green decoration-none"
+              class="block py-2 pl-3 pr-4 text-black font-bold hover:text-green-500 transition-color duration-300 decoration-none"
             >
               {{ link.charAt(0).toUpperCase() + link.slice(1) }}
             </a>
@@ -56,7 +56,7 @@
 export default {
   data() {
     return {
-      links: ['about', 'events', 'team', 'donate'],
+      links: ['about', 'footprints', 'events', 'team', 'donate'],
       isMobileMenuOpen: false // Track the mobile menu state
     }
   },
